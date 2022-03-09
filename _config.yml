@@ -1,0 +1,73 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely edit after that. If you find
+# yourself editing this file very often, consider using Jekyll's data files
+# feature for the data you need to update frequently.
+#
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
+title: PBCore Metadata Standard
+email: your-email@example.com
+description: >- # this means to ignore newlines until "baseurl:"
+  PBCore is a cataloging standard for the description of audiovisual content, a data sharing tool, and much more. Since its development in the early 2000s, dozens of organizations have been using PBCore's comprehensive and flexible features for their archiving needs.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+
+
+# Build settings
+markdown: kramdown
+theme: minima
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+collections:
+  elements:
+    output: true
+  pbcore-controlled-vocabularies:
+    output: true
+  sample-records:
+    output: true
+defaults:
+  - scope:
+      path: ""
+      type: "elements"
+    values:
+      layout: "element"
+  - scope:
+      path: ""
+      type: "pbcore-controlled-vocabularies"
+    values:
+      layout: "vocab"
+  - scope:
+      path: ""
+      type: "sample-records"
+    values:
+      layout: "sample-records"
+  - scope:
+      path: ""
+    values:
+      layout: "default"
+
+# Exclude from processing.
+# The following items will not be processed, by default. Create a custom list
+# to override the default setting.
+# exclude:
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/
+
+#Google Analytics
+google_analytics: UA-60323667-2
+
+github_pages_save_generated_files: ['browse_pages']

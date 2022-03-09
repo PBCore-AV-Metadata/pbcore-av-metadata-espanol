@@ -1,0 +1,63 @@
+toc:
+  - title: About
+    color: blue
+    subfolderitems:
+      - page: What is PBCore?
+        url: /what-is-pbcore
+      - page: FAQs
+        url: /faqs
+      - page: Glossary
+        url: /glossary
+      - page: Credits
+        url: /credits
+  - title: Schema
+    color: green
+    subfolderitems:
+      - page: Elements
+        url: /elements
+      - page: Attributes
+        url: /attributes
+      - page: Controlled Vocabularies
+        url: /pbcore-controlled-vocabularies
+      - page: XML Schema
+        url: /xsd
+      - page: Data Model Visualization
+        url: /data-model
+  - title: Resources
+    color: red
+    subfolderitems:
+      - page: Cataloging Tool
+        url: /cataloging-tool
+      - page: Spreadsheet Templates
+        url: /spreadsheet-templates
+      - page: PBCore XML Validator
+        url: /validator
+      - page: External Tools/Integrations
+        url: /external-tools-and-integrations
+      - page: Mappings
+        url: /mappings
+      - page: Sample Records
+        url: /sample-records
+      - page: Teaching PBCore
+        url: /teaching-pbcore
+      - page: Tutorials
+        url: /tutorials
+      - page: PBCore Handbook
+        url: /handbook
+      - page: Presentations
+        url: /presentations
+  - title: Community
+    color: grey
+    subfolderitems:
+      - page: PBCore Users
+        url: /pbcore-users
+      - page: Contribute
+        url: /contribute
+      - page: User Groups
+        url: /user-groups
+      - page: Annual Meeting Notes
+        url: /annual-meeting-notes
+      - page: News and Updates
+        url: /news
+      - page: Contact Us
+        url: /contact

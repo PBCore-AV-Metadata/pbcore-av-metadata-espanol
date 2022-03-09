@@ -1,0 +1,153 @@
+<header>
+  <meta name="viewport" content="width=device-width">
+  <nav class="primary_nav_container navbar navbar-expand-xl navbar-expand-lg navbar-expand-md navbar-expand-sm navbar-expand-xs navbar-light bg-light">
+
+    <div class="navbar-collapse" id="navbarNavDropdown">
+
+      <div class="pbcore-logo" style="width: 100%;">
+        <a href="/"><img class="pbcore-logo-img" src="/assets/images/pbcore-logo.png" alt=""></a>
+      </div>
+
+
+      <ul class="navbar-nav" style="width: 100%;">
+
+        <li class="nav-item dropdown menu_about">
+
+          {% if page.section == "About" %}
+
+            <a class="nav-link nav-underline-blue" data-toggle="dropdown" role="button" href="#" aria-haspopup="true" aria-expanded="false">
+              About
+            </a>
+
+          {% else %}
+
+            <a class="nav-link" data-toggle="dropdown" role="button" href="#" aria-haspopup="true" aria-expanded="false">
+              About
+            </a>
+
+          {% endif %}
+
+          <div class="dropdown-menu menu_about" aria-labelledby="navbarDropdownMenuLink">
+            {% for item in site.data.nav.toc %}
+              {% if item.title == "About" %}
+                {% for entry in item.subfolderitems %}
+                  <a class="dropdown-item" href="{{ site.url }}/{{entry.url | remove: "/"}}">{{ entry.page }}</a>
+                {% endfor %}
+              {% endif %}
+            {% endfor %}
+          </div>
+        </li>
+
+        <li class="nav-item dropdown menu_schema">
+
+          {% if page.section == "Schema" %}
+
+            <a class="nav-link nav-underline-green" data-toggle="dropdown" role="button" href="#" aria-haspopup="true" aria-expanded="false">
+              Schema
+            </a>
+
+          {% else %}
+
+            <a class="nav-link" data-toggle="dropdown" role="button" href="#" aria-haspopup="true" aria-expanded="false">
+              Schema
+            </a>
+
+          {% endif %}
+
+          <div class="dropdown-menu menu_schema" aria-labelledby="navbarDropdownMenuLink">
+            {% for item in site.data.nav.toc %}
+              {% if item.title == "Schema" %}
+                {% for entry in item.subfolderitems %}
+                  <a class="dropdown-item" href="{{ site.url }}/{{entry.url | remove: "/"}}">{{ entry.page }}</a>
+                {% endfor %}
+              {% endif %}
+            {% endfor %}
+          </div>
+        </li>
+
+        <li class="nav-item dropdown menu_resources">
+
+          {% if page.section == "Resources" %}
+
+            <a class="nav-lin nav-underline-red" data-toggle="dropdown" role="button" href="#" aria-haspopup="true" aria-expanded="false">
+              Resources
+            </a>
+
+          {% else %}
+
+            <a class="nav-link" data-toggle="dropdown" role="button" href="#" aria-haspopup="true" aria-expanded="false">
+              Resources
+            </a>
+
+          {% endif %}
+
+          <div class="dropdown-menu menu_resources" aria-labelledby="navbarDropdownMenuLink">
+            {% for item in site.data.nav.toc %}
+              {% if item.title == "Resources" %}
+                {% for entry in item.subfolderitems %}
+                  <a class="dropdown-item" href="{{ site.url }}/{{entry.url | remove: "/"}}">{{ entry.page }}</a>
+                {% endfor %}
+              {% endif %}
+            {% endfor %}
+          </div>
+        </li>
+
+        <li class="nav-item dropdown menu_community">
+
+          {% if page.section == "Community" %}
+
+            <a class="nav-link nav-underline-grey" data-toggle="dropdown" role="button" href="#" aria-haspopup="true" aria-expanded="false">
+              Community
+            </a>
+
+          {% else %}
+
+            <a class="nav-link" data-toggle="dropdown" role="button" href="#" aria-haspopup="true" aria-expanded="false">
+              Community
+            </a>
+
+          {% endif %}
+
+          <div class="dropdown-menu menu_community" aria-labelledby="navbarDropdownMenuLink">
+            {% for item in site.data.nav.toc %}
+              {% if item.title == "Community" %}
+                {% for entry in item.subfolderitems %}
+                  <a class="dropdown-item" href="{{ site.url }}/{{entry.url | remove: "/"}}">{{ entry.page }}</a>
+                {% endfor %}
+              {% endif %}
+            {% endfor %}
+          </div>
+        </li>
+
+        <li class="nav-item browse-pages">
+
+          <div style="white-space: nowrap; display: inline;">
+            <a href="/browse_pages" class="nav-link">
+              Browse Pages
+            </a>
+          </div>
+        </li>
+
+        <li class="nav-item search">
+          <div class="search-div" style="white-space: nowrap; display: inline;">
+            <script>
+              (function() {
+                var cx = '009894581946295234226:exczamyd2pa';
+                var gcse = document.createElement('script');
+                gcse.type = 'text/javascript';
+                gcse.async = true;
+                gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
+                var s = document.getElementsByTagName('script')[0];
+                s.parentNode.insertBefore(gcse, s);
+              })();
+            </script>
+            <gcse:search></gcse:search>
+          </div>
+        </li>
+
+      </ul>
+
+    </div>
+  </nav>
+
+</header>

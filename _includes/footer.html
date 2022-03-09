@@ -1,0 +1,103 @@
+<footer class="page-footer font-small indigo">
+
+  <!-- Footer Links -->
+  <div class="container text-center text-md-left" style="margin-top:1%;">
+
+    <!-- Grid row -->
+    <div class="row">
+
+      <!-- Grid column -->
+      <div class="col-md-3 ">
+        <!-- Links -->
+
+        <ul class="list-unstyled">
+          <li>
+            <a href="/">Home</a>
+          </li>
+          {% for item in site.data.nav.toc %}
+            {% if item.title == "About" %}
+              {% for entry in item.subfolderitems %}
+                <li>
+                  <a href="{{ site.url }}/{{entry.url | remove: "/"}}">{{ entry.page }}</a>
+                </li>
+              {% endfor %}
+            {% endif %}
+          {% endfor %}
+          <li>
+            <a href="{{ site.url }}/license">License Details</a>
+          </li>
+        </ul>
+
+      </div>
+
+      <!-- Grid column -->
+      <div class="col-md-3 ">
+
+        <!-- Links -->
+        <ul class="list-unstyled">
+          {% for item in site.data.nav.toc %}
+            {% if item.title == "Schema" %}
+            {% for entry in item.subfolderitems %}
+            <li><a href="{{ site.url }}/{{entry.url | remove: "/"}}">{{ entry.page }}</a></li>
+            {% endfor %}
+            {% endif %}
+          {% endfor %}
+        </ul>
+      </div>
+
+      <!-- Grid column -->
+      <div class="col-md-3 ">
+
+        <!-- Links -->
+
+        <ul class="list-unstyled">
+          {% for item in site.data.nav.toc %}
+            {% if item.title == "Resources" %}
+            {% for entry in item.subfolderitems %}
+            <li><a href="{{ site.url }}/{{entry.url | remove: "/"}}">{{ entry.page }}</a></li>
+            {% endfor %}
+            {% endif %}
+          {% endfor %}
+        </ul>
+
+      </div>
+      <!-- Grid column -->
+
+      <div class="col-md-3 ">
+
+        <!-- Links -->
+
+        <ul class="list-unstyled">
+          {% for item in site.data.nav.toc %}
+            {% if item.title == "Community" %}
+            {% for entry in item.subfolderitems %}
+            <li><a href="{{ site.url }}/{{entry.url | remove: "/"}}">{{ entry.page }}</a></li>
+            {% endfor %}
+            {% endif %}
+          {% endfor %}
+        </ul>
+
+      </div>
+      <!-- Grid column -->
+
+    </div>
+    <!-- Grid row -->
+
+    <div class="row">
+      <div class="col-md-6" style="top: -1.2em;">
+        <a href="/"><img class="footer-brand" src="/assets/images/pbcore-logo.png"/></a>
+      </div>
+
+      <div class="col-md-6 footer-msg">
+        PBCore is licensed under a Creative Commons Attribution 4.0 International license.
+      </div>
+    </div>
+
+
+  </div>
+  <!-- Footer Links -->
+
+  <!-- Copyright -->
+
+  <!-- Copyright -->
+</footer>

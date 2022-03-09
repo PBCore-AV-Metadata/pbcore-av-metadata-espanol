@@ -1,0 +1,44 @@
+{% if page.section == "About" %}
+  {% assign linkclass = 'blue-link' %}
+{% elsif page.section == "Schema" %}
+  {% assign linkclass = 'green-link' %}
+{% elsif page.section == "Resources" %}
+  {% assign linkclass = 'red-link' %}
+{% elsif page.section == "Community" %}
+  {% assign linkclass = 'blue-link' %}
+{% endif %}
+
+
+<!doctype html>
+<html>
+  <head>
+    {% include head.html %}
+  </head>
+  <body>
+
+    <div class="container-fluid">
+      <div class="main-col-margin" >
+
+        <div class="row">
+          <div class="col-md-12">
+            {% include header.html %}
+          </div>
+        </div>
+
+        <div class="row {{ linkclass }}">
+          <div class="col-md-12 main-content" style=" margin-bottom:3.6em;">
+            {{ content }}
+          </div>
+        </div>
+
+      </div>
+
+      <div class="row">
+        <div class="col-md-12 no-padding footer-margin">
+          {% include footer.html %}
+        </div>
+      </div>
+    </div>
+
+  </body>
+</html>

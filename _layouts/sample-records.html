@@ -1,0 +1,98 @@
+---
+layout: default
+---
+
+{% include sample-records-list.html %}
+
+<div class="row">
+  <div class="col-md-3 no-padding black-border" style="border-right: 0px;">
+
+    <div class="row" style="margin-left: 0; margin-right: 0;">
+      <div class="col-md-12 no-padding">
+
+        <div class="red-back white text-center" style="height: 2.4em; font-size: 19px;">
+          PLAIN TEXT FORMAT
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-md-12 no-padding" style=" overflow-y: hidden;">
+
+        <span style="margin-top:1em; display: block; padding: 6%; overflow-y: scroll; max-height: 65vh;">
+
+          {% for rec in page.children %}
+
+            <span class="{{rec.color}}">
+              {{ rec.label }}:
+            </span> {{ rec.text }}
+
+            {% if rec.children %}
+              {% for rec2 in rec.children %}
+
+                <span class="indent-1 tree-item">
+
+                  <span class="{{rec.color}}">
+                    {{ rec2.label }}:
+                  </span> {{ rec2.text }}
+
+                  {% if rec2.children %}
+
+                    {% for rec3 in rec2.children %}
+                      <span class="indent-1 tree-item">
+
+                        <span class="{{rec3.color}}">
+                          {{ rec3.label }}:
+                        </span> {{ rec3.text }}
+
+                        {% if rec3.children %}
+
+                          {% for rec4 in rec3.children %}
+                            <span class="indent-1 tree-item">
+
+                              <span class="{{rec4.color}}">
+                                {{ rec4.label }}:
+                              </span> {{ rec4.text }}
+
+                            </span>
+                          {% endfor %}
+
+                        {% endif %}
+                      </span>
+                    {% endfor %}
+
+                  {% endif %}
+                </span>
+              {% endfor %}
+
+            {% endif %}
+
+          {% endfor %}
+
+        </span>
+
+      </div>
+    </div>
+  </div>
+
+  <div class="col-md-9 no-padding black-border">
+
+    <div class="red-back white text-center" style="height: 2.4em; font-size: 19px;">
+      XML FORMAT
+    </div>
+
+    <div class="row" style="margin-left:0;margin-right:0;">
+      <div class="col-md-12" style=" max-height: 65vh;padding-left: 0;padding-right: 0;overflow-y: scroll;">
+
+        <pre >
+          <code class="xml"style="overflow-y: auto;overflow-x: auto;">
+            {{content}}
+          </code>
+        </pre>
+        <!-- use xml formatter to get indentation, change line breaks to brs, escape html entities, turn &ltbr&gt back into <br> -->
+      </div>
+    </div>
+  </div>
+</div>
+
+{% include example-records-list.html %}

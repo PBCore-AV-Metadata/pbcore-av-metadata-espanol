@@ -1,0 +1,243 @@
+<nav class="sidebar-nav"">
+  <a href="/elements">
+    <h3 class="green bold">
+      Elements
+    </h3>
+  </a>
+
+  <a class="green small-text open" id="expand-all">
+    <img class="expand-elements-icon" src="/assets/images/icons/expand-elements.png" alt="">
+    Expand all subelements
+
+    <span style="min-height: 1px; display: block;"></span>
+  </a>
+
+  <div id="element-accordion" class="">
+    {% assign i = 0 %}
+    <div class="card separator">
+      <div class="card-header top" id="headingRoot"  data-toggle="collapse" data-target="#collapseRoot" aria-expanded="false" aria-controls="collapseRoot">
+        <h4 class="mb-0 {% if page.url == '/elements/root' %}ele-highlight{% endif %}">
+          <a class="bold black" href="/elements/root">
+            ROOT
+          </a>
+        </h4>
+      </div>
+      <div id="collapseRoot" class="collapse elements show" aria-labelledby="headingRoot">
+        <div class="card-body sidebar-indent">
+          {% for item in site.data.elements.elementgroups %}
+            {% if item.group == "Root" %}
+              {% for level1 in item.elements %}
+                {% assign thisurl = level1.url | append: '' %}
+                <h5 class="card-guy {% if page.url == thisurl %}ele-highlight{% endif %}">
+                  <a href="{{ site.url }}{{level1.url}}">
+                    {{ level1.name }}
+                  </a>
+                </h5>
+              {% endfor %}
+            {% endif %}
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+    <div class="card separator">
+      <div class="card-header top" id="headingAsset" data-toggle="collapse" data-target="#collapseAsset" aria-expanded="false" aria-controls="collapseAsset">
+        <h4 class="mb-0 {% if page.url == '/elements/asset' %}ele-highlight{% endif %}">
+          <a class="bold black" href="/elements/asset">
+            ASSET
+          </a>
+        </h4>
+      </div>
+      <div id="collapseAsset" class="collapse elements show" aria-labelledby="headingAsset">
+        <div class="card-body sidebar-indent">
+          {% for item in site.data.elements.elementgroups %}
+            {% if item.group == "Asset" %}
+              {% for level1 in item.elements %}
+                {% if level1.elements %}
+                  {% assign i = i|plus:1 %}
+                  <div id="{{ i }}-accordion" class="">
+                    <div class="card">
+                      <div class="card-header" id="heading{{ i }}">
+
+                        {% assign thisurl = level1.url | append: '' %}
+                        <h5 class="collapsed {% if page.url == thisurl %}ele-highlight{% endif %}" data-toggle="collapse" data-target="#collapse{{ i }}" aria-expanded="false" aria-controls="collapse{{ i }}">
+                          <span class="element-arrow-icon element-arrow-down"></span>
+                          <a href="{{ site.url }}{{ level1.url }}">
+                            {{ level1.name }}
+                          </a>
+                        </h5>
+                      </div>
+                      <div id="collapse{{ i }}" class="collapse elements" aria-labelledby="heading{{ i }}">
+                        <div class="card-body sidebar-indent">
+                          {% for level2 in level1.elements %}
+                            {% if level2.elements %}
+                              {% assign i = i|plus:1 %}
+                              <div id="{{ i }}-accordion" class="">
+                                <div class="card">
+                                  <div class="card-header" id="heading{{ i }}">
+
+                                    {% assign thisurl = level2.url | append: '' %}
+                                    <h5 class="collapsed {% if page.url == thisurl %}ele-highlight{% endif %}" data-toggle="collapse" data-target="#collapse{{ i }}" aria-expanded="false" aria-controls="collapse{{ i }}">
+                                      <span class="element-arrow-icon element-arrow-down"></span>
+                                      <a href="{{ site.url }}{{ level2.url }}">
+                                        {{ level2.name }}
+                                      </a>
+                                    </h5>
+                                  </div>
+                                  <div id="collapse{{ i }}" class="collapse elements" aria-labelledby="heading{{ i }}">
+                                    <div class="card-body sidebar-indent">
+                                      {% for level3 in level2.elements %}
+
+                                        {% assign thisurl = level3.url | append: '' %}
+                                        <h5 class="card-guy {% if page.url == thisurl %}ele-highlight{% endif %}">
+                                          <a href="{{ site.url }}{{ level3.url }}">
+                                            {{ level3.name }}
+                                          </a>
+                                        </h5>
+                                      {% endfor %}
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            {% else %}
+                                {% assign thisurl = level2.url | append: '' %}
+                                <h5 class="card-guy {% if page.url == thisurl %}ele-highlight{% endif %}"><a href="{{ site.url }}{{ level2.url }}">{{ level2.name }}</a></h5>
+                            {% endif %}
+                          {% endfor %}
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                {% else %}
+
+                  {% assign thisurl = level1.url | append: '' %}
+                  <h5 class="card-guy {% if page.url == thisurl %}ele-highlight{% endif %}">
+                    <a href="{{ site.url }}{{ level1.url }}">
+                      {{ level1.name }}
+                    </a>
+                  </h5>
+                {% endif %}
+              {% endfor %}
+            {% endif %}
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+    <div class="card separator">
+      <div class="card-header top" id="headingInstantiation" data-toggle="collapse" data-target="#collapseInstantiation" aria-expanded="false" aria-controls="collapseInstantiation">
+
+        <h4 class="mb-0 {% if page.url == '/elements/instantiation' %}ele-highlight{% endif %}">
+          <a class="bold black" href="/elements/instantiation">
+            INSTANTIATION
+          </a>
+        </h4>
+      </div>
+      <div id="collapseInstantiation" class="collapse elements show" aria-labelledby="headingInstantiation">
+        <div class="card-body sidebar-indent">
+          {% for item in site.data.elements.elementgroups %}
+            {% if item.group == "Instantiation" %}
+              {% for level1 in item.elements %}
+                {% if level1.elements %}
+                  {% assign i = i|plus:1 %}
+                  <div id="{{ i }}-accordion" class="">
+                    <div class="card">
+                      <div class="card-header" id="heading{{ i }}">
+
+                        {% assign thisurl = level1.url | append: '' %}
+                        <h5 class="collapsed {% if page.url == thisurl %}ele-highlight{% endif %}" data-toggle="collapse" data-target="#collapse{{ i }}" aria-expanded="false" aria-controls="collapse{{ i }}">
+                          <a href="{{ site.url }}{{ level1.url }}">
+                            {{ level1.name }}
+                          </a>
+                          <span class="element-arrow-icon element-arrow-down"></span>
+
+                        </h5>
+                      </div>
+                      <div id="collapse{{ i }}" class="collapse elements" aria-labelledby="heading{{ i }}">
+                        <div class="card-body ">
+                          {% for level2 in level1.elements %}
+                            {% if level2.elements %}
+                              {% assign i = i|plus:1 %}
+                              <div id="{{ i }}-accordion" class="">
+                                <div class="card">
+                                  <div class="card-header" id="heading{{ i }}">
+
+                                    {% assign thisurl = level2.url | append: '' %}
+                                    <h5 class="collapsed {% if page.url == thisurl %}ele-highlight{% endif %}" data-toggle="collapse" data-target="#collapse{{ i }}" aria-expanded="false" aria-controls="collapse{{ i }}">
+                                      <span class="element-arrow-icon element-arrow-down"></span>
+                                      <a href="{{ site.url }}{{ level2.url }}">
+                                        {{ level2.name }}
+                                      </a>
+                                    </h5>
+                                  </div>
+                                  <div id="collapse{{ i }}" class="collapse elements" aria-labelledby="heading{{ i }}">
+                                    <div class="card-body sidebar-indent">
+                                      {% for level3 in level2.elements %}
+                                        {% if level3.elements %}
+                                          {% assign i = i|plus:1 %}
+                                          <div id="{{ i }}-accordion" class="">
+                                            <div class="card">
+                                              <div class="card-header" id="heading{{ i }}">
+
+                                                {% assign thisurl = level3.url | append: '' %}
+                                                <h5 class="collapsed {% if page.url == thisurl %}ele-highlight{% endif %}" data-toggle="collapse" data-target="#collapse{{ i }}" aria-expanded="false" aria-controls="collapse{{ i }}">
+                                                  <span class="element-arrow-icon element-arrow-down"></span>
+                                                  <a href="{{ site.url }}{{ level3.url }}">
+                                                    {{ level3.name }}
+                                                  </a>
+                                                </h5>
+                                              </div>
+                                              <div id="collapse{{ i }}" class="collapse elements" aria-labelledby="heading{{ i }}">
+                                                <div class="card-body sidebar-indent">
+                                                  {% for level4 in level3.elements %}
+
+                                                    {% assign thisurl = level4.url | append: '' %}
+                                                    <h5 class="card-guy {% if page.url == thisurl %}ele-highlight{%else %}{{page.url}}{{thisurl}}{% endif %}">
+                                                      <a href="{{ site.url }}{{ level4.url }}">
+                                                        {{ level4.name }}
+                                                      </a>
+                                                    </h5>
+                                                  {% endfor %}
+                                                </div>
+                                              </div>
+                                            </div>
+                                          </div>
+                                        {% else %}
+
+                                          {% assign thisurl = level3.url | append: '' %}
+                                          <h5 class="card-guy {% if page.url == thisurl %}ele-highlight{% endif %}">
+                                            <a href="{{ site.url }}{{ level3.url }}">
+                                              {{ level3.name }}
+                                            </a>
+                                          </h5>
+                                        {% endif %}
+                                      {% endfor %}
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            {% else %}
+                                {% assign thisurl = level2.url | append: '' %}
+                                <h5 class="card-guy {% if page.url == thisurl %}ele-highlight{% endif %}"><a href="{{ site.url }}{{ level2.url }}">{{ level2.name }}</a></h5>
+                            {% endif %}
+                          {% endfor %}
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                {% else %}
+
+                  {% assign thisurl = level1.url | append: '' %}
+                  <h5 class="card-guy {% if page.url == thisurl %}ele-highlight{% endif %}">
+                    <a href="{{ site.url }}{{ level1.url }}">
+                      {{ level1.name }}
+                    </a>
+                  </h5>
+                {% endif %}
+              {% endfor %}
+            {% endif %}
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+  </div>
+
+</nav>
