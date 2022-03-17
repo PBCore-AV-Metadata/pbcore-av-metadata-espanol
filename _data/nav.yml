@@ -2,7 +2,7 @@ toc:
   - title: About
     color: blue
     subfolderitems:
-      - page: What is PBCore?
+      - page: ¿Qué es PBCore?
         url: /what-is-pbcore
       - page: FAQs
         url: /faqs

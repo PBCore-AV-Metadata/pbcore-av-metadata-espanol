@@ -7,7 +7,7 @@ keywords: ["About", "Introduction", "Getting Started", "Key Functions"]
 ---
 <div class="row">
   <h2 class="blue title bold">
-    What is PBCore?
+    ¿Qué es PBCore?
   </h2>
 </div>
 

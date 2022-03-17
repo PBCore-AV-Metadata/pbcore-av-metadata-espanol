@@ -4,7 +4,7 @@ layout: default
 keywords: ["Introduction", "Getting Started"]
 ---
 <section id="what-is-pbcore" class="">
-  <h2 class="blue title">What is PBCore?</h2>
+  <h2 class="blue title">¿Qué es PBCore?</h2>
   <p class="index-text">PBCore is a cataloging standard for the description of audiovisual content, a data sharing tool, and much more. Since its development in the early 2000s, dozens of organizations have been using PBCore's comprehensive and flexible features for their archiving needs.</p>
 
   <div class="row">
