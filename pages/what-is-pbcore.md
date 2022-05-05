@@ -1,5 +1,5 @@
 ---
-title: What is PBCore
+title: ¿Qué es PBCore?
 layout: default
 section: About
 permalink: /what-is-pbcore
@@ -15,10 +15,11 @@ keywords: ["About", "Introduction", "Getting Started", "Key Functions"]
   <div class="col-md-6">
 
     <p>
-      PBCore is a way to organize information about audiovisual content. PBCore records can easily be shared, allowing information about media assets and collections to be exchanged between organizations and media systems.
+      PBCore es una forma de organizar la información sobre contenidos audiovisuales. Los registros de PBCore se pueden compartir fácilmente, lo que permite intercambiar información sobre recursos (“assets”) y colecciones de medios entre organizaciones y sistemas de medios.
+
     </p>
     <p>
-      Public broadcasting communities in the United States originally developed PBCore so that producers and local stations could better share, manage and preserve their media. Since then, a growing number of moving image archives and media organizations outside of public broadcasting have also adopted PBCore to manage their audiovisual assets and collections.
+      Las comunidades de radiodifusión pública en los Estados Unidos desarrollaron originalmente PBCore para que los productores y las estaciones locales pudieran compartir, administrar y preservar mejor sus medios. Desde entonces, un número creciente de archivos de imágenes en movimiento y organizaciones de medios fuera de la radiodifusión pública también han adoptado PBCore para administrar sus recursos (“assets”) y colecciones audiovisuales.
     </p>
 
   </div>
@@ -28,7 +29,7 @@ keywords: ["About", "Introduction", "Getting Started", "Key Functions"]
 
   <div class="col-md-5">
     <h3 style="margin-bottom:.8em;">
-      Key Functions
+      Funciones clave
     </h3>
 
     <span class="med-text">
@@ -42,7 +43,7 @@ keywords: ["About", "Introduction", "Getting Started", "Key Functions"]
         </div>
 
         <div class="col-md-9">
-          A guideline for cataloging or describing audiovisual content (as a content standard)
+          Una guía para catalogar o describir contenido audiovisual (como estándar de contenido)
         </div>
       </div>
 
@@ -56,7 +57,7 @@ keywords: ["About", "Introduction", "Getting Started", "Key Functions"]
         </div>
 
         <div class="col-md-9">
-          A model for building custom databases/applications
+          Un modelo para crear bases de datos/aplicaciones personalizadas
         </div>
       </div>
 
@@ -70,7 +71,7 @@ keywords: ["About", "Introduction", "Getting Started", "Key Functions"]
         </div>
 
         <div class="col-md-9">
-          A guideline for identifying a set of vocabularies for fields describing AV assets
+          Una guía para identificar un conjunto de vocabularios para campos que describen recursos (“assets”) audiovisuales
         </div>
       </div>
 
@@ -84,7 +85,7 @@ keywords: ["About", "Introduction", "Getting Started", "Key Functions"]
         </div>
 
         <div class="col-md-9">
-          A data model for a configurable collection management system (Omeka, Collective Access, etc.)
+          Un modelo de datos para un sistema de gestión de colecciones configurable (Omeka, Acceso Colectivo, etc.)
         </div>
       </div>
 
@@ -98,7 +99,7 @@ keywords: ["About", "Introduction", "Getting Started", "Key Functions"]
         </div>
 
         <div class="col-md-9">
-          An exchange (import or export) mechanism between applications
+          Un mecanismo de intercambio (importación o exportación) entre aplicaciones
         </div>
       </div>
 
@@ -112,7 +113,7 @@ keywords: ["About", "Introduction", "Getting Started", "Key Functions"]
         </div>
 
         <div class="col-md-9">
-          A guideline for creating inventory spreadsheets
+          Una guía para crear hojas de cálculo de inventario
         </div>
       </div>
 
