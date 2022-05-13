@@ -1,16 +1,16 @@
 ---
-title: Credits
+title: Créditos
 layout: default
 section: About
 permalink: /credits
 keywords: ["About", "Credits", "Community"]
 ---
-<h2 class="blue title bold">Credits</h2>
+<h2 class="blue title bold">Créditos</h2>
 
-The PBCore website and the tools it features were made possible by the generous support of the National Endowment for the Humanities (NEH) and key contributions from many individuals and organizations, including WGBH Media Library and Archives, the Simmons Usability Lab, WGBH Creative, MediaArea, Myers Infosys, Digital Bedrock, and the members of the PBCore Development and Training Project Advisory Board: Rebecca Guenther, Julie Hardesty, Morgan Morel, and Kara Van Malssen.
+El sitio web de PBCore y las herramientas que presenta fueron posibles gracias al generoso apoyo del Fondo Nacional para las Humanidades (NEH) y contribuciones clave de muchas personas y organizaciones, incluidos WGBH Media Library and Archives, Simmons Usability Lab, WGBH Creative, MediaArea, Myers Infosys, Digital Bedrock y los miembros del Comité Asesor del Proyecto de Capacitación y Desarrollo de PBCore: Rebecca Guenther, Julie Hardesty, Morgan Morel y Kara Van Malssen.
 
-PBCore would not be possible without the generous support of volunteers from the Association of Moving Image Archivists’ (AMIA) PBCore Advisory Sub-Committee.
+PBCore no sería posible sin el generoso apoyo de los voluntarios del Subcomité Asesor de PBCore de la Asociación de Archivistas de Imágenes en Movimiento (AMIA).
 
 <img src="/assets/images/NEH_logo.jpg">
 
-<p>This website has been made possible in part by the National Endowment for the Humanities: Exploring the human endeavor.</p>
+<p>Este sitio web ha sido posible en parte gracias al Fondo Nacional para las Humanidades (NEH): Explorando el esfuerzo humano.</p>
