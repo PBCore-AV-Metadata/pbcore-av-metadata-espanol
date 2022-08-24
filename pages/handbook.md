@@ -8,13 +8,13 @@ keywords: ["Resources", "Getting Started", "Cataloging", "Introduction"]
 <div class="row">
   <div class="col-md-12">
 
-    <h2 class="title red bold">PBCore Handbook</h2>
+    <h2 class="title red bold">Manual de PBCore</h2>
   </div>
 </div>
 
 <div class="row">
   <div class="col-md-12 index-text">
-    The PBCore Handbook compiles most of the documentation about PBCore available on this website into a downloadable PDF format. Because the documentation covers many topics, we've provided separate downloadable files for each section, as well as a fully compiled version.
+    El Manual de PBCore compila la mayor parte de la documentación sobre PBCore que se encuentra disponible en este sitio web en formato de PDF descargable. Dado que la documentación abarca muchos temas, ponemos a disposición tanto archivos separados descargables para cada sección, como también una versión completa.
   </div>
 </div>
 

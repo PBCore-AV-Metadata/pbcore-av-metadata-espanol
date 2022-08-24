@@ -10,15 +10,15 @@ keywords: ["Schema", "Controlled Vocabularies", "XML", "Creating Records"]
     {% include vocab_sidebar.html %}
   </div>
   <div class="col-md-9">
-    <h2 class="green title bold">PBCore Controlled Vocabularies</h2>
+    <h2 class="green title bold">Los vocabularios controlados de PBCore</h2>
     <p>
-      PBCore Controlled Vocabularies are sets of predefined, community-standardized terms for concepts related to audiovisual and broadcast collections. These terms can be used as drop-down value lists in a database or spreadsheet to ensure consistency in terminology, formatting and spelling, both internally and when exchanging information with outside organizations.
+      Los vocabularios controlados de PBCore son conjuntos de términos predefinidos y estandarizados por la comunidad para conceptos relacionados con colecciones audiovisuales y de difusión. Estos términos se pueden utilizar como listas de valores desplegables en una base de datos o una hoja de cálculo para garantizar la coherencia en la terminología, el formato, y la ortografía, tanto internamente como al intercambiar información con organizaciones externas.
     </p>
     <p>
-      PBCore Controlled Vocabularies include the agreed-upon spelling and formatting for each term, a definition, and a Unique Resource Identifier (or URI). The vocabularies provide only the terms that the community has determined are most widely used and shared, and are not 100% comprehensive. PBCore does not maintain controlled vocabularies for elements that have strong vocabulary options maintained by other authorities. Element pages contain links to relevant external vocabularies, where applicable.
+      Los vocabularios controlados de PBCore incluyen la ortografía y el formato acordados para cada término, una definición y un identificador único de recursos (o URI). Los vocabularios proporcionan sólo los términos que la comunidad ha determinado que son los más utilizados y compartidos, y no son 100 % completos. PBCore no mantiene vocabularios controlados para elementos que tienen fuertes opciones de vocabulario mantenidas por otras autoridades. Las páginas de elementos contienen enlaces a vocabularios externos relevantes según corresponda.
     </p>
     <p>
-      To view the terms and definitions for each vocabulary, click on the name of the controlled vocabulary on the left of the screen.
+      Para ver los términos y definiciones de cada vocabulario, haga clic en el nombre del vocabulario controlado a la izquierda de la pantalla.
     </p>
   </div>
 </div>

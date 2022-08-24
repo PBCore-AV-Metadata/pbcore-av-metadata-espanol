@@ -6,38 +6,38 @@ permalink: /external-tools-and-integrations
 keywords: ["Resources", "Tools", "Cataloging", "Creating Records", "Databases", "Data Management", "Technical Metadata", "MediaInfo", "ProTrack", "Collective Access", "Omeka"]
 ---
 
-<h2 class="red title bold">External Tools and Integrations</h2>
+<h2 class="red title bold">Herramientas Externas e Integraciones</h2>
 
-<p class="med-text">Many software maintained and supported by external organizations supports the export and management of PBCore metadata. If you manage software that supports PBCore and you would like to have it included on this list, please contact PBCoreInfo@wgbh.org.</p>
+<p class="med-text">Muchos software cuya manutención y financiación dependen de organizaciones externas permiten la gestión y exportación de metadatos de PCBore. Si usted gestiona software que admite PBCore y le gustaría incluirlo en esta lista, por favor contáctenos mediante correo electrónico a PBCoreInfo@wgbh.org.</p>
 
 <h3 id="mediainfo">MediaInfo</h3>
 
-MediaInfo is an open-source tool that creates technical metadata documentation for video and audio files, such as format, codec ids duration, bit rate, bit depth, chroma subsampling, channels, etc. MediaInfo supports many types of metadata outputs, including PBCore 1.2 and PBCore 2.1. To download MediaInfo, visit <a href="https://mediaarea.net/en/MediaInfo/Download">https://mediaarea.net/en/MediaInfo/Download</a>
+MediaInfo es una herramienta de código abierto que crea documentación de metadatos técnicos para archivos de video y audio, como formato, codec, título, duración, tasa de bits, profundidad de bits, submuestreo de croma, canales, etc. Mediainfo admite varios tipos de envío de metadatos, entre los que se incluyen PBCore 1.2 y PBCore 2.1. Para descargar MediaInfo, visite <a href="https://mediaarea.net/en/MediaInfo/Download">https://mediaarea.net/en/MediaInfo/Download</a>
 
-MediaInfo's PBCore export creates PBCore InstantiationDocuments that are constructed from information gathered by MediaInfoLib. Additional metadata that is included in an Instantiation document but may not be reportable by MediaInfo (such as instantiationGenerations and instantiationLocation) can also be added to the created PBCore documents. Read more about using MediaInfo's PBCore export <a href="/2018/11/28/pbcore-audiovisual-tricks">here</a>.
+Cuando MediaInfo exporta PBCore crea InstantiationDocuments de PBCore que se construyen a partir de la información que reúne MediaInfoLib. Los metadatos adicionales que se incluyen en un documento de instanciación pero que MediaInfo no logra informar (como instantiationGenerations y instantiationLocation) también pueden agregarse a los documentos PBCore que se crean. Puede leer más sobre el uso de las exportaciones de PBCore que realiza MediaInfo <a href="/2018/11/28/pbcore-audiovisual-tricks">aquí</a>.
 
-The development of MediaInfo’s PBCore 2.1 export was funded by the NEH as part of the PBCore Development and Training Project.
+El desarrollo de la exportación de PBCore 2.1 de MediaInfo fue financiado por NEH, como parte del programa PBCore Development and Training Project.
 
 <h3 id="protrack">ProTrack Broadcast Management System</h3>
 
-ProTrack is a professional broadcast management solution that centralizes content metadata and facilitates multiple distribution workflows from a single point of control, used by 98% of PBS member stations. To learn more about getting started with ProTrack, contact <a href="http://myersinfosys.com/contact-us/">Myers InfoSys</a>.
+ProTrack es una solución para la gestión de sistemas profesionales de radiodifusión que centraliza los metadatos de contenido y permite múltiples flujos de trabajo de distribución desde un único punto de control. Lo utiliza el 98% de las estaciones que son miembro de PBS. Para saber más sobre cómo comenzar a utilizar ProTrack, contacte a <a href="http://myersinfosys.com/contact-us/">Myers InfoSys</a>.
 
-There are two methods for exporting PBCore XML from ProTrack:
+Existen dos métodos para exportar XML de PBCore desde ProTrack:
 
-Exporting PBCore from the Program Search (<a href="/assets/downloads/PBCore_Export_ProTrack.pdf" download>PDF</a>)
+Exportar PBcore desde Program Search (Búsqueda de Programa) (<a href="/assets/downloads/PBCore_Export_ProTrack.pdf" download>PDF</a>)
 
-Exporting PBCore from the Air Date Search (<a href="/assets/downloads/PBCore_Export_ProTrack_AirDateSearch.pdf" download>PDF</a>)
+Exportar PBcore desde Air Date Search (Búsqueda de Fecha de Emisión) (<a href="/assets/downloads/PBCore_Export_ProTrack_AirDateSearch.pdf" download>PDF</a>)
 
-This documentation can also be viewed on the ProTrack KnowledgeBase.
+Esta documentación también se puede ver en la KnowledgeBase de ProTrack.
 
-The development of ProTrack’s PBCore 2.1 export was funded by the NEH as part of the PBCore Development and Training Project.
+El desarrollo de la exportación de PBCore 2.1 de ProTrack fue financiado por NEH, como parte del programa PBCore Development and Training Project.
 
 <h3 id="collectiveaccess">Collective Access</h3>
-Collective Access is an open-source software for managing and publishing museum and archival collections. Providence, the core cataloguing and data management application of Collective Access, includes some ‘out-of-the-box’ support for existing metadata standards, including PBCore. XML documentation for Collective Access’ PBCore installation profile can be found on the <a href="https://github.com/collectiveaccess/providence/blob/master/install/profiles/xml/pbcore.xml">Collective Access GitHub</a> The profile is supported at install-time as a configuration profile for item-level (instantiation/intellectual content) cataloguing, and as an export target. (This profile was last revised in 2013).
+Collective Access es un software de código abierto que se utiliza para la gestión y publicación de colecciones de museos y archivos. La aplicación central de catalogación y gestión de datos de Collective Access, Providence, incluye soporte integrado para estándares de metadatos ya existentes, incluyendo PBCore. La documentación XML para el perfil de instalación de PBCore de Collective Access puede encontrarse en el <a href="https://github.com/collectiveaccess/providence/blob/master/install/profiles/xml/pbcore.xml">Collective Access GitHub</a> En el momento de la instalación, el perfil se admite como un perfil de configuración para catalogación a nivel del ítem (contenido de instanciación/intelectual), y como un destino de exportación. (Este perfil se revisó por última vez en 2013).
 
-In 2019 a PBCore 2.1 profile was developed with funding by the NEH as part of the PBCore Development and Training Project. This installation profile can be found on the <a href="https://github.com/PBCore-AV-Metadata/collective-access-for-2.1">PBCore GitHub</a>, along with some general documentation.
+En 2019 se desarrolló un perfil de PBCore 2.1 con financiación de NEH, como parte del programa PBCore Development and Training Project. Puede encontrar el perfil de instalación y otra documentación general en el <a href="https://github.com/PBCore-AV-Metadata/collective-access-for-2.1">PBCore GitHub</a>.
 
-Many users of Collective Access choose to configure their own installation profiles rather than using an out-of-the-box version. Below you can find examples of installation profiles from several Collective Access users who have incorporated PBCore into their data management applications:
+Muchos de los usuarios de Collective Access prefieren configurar sus propios perfiles de instalación en vez de usar una versión integrada. Aquí abajo puede encontrar ejemplos de perfiles de instalación de varios usuarios de Collective Access que incorporaron PBCore a sus aplicaciones de gestión de datos:
 
 <a href="assets/downloads/homemovie_collectiveaccess_profile.png" download>The South Side Home Movie Project</a>
 
@@ -50,11 +50,11 @@ Many users of Collective Access choose to configure their own installation profi
 <a href="/assets/downloads/appalshop_collectiveaccess_config.xml" download>Appalshop, Inc.</a>
 
 <h3 id="omeka">Omeka</h3>
-Omeka is an open-source web publishing platform for sharing digital collections and creating media-rich online exhibits. Omeka’s core functionality includes elements from the Dublin Core metadata schema, but Omeka’s functionality can be augmented with plugins that allow the addition of elements from other metadata standards.
+Omeka es una plataforma de publicación web de código libre pensada para mostrar colecciones digitales y crear exhibiciones virtuales multimedia. La funcionalidad principal de Omeka tiene elementos del esquema de metadatos Dublin Core, pero la funcionalidad de Omeka se puede ampliar mediante plugins que permiten añadir elementos de otros estándares de metadatos.
 
-In 2019, a <a href="https://omeka.org/classic/plugins/PBCore2/">PBCore plugin for Omeka</a> was developed with funding from the NEH as part of the PBCore Development and Training Project. The plugin supports the addition of PBCore metadata elements to describe audiovisual content  within Omeka on both the asset and the instantiation level. Documentation for the use of this plugin is available <a href="https://omeka.org/classic/docs/Plugins/PBCore/">on the Omeka website.</a>
+En 2019 se desarrolló un <a href="https://omeka.org/classic/plugins/PBCore2/">plugin de PBCore para Omeka</a>, gracias al financiamiento de NEH, como parte del programa PBCore Development and Training Project. Este plugin permite añadir elementos de metadatos de PBCore para describir contenido audiovisual en Omeka tanto al nivel del activo como al de la instanciación. La documentación sobre el uso de este plugin está disponible <a href="https://omeka.org/classic/docs/Plugins/PBCore/">en el sitio web de Omeka.</a>
 
 <h3 id="archivesspace">ArchivesSpace</h3>
-<a href="https://archivesspace.org/" target="_blank">ArchivesSpace</a> is an open source, web application for managing archives information. The application is designed to support core functions in archives administration such as accessioning; description and arrangement of processed materials including analog, hybrid, and born-digital content; management of authorities (agents and subjects) and rights; and reference service.  The application supports collection management through collection management records, tracking of events, and a growing number of administrative reports. The application also functions as a metadata authoring tool, enabling the generation of EAD, MARCXML, MODS, Dublin Core, and METS formatted data.
+<a href="https://archivesspace.org/" target="_blank">ArchivesSpace</a> es una aplicación web de código abierto para gestión de información de archivos. El diseño de la aplicación permite funciones básicas de la administración de archivos, como ingreso, descripción y disposición de los materiales procesados incluyendo el contenido analógico, híbrido y de origen digital, gestión de autoridades (agentes y temas) y derechos, y servicios de referencia. La aplicación permite la gestión de colecciones mediante los registros de gestión de colección, el seguimiento de eventos, y un número cada vez mayor de reportes administrativos. La aplicación también funciona como una herramienta de creación de metadatos, lo que permite la generación de datos formateados EAD, MARCXML, MODS, Dublin Core, y METS.
 
-The WGBH Media Library and Archives developed <a href="https://github.com/WGBH-MLA/pbspace" target="_blank">PBSpace</a>, a plugin for ArchivesSpace, that adds new properties and object relationships in the application so that PBCore structure, elements, and attributes can be better represented. The development of PBSpace has been made possible in part by the National Endowment for the Humanities: Exploring the human endeavor.
+WGBH Media Library and Archive desarrolló <a href="https://github.com/WGBH-MLA/pbspace" target="_blank">PBSpace</a>, un plugin para ArchivesSpace, que añade nuevas propiedades y relaciones de objeto a la aplicación para representar mejor la estructura, elementos y atributos de PBCore. El desarrollo de PBSpace fue posible gracias al National Endowment for the Humanities: Exploring the human endeavor.

@@ -8,11 +8,11 @@ excerpt-separator: <span class="end-blurb"></span>
 Back in March, we invited PBCore public media users and educators to WGBH for in-depth workshops focused on overcoming the barriers to PBCore adoption and education. Now, attendees have shared their outcomes. 
 <span class="end-blurb"></span>
 
-## PBCore for Public Media Organizations
+## PBCore para Organizaciones de Radiodifusión Públicas
 
-The first workshop, PBCore for Public Media Organizations, was targeted towards staff at public media organizations looking to better track information about their content. Attendees did sample data modelling and spent hands-on time practicing with tools and utilities to support the creation and storage of PBCore metadata.
+El primer seminario, llamado PBCore for Public Media Organizations (PBCore para Organizaciones de Radiodifusión Públicas), estuvo dirigido a los equipos que trabajan en las organizaciones de radiodifusión públicas y que desean realizar un seguimiento más efectivo de su contenido. Los asistentes trabajaron con ejemplos de modelado de datos y practicaron con herramientas de creación y almacenamiento de metadatos de PBCore.
 
-Attendees reported back to WGBH with outcomes on how they are incorporating PBCore into the daily work of their organization, including some additional documentation:
+Los asistentes enviaron informes a WGBH en donde detallan cómo están incorporando PBCore a las tareas diarias de sus organizaciones, incluyendo documentación adicional:
 
 <a href="/assets/downloads/UserWorkshop_KYUK.pdf">Katie Basile (KYUK)</a>
 
@@ -41,27 +41,27 @@ Attendees reported back to WGBH with outcomes on how they are incorporating PBCo
 
 <a href="/assets/downloads/UserWorkshop_PacificaRadioArchives.docx">Mark Torres (Pacifica Radio Archives)</a>
 	
-## Teaching PBCore: Resources for A/V Metadata in the Classroom
+## Enseñanza de PBCore: Recursos para los Metadatos Audiovisuales en el Aula
 
-The second workshop, Teaching PBCore: Resources for A/V Metadata in the Classroom, was designed to support educators teaching metadata at library and archival science programs in developing curriculum materials around PBCore. In addition to reviewing tools, crosswalks, and mappings, educators in attendance discussed lesson plans, syllabi, and best practices for teaching audiovisual metadata. 
+El segundo seminario, “Teaching PBCore: Resources for A/V Metadata in the Classroom” (Enseñanza de PBCore: Recursos para los Metadatos Audiovisuales en el Aula”), fue diseñado para ayudar a los educadores de programas de bibliotecología y archivología a desarrollar materiales educativos sobre PBCore. Los asistentes revisaron herramientas, xx y mapeos, y discutieron planes de lecciones, programas de estudio y mejores prácticas para la enseñanza de metadatos audiovisuales.
 
-After the workshop, attendees supplied sample syllabi, lesson plans, and educational materials for PBCore instruction. These materials are also now collected under the 'Resources' tab of the website on a page called 'Teaching PBCore.' 
+Luego del seminario, los asistentes facilitaron programas de estudio modelo, planes de clases y materiales educativos para la enseñanza de PBCore. Puede encontrar estos recursos en la pestaña “Recursos” del sitio web, en una página llamada “Enseñanza de PBCore.”
 
-Shawn Averkamp (New York University) - <a href="/assets/downloads/EducatorWorkshop_ShawnAverkamp.pdf">Sample Syllabus</a>
+Shawn Averkamp (New York University) - <a href="/assets/downloads/EducatorWorkshop_ShawnAverkamp.pdf">Ejemplo de programa de estudios</a>
 
-Joan Beaudoin (Wayne State University) - <a href="/assets/downloads/EducatorWorkshop_JoanBeaudoin.docx">Sample Syllabus</a>
+Joan Beaudoin (Wayne State University) - <a href="/assets/downloads/EducatorWorkshop_JoanBeaudoin.docx">Ejemplo de programa de estudios</a>
 
-Snowden Becker (Consulting Archivist) - <a href="/assets/downloads/EducatorWorkshop_SnowdenBecker_LAAC.docx">Workshop Lesson Plan</a> and <a href="/assets/downloads/EducatorWorkshop_SnowdenBecker_SampleSlides.pptx">Slides</a>
+Snowden Becker (Consulting Archivist) - <a href="/assets/downloads/EducatorWorkshop_SnowdenBecker_LAAC.docx">Plan de clases para el seminario</a> y <a href="/assets/downloads/EducatorWorkshop_SnowdenBecker_SampleSlides.pptx">diapositivas</a>
 
-Ed Benoit (Louisiana State University) - <a href="/assets/downloads/EducatorWorkshop_EdBenoit.docx">Sample Syllabus</a>
+Ed Benoit (Louisiana State University) - <a href="/assets/downloads/EducatorWorkshop_EdBenoit.docx">Ejemplo de programa de estudios</a>
 
-Yunseon Choi (Valdosta State University) - <a href="/assets/downloads/EducatorWorkshop_YunseonChoi.pdf">PBCore Lesson Plan</a>
+Yunseon Choi (Valdosta State University) - <a href="/assets/downloads/EducatorWorkshop_YunseonChoi.pdf">Plan de clases para PBCore</a>
 
-Karen Gracy (Kent State University) - <a href="/assets/downloads/EducatorWorkshop_KarenGracy.doc">Sample Syllabus</a>
+Karen Gracy (Kent State University) - <a href="/assets/downloads/EducatorWorkshop_KarenGracy.doc">Ejemplo de programa de estudios</a>
 
-Jimi Jones (University of Illinois) - <a href="/assets/downloads/EducatorWorkshop_JimiJones.pdf">Sample Syllabus</a>
+Jimi Jones (University of Illinois) - <a href="/assets/downloads/EducatorWorkshop_JimiJones.pdf">Ejemplo de programa de estudios</a>
 
-Steven MacCall (University of Alabama) - <a href="/assets/downloads/EducatorWorkshop_StevenMacCall.docx">PBCore Learning Components Plan</a>
+Steven MacCall (University of Alabama) - <a href="/assets/downloads/EducatorWorkshop_StevenMacCall.docx">Plan de componentes para la enseñanza de PBCore</a>
 
-Alexandra Provo (Pratt Institute) - <a href="/assets/downloads/EducatorWorkshop_AlexandraProvo.docx">XML Lesson Plan</a> and <a href="/assets/downloads/EducatorWorkshop_AlexandraProvo_SampleSlides.pptx">Slides</a>
+Alexandra Provo (Pratt Institute) - <a href="/assets/downloads/EducatorWorkshop_AlexandraProvo.docx">Plan de clases en XML</a> y <a href="/assets/downloads/EducatorWorkshop_AlexandraProvo_SampleSlides.pptx">diapositivas</a>
 

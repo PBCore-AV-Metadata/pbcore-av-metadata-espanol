@@ -6,8 +6,8 @@ permalink: /user-groups
 keywords: ["Community", "Association of Moving Image Archivists (AMIA)", "PBCore Google Group", "PBCore Advisory Subcommittee"]
 ---
 
-<h2 class="dark-grey title bold">PBCore User Groups</h2>
+<h2 class="dark-grey title bold">Grupos de usuarios de PBCore</h2>
 
-To find and consult with fellow PBCore users, you can join the PBCore Google Group at [https://groups.google.com/forum/#!forum/pbcore-talk](https://groups.google.com/forum/#!forum/pbcore-talk).
+Para buscar y consultar con otros usuarios de PBCore, puede unirse al grupo de Google de PBCore en [https://groups.google.com/forum/#!forum/pbcore-talk](https://groups.google.com/forum/#!forum/pbcore-talk).
 
-You can also join the PBCore Advisory Subcommittee Basecamp, where most development on PBCore occurs, by contacting PBCoreInfo@wgbh.org for an invitation.
+También puede unirse al Basecamp del Subcomite Asesor de PBCore, donde ocurre la mayor parte del desarrollo de este estandar, comunicándose con PBCoreInfo@wgbh.org para recibir una invitación.

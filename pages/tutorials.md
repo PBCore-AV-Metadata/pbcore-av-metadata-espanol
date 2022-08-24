@@ -6,8 +6,8 @@ permalink: /tutorials
 keywords: ["Resources", "Getting Started", "Key Functions", "Tutorials", "Learning Tools", "Creating Records", "Cataloging", "Spreadsheet Templates", "Cataloging Tool", "Controlled Vocabularies", "Extensions"]
 ---
 
-<h2 class="red title bold">Tutorials</h2>
-<p class="med-text">These short video tutorials provide introductions to many of PBCore's key concepts, as well as the basic steps to get started using many of the PBCore tools. We are in the process creating more tutorials which we will post here soon.</p>
+<h2 class="red title bold">Tutoriales</h2>
+<p class="med-text">Estos videotutoriales brindan una introducción a muchos de los conceptos clave de PBCore y una guía sobre los primeros pasos para comenzar a usar las herramientas de PBCore. Estamos creando nuevos tutoriales que publicaremos aquí a la brevedad.</p>
 {% assign i = 0 %}
 <div class="row">
   <div class="col-10 mx-auto">

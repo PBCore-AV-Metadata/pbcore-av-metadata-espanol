@@ -8,20 +8,20 @@ keywords: ["About"]
 
 <h2 class="blue title">License</h2>
 
-PBCore, the Public Broadcasting Metadata Dictionary, is licensed under a [Creative Commons Attribution 4.0 International license](https://creativecommons.org/licenses/by/4.0/).  (Full legal code available [here](https://creativecommons.org/licenses/by/4.0/legalcode).)
+PBCore, el Diccionario de Metadatos de Radiodifusión Pública, tiene una licencia [Creative Commons Attribution International 4.0](https://creativecommons.org/licenses/by/4.0/). (Código legal completo disponible [aqui](https://creativecommons.org/licenses/by/4.0/legalcode).)
 
-You are free to:
+Eres libre de:
 
-**Share**— copy and redistribute the material in any medium or format
+**Compartir** — copiar y redistribuir el material en cualquier medio o formato.
 
-**Adapt** — remix, transform, and build upon the material for any purpose, even commercially.
+**Adaptar** — remezclar, transformar y construir sobre el material para cualquier propósito, incluso comercial
 
-Under the following terms:
+Bajo los siguientes términos:
 
-**Attribution** — You must give [appropriate credit](https://creativecommons.org/licenses/by/4.0/), provide a link to the license, and [indicate if changes were made](https://creativecommons.org/licenses/by/4.0/). You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use.
+**Atribución** — debe otorgar [el crédito adecuado](https://creativecommons.org/licenses/by/4.0/), proporcionar un enlace a la licencia e [indicar si se realizaron cambios](https://creativecommons.org/licenses/by/4.0/). Puede hacerlo de cualquier manera razonable, siempre y cuando no se sugiera que el licenciante lo respalda a usted o su uso.
 
-**No additional restrictions** — You may not apply legal terms or [technological measures](https://creativecommons.org/licenses/by/4.0/) that legally restrict others from doing anything the license permits.
+**Sin restricciones adicionales** — no puede aplicar términos legales o [medidas tecnológicas](https://creativecommons.org/licenses/by/4.0/) que restrinjan legalmente a otros de hacer cualquier cosa permitida por la licencia..
 
-Attribution Statement:
+Declaración de atribución:
 
-*This work employs PBCore. PBCore, the Public Broadcasting Metadata Dictionary Project, was created by the public broadcasting community in the United States of America for use by public broadcasters and others. PBCore is built on the foundation of the Dublin Core (ISO 15836), an international standard for resource discovery. PBCore was developed with funding provided by the Corporation for Public Broadcasting and is maintained by WGBH. Copyright 2015, WGBH Educational Foundation, on behalf of the American Archive of Public Broadcasting.*
+*Este trabajo hace uso de PBCore. PBCore, el Proyecto de Diccionario de Metadatos de Radiodifusión Pública, fue creado por la comunidad de radiodifusión pública en los Estados Unidos de América para uso de las emisoras públicas y otros. PBCore se basa en Dublin Core (ISO 15836), un estándar internacional para el descubrimiento de recursos. PBCore fue desarrollado con fondos proporcionados por Corporation for Public Broadcasting y es mantenido por WGBH. Copyright 2015, WGBH Educational Foundation, en nombre del Archivo Estadounidense de Radiodifusión Pública.*

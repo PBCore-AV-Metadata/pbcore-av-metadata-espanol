@@ -1,18 +1,19 @@
 ---
 layout: post
-title: "Join us at the Annual PBCore Advisory Sub-Committee Meeting"
+title: "Acompáñenos en la Reunión Anual del Subcomité Asesor de PBCore"
 section: Community
 excerpt-separator: <span class="end-blurb"></span>
 ---
 
-We hope to see many of you at the PBCore Advisory Sub-Committee meeting at the annual AMIA conference next week! This year's meeting will be held on Friday, November 15th, from 5:45-6:45 PM. <span class="end-blurb"></span>
+¡Esperamos ver a muchos de ustedes en la reunión del Subcomité Asesor de PBCore en el congreso anual de AMIA la semana próxima! La reunión de este año será el viernes 15 de noviembre, de 17:45 a 18:45hs.
 
-You can find the agenda for the meeting <a href="https://docs.google.com/document/d/1-uWAiYsaKbYIAvhM8HxIrEb1VBRVNqePdZpuiT7uziA/edit?usp=sharing">here.</a>
+Puede ver el orden del día de la reunión <a href="https://docs.google.com/document/d/1-uWAiYsaKbYIAvhM8HxIrEb1VBRVNqePdZpuiT7uziA/edit?usp=sharing">Puede ver el orden del día de la reunión aquí.</a>
 
-Please note that the agenda includes a link to the latest draft version of the PBCore Handbook, which we are hoping to publish shortly after the conference. Based on suggestions we received on the first draft version of the Handbook, the updated version contains some changed language in the "¿Qué es PBCore?", "Glossary," and "PBCore Structure" sections that we hope will clarify the use of PBCore for new users. However, since the original language was collaboratively developed by the community during the schema and website overhaul in 2015, we wanted to make sure we had an opportunity to hear feedback from the community before pushing those changes. If you have a chance to review before AMIA, please come to the meeting with your thoughts for discussion ready.
+Por favor tengan en cuenta que el orden del día tiene un link a la última versión del Manual de PBCore, el cual nos gustaría publicar enseguida luego del congreso. Hemos actualizado esta versión modificando el texto en las secciones “¿Qué es PBCore?”, “Glosario” y “Estructura de PBCore”, basándonos en las sugerencias que recibimos y a la espera de que estos cambios aclaren cómo se usa PBCore a los nuevos usuarios. Sin embargo, dado que el texto original se desarrolló en colaboración con la comunidad durante la revisión del esquema y sitio web en 2015, queríamos asegurarnos de poder escuchar a la comunidad antes de realizar esos cambios. Si pueden revisarlo antes de AMIA, por favor vengan a la reunión con sus reflexiones para debate listas.
 
-As you can see on the agenda, we're also planning to reserve some time during the meeting for PBCore users to present on how they've been incorporating the standard at their institution. If you're interested in presenting a lightning talk or sharing a case study, please email PBCoreInfo@wgbh.org!
+Como pueden ver en el orden del día, también queremos reservar algo de tiempo durante la reunión para que los usuarios de PBCore puedan presentar y contar cómo han estado incorporando el estándar en sus instituciones. ¡Si está interesado en presentar o compartir un caso de estudio, por favor envíe un email a PBCoreInfo@wgbh.org!
 
-If you won't be at the AMIA conference, but would like to attend the meeting virtually, comment or email PBCoreInfo@wgbh.org -- we'll have a Google Hangout available for distance participants.
+Si no puede asistir al congreso de AMIA, pero le gustaría asistir a la reunión en modalidad virtual, comente o envíe un email a PBCoreInfo@wgbh.org -- tendremos un Google Hangout disponible para los participantes a distancia.
 
-Looking forward to seeing you there!
+¡Los esperamos!
+

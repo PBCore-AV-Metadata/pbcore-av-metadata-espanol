@@ -1,33 +1,33 @@
 ---
 layout: post
-title: "PBCore Workshops for Public Media Users and Educators"
+title: "Seminarios de PBCore para Usuarios y Educadores de Medios Públicos"
 section: Community
 excerpt-separator: <span class="end-blurb"></span>
 ---
 
-WGBH is excited to offer two upcoming PBCore training workshops for public media users and educators.
+WGBH se complace en ofrecer dos seminarios de capacitación de PBCore para Usuarios y Educadores de Medios Públicos
 <span class="end-blurb"></span>
 
-## PBCore for Public Media Organizations  
-**March 7-8, 2019  
-WGBH Educational Foundation – Boston, MA**
+## PBCore para Organizaciones de Medios Públicos 
+**7 y 8 de marzo de 2019  
+Fundación Educativa WGBH - Boston, MA**
 
-This workshop is designed for staff at public media organizations who are looking to better track information about their content. The two-day workshop will include an introduction to the PBCore metadata standard; hands-on practice time with tools and utilities to support the creation and storage of PBCore metadata; and demo walk-throughs of WGBH’s PBCore-based databases, as well as collaborative small group time to trade best practices with users from other stations.
+Este seminario está diseñado para el personal de organizaciones de medios públicos que buscan acceder a un mejor seguimiento de la información acerca de su contenido. El seminario de dos días incluirá una introducción al estándar de metadatos PBCore, un tiempo asignado a la práctica con herramientas y servicios que ayudan en la creación y el almacenamiento de metadatos de PBCore y demostraciones de las bases de datos basadas en PBCore de WGBH. También habrá un segmento del seminario dedicado al trabajo en grupos pequeños para intercambiar mejores prácticas con usuarios de otras estaciones.
 
-Up to ten attendees will be selected to receive travel funding to attend this workshop, with all expenses paid including airfare, hotel, ground transportation, and meals. Recipients of travel scholarships will be responsible for holding a PBCore training workshop at their organization and submitting a brief report. Apply to receive travel funding [here](https://docs.google.com/forms/d/e/1FAIpQLSdUjYbiRtamFZfZPT8GkYgh2Nz_4qN-3tstB7rCp_tDVv6yFQ/viewform?usp=sf_link).
+Se seleccionarán hasta diez asistentes que recibirán fondos de viaje para asistir a este seminario, quienes tendrán todos los gastos cubiertos, incluidos pasajes aéreos, hotel, transporte terrestre y comidas. Los beneficiarios de las becas de viaje serán responsables de realizar un seminario de capacitación de PBCore en su organización y presentar un breve informe. Solicite recibir fondos para viajar aquí.
 
-## Teaching PBCore: Resources for A/V Metadata in the Classroom  
-**March 21-22, 2019  
-WGBH Educational Foundation – Boston, MA**
+## Enseñanza de PBCore: Recursos para Metadatos Audiovisuales en el Aula   
+**21 y 22 de marzo de 2019 
+Fundación Educativa WGBH - Boston, MA**
 
-This workshop is designed to support educators teaching metadata at library and archival science programs in developing curriculum materials around PBCore. The two-day workshop will include an introduction to the PBCore metadata standard; an overview of the available tools and utilities that support the use of PBCore at archival organizations; a review of available crosswalks and mappings; and collaborative small group time to workshop lesson plans and syllabi.
+Este seminario fue diseñado para ayudar a los educadores de programas de bibliotecología y archivología a desarrollar materiales educativos sobre PBCore. El seminario de dos días incluirá una introducción al estándar de metadatos PBCore, una descripción general de las herramientas y servicios disponibles que respaldan el uso de PBCore en los archivos, una revisión de los cruces y mapas disponibles y un segmento dedicado al trabajo en grupos pequeños para trabajar sobre planes de lecciones y programas de estudios.
 
-Up to ten attendees will be selected to receive travel funding to attend this workshop, with all expenses paid including airfare, hotel, ground transportation, and meals. Recipients of travel scholarships will be responsible for submitting a sample syllabus or lesson plan demonstrating how they intend to teach PBCore in the classroom, to be included on the PBCore website. Apply to receive travel funding [here](https://docs.google.com/forms/d/e/1FAIpQLSe1dFwqy0z5dzw6Qf6xbp3Z8ueTnkpkIqr4-muRR2aXk0iGfA/viewform?usp=sf_link).
+Se seleccionarán hasta diez asistentes que recibirán fondos de viaje para asistir a este seminario, quienes tendrán todos los gastos cubiertos, incluidos pasajes aéreos, hotel, transporte terrestre y comidas. Los beneficiarios de las becas de viaje serán responsables de enviar un programa de estudios de muestra o un plan de lección que demuestre cómo pretenden enseñar PBCore en el aula, que se incluirá en el sitio web de PBCore. Solicite recibir fondos de viaje [aquí](https://docs.google.com/forms/d/e/1FAIpQLSe1dFwqy0z5dzw6Qf6xbp3Z8ueTnkpkIqr4-muRR2aXk0iGfA/viewform?usp=sf_link).
 
-### Travel Funding
-**Travel funding applications must be received by December 31, 2018.** Applicants will be notified by January 18, 2019. Questions can be directed to rebecca_fraimow@wgbh.org
+### Financiamiento para viajar
+*Las solicitudes de financiación para viajar se recibirán hasta el 31 de diciembre de 2018.** Los solicitantes serán notificados antes del 18 de enero de 2019. Las preguntas pueden enviarse a rebecca_fraimow@wgbh.org
 
-The workshops will also be free and open to additional attendees beyond the ten who are selected to receive funding, but space may be limited; if you are interested in reserving space in one of the workshops but do not want to apply for a travel scholarship, please let us know by December 31 so we can plan accordingly.
+Los seminarios también serán gratuitos y estarán abiertos a otros asistentes además de los diez seleccionados para recibir fondos, pero el espacio es limitado. Si está interesado en reservar espacio en uno de los seminarios pero no desea solicitar una beca de viaje, se ruega nos informe antes del 31 de diciembre para realizar los planes correspondientes.
 
-### UPDATE
-Applications for travel funding has closed, but general registration for up to 10 additional participants is now open for PBCore for Public Media Organizations [here](https://www.eventbrite.com/e/pbcore-workshop-for-public-media-tickets-55094617484) and Teaching PBCore: Resources for A/V Metadata in the Classroom [here](https://www.eventbrite.com/e/pbcore-workshop-for-educators-tickets-55094997621). Questions can be directed to rebecca_fraimow@wgbh.org.
+### ACTUALIZACIÓN
+No se reciben más solicitudes para recibir becas de viaje, pero ya está abierta la inscripción general para hasta 10 participantes adicionales para “Enseñanza de PBCore: Recursos para Metadatos Audiovisuales en el Aula”. Puede inscribirse [aquí](https://www.eventbrite.com/e/pbcore-workshop-for-public-media-tickets-55094617484) y [aquí](https://www.eventbrite.com/e/pbcore-workshop-for-educators-tickets-55094997621). Las preguntas se pueden dirigir a rebecca_fraimow@wgbh.org.

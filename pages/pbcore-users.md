@@ -9,7 +9,7 @@ keywords: ["Community", "Learning Tools", "Case Studies"]
 
 <h2 class="title dark-grey">PBCore Case Studies</h2>
 
-While not a comprehensive list of all PBCore users, this page includes real-world examples of how various institutions find value in implementing PBCore – as the underlying structure for a database, an import/export format, a conceptual model, and more. If you’re interested in contributing a case study to highlight how your institution implements PBCore, contact us at PBCoreInfo@wgbh.org.
+Si bien no es una lista comprehensiva de todos los usuarios de PBCore, esta página incluye ejemplos del mundo real de cómo varias instituciones encuentran valor en implementar PBCore – como estructura subyacente para una base de datos, formato de importación/exportación, modelo conceptual y más. Si está interesado en contribuir con un estudio de caso para resaltar cómo su institución implementa PBCore, contáctenos en PBCoreInfo@wgbh.org. 
 
 <section id="pbcore-users" class="" style="margin-bottom: 4%; background-color: #ddd;">
 

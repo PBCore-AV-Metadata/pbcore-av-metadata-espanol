@@ -9,13 +9,13 @@ keywords: ["Resources", "Tools", "Inventory", "Cataloging", "Spreadsheet Templat
 <div class="row">
   <div class="col-md-12">
 
-    <h2 class="title red bold">Spreadsheet Templates</h2>
+    <h2 class="title red bold">Plantillas de Hojas de Cálculo</h2>
   </div>
 </div>
 
 <div class="row">
   <div class="col-md-6 index-text">
-    PBCore Spreadsheet Templates can be used to capture PBCore metadata in an easy human-readable format when creating an inventory of assets and/or instantiations.
+    Las plantillas de hoja de cálculo de PBCore pueden usarse para registrar metadatos en un formato simple y legible por humanos, a la hora de crear un inventario de activos y/o instanciaciones.
   </div>
 
   <div class="col-md-6">

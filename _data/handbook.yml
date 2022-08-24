@@ -1,40 +1,40 @@
-- title: PBCore Handbook (Full Version)
+- title: Manual de PBCore (Versión completa)
   filepath: /assets/downloads/handbook/PBCore_Handbook_Full.pdf
-  description: The full version of the PBCore Handbook, so you can download all of the sections in one file.
-- title: PBCore Handbook Section 1 - What is PBCore
+  description: La versión completa del Manual de PBCore, para que pueda descargar todas las secciones en un único archivo.
+- title: Manual de PBCore Sección 1 - ¿Qué es PBCore?
   filepath: /assets/downloads/handbook/PBCore_Handbook_Section_1.pdf
-  description: The first section of the PBCore Handbook focuses on a general explanation of PBCore's intended uses.
-- title: PBCore Handboook Section 2 - History and Development
+  description: La primera sección del Manual de PBCore se centra en una explicación general de los usos previstos para PBCore.
+- title: PBCore Handboook Section 2 - Manual de PBCore Sección 2 - Historia y Desarrollo
   filepath: /assets/downloads/handbook/PBCore_Handbook_Section_2.pdf
-  description: The second section of the PBCore Handbook recounts the history of PBCore's development and community from version 1.0 to 2.1.
-- title: PBCore Handbook Section 3 - Glossary
+  description: La segunda sección del Manual de PBCore relata la historia del desarrollo y la comunidad de PBCore desde la versión 1.0 a la 2.1
+- title: Manual de PBCore Sección 3 - Glosario
   filepath: /assets/downloads/handbook/PBCore_Handbook_Section_3.pdf
-  description: The third section of the PBCore Handbook provides a glossary of PBCore-specific terms and other terms used throughout the documentation.
-- title: PBCore Handbook Section 4 - PBCore Structure
+  description: La tercera sección del Manual de PBCore provee un glosario de términos específicos de PBCore y otros términos que se utilizan en toda la documentación.
+- title: Manual de PBCore Sección 4 - Estructura de PBCore
   filepath: /assets/downloads/handbook/PBCore_Handbook_Section_4.pdf
-  description: The fourth section of the PBCore Handbook provides a listings of PBCore Root Elements, PBCore Subelements in required order, and example records in plain text and XML format for each of the main categorie of PBCore records.
-- title: PBCore Handbook Section 5 - Elements
+  description: La cuarta sección del Manual de PBCore provee una lista de Elementos Raíz de PBCore, Subelementos de PBCore en el orden correspondiente, y ejemplos de registro en texto sin formato y en formato XML para cada una de las principales categorías de registros de PBCore.
+- title: Manual de PBCore Sección 5 - Elementos
   filepath: /assets/downloads/handbook/PBCore_Handbook_Section_5.pdf
-  description: The fifth section of the PBCore Handbook provides definitions, usage notes, and examples for all of PBCore's 15 containers and 82 elements.
-- title: PBCore Handbook Section 6 - Attributes
+  description: La quinta sección del Manual de PBCore provee definiciones, notas de uso y ejemplos para los 15 contenedores y 82 elementos de PBCore.
+- title: Manual de PBCore Sección 6 - Atributos
   filepath: /assets/downloads/handbook/PBCore_Handbook_Section_6.pdf
-  description: The sixth section of the PBCore Handbook provides definitions and usage notes for all of the attributes that can be used to further clarify the information included in an PBCore element's value.
-- title: PBCore Handbook Section 7 - Controlled Vocabularies
+  description: La sexta sección del Manual de PBCore provee definiciones y notas de uso para todos los atributos que pueden usarse para clarificar en mayor medida la información que se incluye en el valor de un elemento de PBCore.
+- title: Manual de PBCore Sección 7 - Vocabularios Controlados
   filepath: /assets/downloads/handbook/PBCore_Handbook_Section_7.pdf
-  description: The seventh section of the PBCore Handbook provides the terms, definitions, and URIs for all of the PBCore-community-maintained controlled vocabularies.
-- title: PBCore Handbook Section 8 - Sample Records
+  description: La séptima sección del Manual de PBCore provee los términos, las definiciones y URIs para todos vocabularios controlados que mantiene la comunidad de PBCore.
+- title: Manual de PBCore Sección 8 - Ejemplos de Registros
   filepath: /assets/downloads/handbook/PBCore_Handbook_Section_8.pdf
-  description: The eigth section of the PBCore Handbook provides real-world example records gathered from organizations that use PBCore and described the differences in the ways each organization uses PBCore for their specific needs.
-- title: PBCore Handbook Section 9 - Acknowledgements
+  description: La octava sección del Manual de PBCore provee ejemplos reales de registros de organizaciones que utilizan PBCore y describe las diferencias en los modos en los que las organizaciones usan PBCore para sus necesidades específicas.
+- title: Manual de PBCore Sección 9 - Agradecimientos
   filepath: /assets/downloads/handbook/PBCore_Handbook_Section_9.pdf
-  description: The ninth section of the PBCore Handbook acknowledges the granting agencies, organizations, and individuals that have helped to make this documentation available.
+  description: La novena sección del Manual de PBCore le agradece a las agencias de financiación, las organizaciones y los individuos que ayudaron a poner a disposición esta documentación.
 - title: |
-    PBCore Handbook Section 10 - Apppendix A: PBCore 2.1 XML Schema and Process History
+    Manual de PBCore Sección 10 - Apéndice A: Historia del Proceso y Esquema XML de PBCore 2.1
   filepath: /assets/downloads/handbook/PBCore_Handbook_Section_10.pdf
-  description: The tenth section of the PBCore Handbook appends to the document the PBCore 2.1 XSD and process history of schema updates from PBCore 2.0 to PBCore 2.1.
-- title: PBCore Handbook Table of Contents
+  description: La décima sección del Manual de PBCore se suma a la documentación con el XSD de PBCore 2.1 e historia del proceso de las actualizaciones desde PBCore 2.0 a PBCore 2.1.
+- title: Índice del Manual de PBCore
   filepath: /assets/downloads/handbook/PBCore_Handbook_Table_of_Contents.pdf
-  description: The PBCore Handbook's Table of Contents
-- title: PBCore Handbook Title Page
+  description: El índice del Manual de PBCore
+- title: Portada del Manual de PBCore
   filepath: /assets/downloads/handbook/PBCore_Handbook_Title_Page.pdf
-  description: The Title Page for the PBCore Handbook
+  description: La portada del Manual de PBCore

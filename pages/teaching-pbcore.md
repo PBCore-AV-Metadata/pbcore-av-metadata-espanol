@@ -6,26 +6,26 @@ permalink: /teaching-pbcore
 keywords: ["Resources", "Learning Tools", "Presentations"]
 ---
 
-<h2 class="red title bold">Teaching PBCore</h2>
+<h2 class="red title bold">Enseñanza de PBCore</h2>
 
-In March 2019, the WGBH Educational Foundation hosted a two-day workshop titled "Teaching PBCore: Resources for A/V Metadata in the Classroom" with support from NEH. The workshop was designed to support educators teaching metadata at library and archival science programs in developing curriculum materials around PBCore.
+En marzo de 2019 la WGBH Educational Foundation (Fundación Educativa WGBH) ofreció un seminario de dos días titulado “Teaching PBCore: Resources for A/V Metadata in the Classroom” (Enseñanza de PBCore: Recursos para los Metadatos Audiovisuales en el Aula”. El mismo contó con el apoyo de NEH. El seminario fue diseñado para ayudar a los educadores de programas de bibliotecología y archivología a desarrollar materiales educativos sobre PBCore.
 
-After the workshop, attendees supplied sample syllabi, lesson plans, and educational materials for PBCore instruction. These resources are collected here, and may be supplemented in the future with additional PBCore resources provided by trainers and educators.
+Luego del seminario, los asistentes facilitaron programas de estudio modelo, planes de clases y materiales educativos para la enseñanza de PBCore. Estos recursos se encuentran reunidos aquí, y podrán completarse en el futuro con otros recursos de PBCore adicionales que provean instructores y educadores.
 
-Shawn Averkamp (New York University) - <a href="/assets/downloads/EducatorWorkshop_ShawnAverkamp.pdf">Sample Syllabus</a>
+Shawn Averkamp (New York University) - <a href="/assets/downloads/EducatorWorkshop_ShawnAverkamp.pdf">Ejemplo de programa de estudios</a>
 
-Joan Beaudoin (Wayne State University) - <a href="/assets/downloads/EducatorWorkshop_JoanBeaudoin.docx">Sample Syllabus</a>
+Joan Beaudoin (Wayne State University) - <a href="/assets/downloads/EducatorWorkshop_JoanBeaudoin.docx">Ejemplo de programa de estudios</a>
 
-Snowden Becker (Consulting Archivist) - <a href="/assets/downloads/EducatorWorkshop_SnowdenBecker_LAAC.docx">Workshop Lesson Plan</a> and <a href="/assets/downloads/EducatorWorkshop_SnowdenBecker_SampleSlides.pptx">Slides</a>
+Snowden Becker (Consulting Archivist) - <a href="/assets/downloads/EducatorWorkshop_SnowdenBecker_LAAC.docx">Plan de clases para el seminario</a> y <a href="/assets/downloads/EducatorWorkshop_SnowdenBecker_SampleSlides.pptx">diapositivas</a>
 
-Ed Benoit (Louisiana State University) - <a href="/assets/downloads/EducatorWorkshop_EdBenoit.docx">Sample Syllabus</a>
+Ed Benoit (Louisiana State University) - <a href="/assets/downloads/EducatorWorkshop_EdBenoit.docx">Ejemplo de programa de estudios</a>
 
-Yunseon Choi (Valdosta State University) - <a href="/assets/downloads/EducatorWorkshop_YunseonChoi.pdf">PBCore Lesson Plan</a>
+Yunseon Choi (Valdosta State University) - <a href="/assets/downloads/EducatorWorkshop_YunseonChoi.pdf">Plan de clases para PBCore</a>
 
-Karen Gracy (Kent State University) - <a href="/assets/downloads/EducatorWorkshop_KarenGracy.doc">Sample Syllabus</a>
+Karen Gracy (Kent State University) - <a href="/assets/downloads/EducatorWorkshop_KarenGracy.doc">Ejemplo de programa de estudios</a>
 
-Jimi Jones (University of Illinois) - <a href="/assets/downloads/EducatorWorkshop_JimiJones.pdf">Sample Syllabus</a>
+Jimi Jones (University of Illinois) - <a href="/assets/downloads/EducatorWorkshop_JimiJones.pdf">Ejemplo de programa de estudios</a>
 
-Steven MacCall (University of Alabama) - <a href="/assets/downloads/EducatorWorkshop_StevenMacCall.docx">PBCore Learning Components Plan</a>
+Steven MacCall (University of Alabama) - <a href="/assets/downloads/EducatorWorkshop_StevenMacCall.docx">Plan de componentes para la enseñanza de PBCore</a>
 
-Alexandra Provo (Pratt University) - <a href="/assets/downloads/EducatorWorkshop_AlexandraProvo.docx">XML Lesson Plan</a> and <a href="/assets/downloads/EducatorWorkshop_AlexandraProvo_SampleSlides.pptx">Slides</a>
+Alexandra Provo (Pratt University) - <a href="/assets/downloads/EducatorWorkshop_AlexandraProvo.docx">Plan de clases en XML</a> y <a href="/assets/downloads/EducatorWorkshop_AlexandraProvo_SampleSlides.pptx">diapositivas</a>

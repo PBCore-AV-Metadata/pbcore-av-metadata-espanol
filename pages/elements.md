@@ -6,8 +6,8 @@ permalink: /elements
 keywords: ["Schema", "Elements", "XML", "Creating Records"]
 ---
 
-<h2 class="green title bold">Elements</h2>
+<h2 class="green title bold">Elementos</h2>
 
-PBCore is made up of elements, which can be organized into three main groups: Root Elements, Asset Elements, Instantiation Elements. Elements are a way to structure information based on what type of information it is.
+PBCore se compone de elementos, que se pueden organizar en tres grupos principales: Elementos Raíz, Elementos de Recursos y Elementos de Instanciación. Los elementos son una forma de estructurar la información en función del tipo de información.
 
-To view details about a specific element, click on an element name on the left side of the screen.
+Para ver detalles sobre un elemento específico, haga clic en el nombre de un elemento en el lado izquierdo de la pantalla.

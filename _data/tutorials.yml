@@ -1,127 +1,127 @@
-- section: An Overview of PBCore
-  description: These videos walkthrough the basic concepts used in PBCore and how to implement them in metadata records.
+- section: Estructura general de PBCore
+  description: Estos videos lo guiarán a través de los conceptos básicos que se usan en PBCore y su implementación en los registros de metadatos.
   tutorials:
-    - title: PBCore Structure
+    - title: Estructura de PBCore
       id: structure
-      description: Explains the components of a PBCore record
+      description: Explica los componentes de un registro de PBCore
       embed: >
         <iframe src="https://player.vimeo.com/video/313029784" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-    - title: Making an Asset Record
+    - title: Cómo Hacer un Registro de un Recurso
       id: asset-record
-      description: Explains the parts of an Asset record and how to implement them
+      description: Explica las partes que componen un registro de un Recurso y cómo implementarlas
       embed: >
         <iframe src="https://player.vimeo.com/video/312733511" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-    - title: Using Instantiations and Essence Tracks
+    - title: Uso de Instanciaciones y Essence Tracks
       id: instantiations
-      description: Explains how to track physical and digital copies of an asset in PBCore records
+      description: Explica cómo rastrear copias físicas y digitales de un recurso en los registros de PBCore.
       embed: >
         <iframe src="https://player.vimeo.com/video/313027511" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-    - title: Using PBCore Extensions
+    - title: Uso de Extensiones de PBCore
       id: extensions
-      description: Explains how to keep metadata that doesn't traditionally fit into a PBCore record in your PBCore records
+      description: Explica cómo guardar en sus registros de PBCore metadatos que no cuadran dentro de un típico registro de registro de PBCore.
       embed: >
         <iframe src="https://player.vimeo.com/video/312996232" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-    - title: Using PBCoreCollections
+    - title: Uso de PBCoreCollections
       id: collections
-      description: Explains how to use the pbcoreCollection root element
+      description: Explica cómo usar el elemento raíz PBCoreCollection
       embed: >
         <iframe src="https://player.vimeo.com/video/336594390" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
-    - title: PBCore Controlled Vocabularies
+    - title: Vocabularios Controlados
       id: vocabs
-      description: Explains what controlled vocabularies are and how to use them in PBCore records
+      description: Explica cómo usar y actualizar los vocabularios controlados en PBCore.
       embed: >
         <iframe src="https://player.vimeo.com/video/313002298" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-    - title: Using Other Terms with PBCore Controlled Vocabularies
+    - title: Uso de Otros Términos dentro de los Vocabularios Controlados de PBCore
       id: expanded-vocabs
-      description: Explains how to add additional terms to controlled vocabularies to meet local needs
+      description: Explica cómo agregar términos adicionales a los vocabularios controlados para adaptarse a las necesidades locales.
       embed: >
         <iframe src="https://player.vimeo.com/video/313425962" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-- section: PBCore Cataloging Tool
-  description: These videos walkthrough setting up and using key features in the <a href="/cataloging-tool">PBCore Cataloging Tool</a>.
+- section: Herramienta de Catalogación de PBCore
+  description: Estos videos proveen una guía para la configuración y el uso de las funciones esenciales de la <a href="/cataloging-tool">Herramienta de Catalogación de PBCore</a>.
   tutorials:
-    - title: Introduction
+    - title: Introducción
       id: tool-intro
-      description: Introduces the PBCore Cataloging Tool and how to set it up
+      description: Una introducción sobre la Herramienta de Catalogación de PBCore y cómo configurarla
       embed: >
         <iframe src="https://player.vimeo.com/video/303077604" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-    - title: Create and Edit Records
+    - title: Crear y Editar Registros
       id: create-records
-      description: Explains how to make new and edit individual PBCore records
+      description: Explica cómo hacer nuevos registros individuales de PBCore y editarlos.
       embed: >
         <iframe src="https://player.vimeo.com/video/303184150" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
-    - title: How to Search
+    - title: Cómo Buscar
       id: tool-search
-      description: Explains how to search records in the PBCore Cataloging Tool
+      description: Explica cómo buscar registros en la Herramienta de Catalogación de PBCore.
       embed: >
         <iframe src="https://player.vimeo.com/video/303075285" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-    - title: Controlled Vocabularies
+    - title: Vocabularios Controlados
       id: tool-vocabs
-      description: Explains how to use and update controlled vocabulaires in the PBCore Cataloging Tool
+      description: Explica cómo usar y actualizar los vocabularios controlados en la Herramienta de Catalogación de PBCore.
       embed: >
         <iframe src="https://player.vimeo.com/video/303075963" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-    - title: Preparing a CSV for the PBCore Cataloging Tool
+    - title: Preparar un CSV para la Herramienta de Catalogación de PBCore
       id: tool-prepping-csv
-      description: Explains how to format a CSV file for ingest in to the PBCore Cataloging Tool
+      description: Explica cómo formatear un archivo CSV para ingestarlo en la Herramienta de Catalogación de PBCore
       embed: >
         <iframe src="https://player.vimeo.com/video/336594133" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
-    - title: Using Spreadsheets
+    - title: Uso de Hojas de Cálculo
       id: tool-spreadsheets
-      description: Explains how to export and import data in CSV format, so that you have your data as a spreadsheet
+      description: Explica cómo exportar e importar datos en formato CSV, para que pueda tener sus datos en forma de planilla
       embed: >
         <iframe src="https://player.vimeo.com/video/313430728" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-    - title: Template Records
+    - title: Plantilla de Registros
       id: tool-templates
-      description: Explains how to make a template records for more efficient cataloging in the PBCore Cataloging Tool
+      description: Explica cómo crear una plantilla para registros para poder catalogar de modo más eficiente en la Herramienta de Catalogación de PBCore.
       embed: >
         <iframe src="https://player.vimeo.com/video/313254772" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-    - title: Batch Editing
+    - title: Edición por Lotes
       id: tool-batch
-      description: Explains how to add the same new value to many records at the same time in  the PBCore Cataloging Tool
+      description: Explica cómo agregar el mismo nuevo valor a varios registros al mismo tiempo en la Herramienta de Catalogación de PBCore.
       embed: >
         <iframe src="https://player.vimeo.com/video/313427056" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-- section: PBCore Spreadsheet Templates
-  description: These videos explain how to use the PBCore spreadsheet templates, which are available to download <a href="/spreadsheet-templates">here</a>.
+- section: Plantillas de Hojas de Cálculos de PBCore
+  description: Estos videos explican cómo usar las plantillas de hojas de cálculo de PBCore, las cuales se encuentran disponibles para descarga <a href="/spreadsheet-templates">aquí</a>.
   tutorials:
-    - title: Simple Spreadsheet Template
+    - title: Plantilla de Hoja de Cálculo Simple
       id: simple-spreadsheet
-      description: Explains how to use the PBCore Simple Spreadsheet to create an inventory of audiovisual assets
+      description: Explica cómo usar la Plantilla de Hoja de Cálculo de PBCore Simple para crear un inventario de recursos audiovisuales.
       embed: >
         <iframe src="https://player.vimeo.com/video/336593802" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
-    - title: Extended Spreadsheet Temaplate
+    - title: Plantilla de Hoja de Cálculo Extendida
       id: extended-spreadsheet
-      description: Explains how to use the PBCore Extended Spreadsheet (both collapsed and expanded versions) to capture PBCore metadata, especially for importing into the PBCore Cataloging Tool
+      description: Explica cómo usar la Plantilla de Hoja de Cálculo de PBCore Extendida (tanto la versión colapsada como la expandida) para capturar metadatos de PBCore, especialmente para importar a la Herramienta de Catalogación de PBCore.
       embed: >
         <iframe src="https://player.vimeo.com/video/375495664" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
-    - title: Multiple Instantiation Inventory Spreadsheet Template
+    - title: Plantilla de Hoja de Cálculo de Inventario de Múltiples Instanciaciones
       id: multiple-instantiation-spreadsheet
-      description: Explains how to use the Multiple Instantiation Inventory Spreadsheet to create an inventory with multiple copies of the same intellectual content
+      description: Explica cómo usar la Hoja de Cálculo de Inventario de Múltiples Instanciaciones para crear un inventario con múltiples copias del mismo contenido intelectual.
       embed: >
         <iframe src="https://player.vimeo.com/video/375504011" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
-- section: Other PBCore Tools
-  description: These videos walk through how to use other tools that can help you use PBCore.
+- section: Otras herramientas de PBCore
+  description: Estos videos explican cómo usar otras herramientas que pueden ser de ayuda al usar PBCore.
   tutorials:
-    - title: Exporting PBCore 2.1 from MediaInfo
+    - title: Cómo Exportar PBCore 2.1 desde MediaInfo
       id: mediainfo
-      description: Explains how to use MediaInfo to generate pbcoreInstantiation documents for digital files
+      description: Explica cómo usar MediaInfo para generar documentos de pbcoreInstantiation para archivos digitales
       embed: >
         <iframe src="https://player.vimeo.com/video/336594459" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
-    - title: Using the PBCore Validator
+    - title: Cómo usar el Validador de PBCore
       id: validator
-      description: Explains how to use the <a href="/validator">PBCore XML Validator</a> to make sure your PBCore files conform to the <a href="/xsd">XSD</a>.
+      description: Explica cómo usar el Validador XML de PBCore para asegurarse de que sus archivos de PBCore son compatibles con el <a href="/xsd">XSD</a>.
       embed: >
         <iframe src="https://player.vimeo.com/video/336593532" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
-    - title: Collective Access PBCore 2.1 Profile
+    - title: Perfil de PBCore 2.1 para Collective Access
       id: collective-access
-      description: Explains how to use the PBCore 2.1 profile in a Collective Access database to capture information about assets and instantiations
+      description: Explica cómo usar el perfil de PBCore 2.1 en una base de datos de Collective Access para capturar información sobre recursos e instanciaciones
       embed: >
         <iframe src="https://player.vimeo.com/video/375489895" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
-    - title: PBCore Omeka Plugin
+    - title: Plugin de PBCore para Omeka
       id: omeka
-      description: Explains how to capture PBCore-compliant metadata in Omeka.
+      description: Explica cómo capturar metadatos compatibles con PBCore en Omeka.
       embed: >
         <iframe src="https://player.vimeo.com/video/375509761" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
-    - title: Building a PBCore-Compliant Database
+    - title: Cómo hacer una Base de Datos Compatible con PBCore
       id: compliant-database
-      description: Explains ideas to consider when building a PBCore-compliant database
+      description: Explica algunas idea a tener en cuenta a la hora de hacer una base de datos compatible con PBCore
       embed: >
         <iframe src="https://player.vimeo.com/video/336594294" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>

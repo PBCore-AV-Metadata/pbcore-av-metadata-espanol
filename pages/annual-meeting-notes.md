@@ -6,11 +6,15 @@ layout: default
 keywords: ["Community", "Association of Moving Image Archivists (AMIA)", "PBCore Advisory Subcommittee"]
 ---
 
-<h2 class="dark-grey title bold">Annual Meeting Notes</h2>
+<h2 class="dark-grey title bold">Notas de la Reunión Anual</h2>
 
-<p>The PBCore Advisory Sub-Committee of the Association of Moving Image Archivists (AMIA) Cataloging and Metadata Committee holds its annual meeting at the <a href="http://www.amiaconference.net/">Association of Moving Image Archivists (AMIA) conference</a> to discuss PBCore’s development over the preceding year and make a plan for the year ahead. Although the meeting is held at AMIA, non-AMIA members with an interest in PBCore are welcome to participate remotely.</p>
+<p>El Subcomité Asesor de PBCore de la Asociación de Archivistas de Imágenes en Movimiento (Association of Moving Image Archivists) celebra su reunión anual en la conferencia de AMIA para discutir el desarrollo de PBCore durante el año anterior y hacer un plan para el año siguiente. Aunque la reunión se lleva a cabo en la conferencia de AMIA, los no miembros de AMIA con interés en PBCore pueden participar de forma remota.</p>
 
-<h3>Past Agendas/Minutes</h3>
+<h3>Agendas pasadas/Minutas</h3>
+
+<p><a href="/assets/downloads/PBCore_Annual_Meeting_2021.pdf" download>2021</a></p>
+
+<p><a href="/assets/downloads/PBCore_Annual_Meeting_2019.pdf" download>2019</a></p>
 
 <p><a href="/assets/downloads/PBCore_Annual_Meeting_2018.pdf" download>2018</a></p>
 
@@ -20,4 +24,3 @@ keywords: ["Community", "Association of Moving Image Archivists (AMIA)", "PBCore
 
 <p><a href="/assets/downloads/PBCore_Annual_Meeting_2015.pdf" download>2015</a></p>
 
-<p>The annual meeting for 2019 will be held on Friday, November 15, 5:45-6:45 PM EST. Meeting agenda available <a href="https://docs.google.com/document/d/1-uWAiYsaKbYIAvhM8HxIrEb1VBRVNqePdZpuiT7uziA/edit?usp=sharing">here.</a> Interested parties can email PBCoreInfo@wgbh.org for information on remote participation.</p>

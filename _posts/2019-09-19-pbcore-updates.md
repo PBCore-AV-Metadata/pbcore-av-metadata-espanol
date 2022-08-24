@@ -1,50 +1,51 @@
 ---
 layout: post
-title: "Upcoming PBCore Events"
+title: "Próximos eventos de PBCore"
 section: Community
 excerpt-separator: <span class="end-blurb"></span>
 ---
 
-We've got several events coming up in the next two months, including a webinar, an IASA presentation, a workshop, and the annual PBCore Sub-Committee meeting at the Association of Moving Image Archives conference.
+Tenemos varios eventos en los próximos dos meses, incluyendo un webinario, una presentación en IASA, un seminario y la reunión anual del Subcomité de PBCore en el Congreso de la Association of Moving Image Archivists (Asociación de Archivistas de Imágenes en Movimiento).
 <span class="end-blurb"></span>
 
-## Introducing the PBSpace Plugin
-**September 26th, 2-3 PM ET**
+## Presentación del Plugin PBSpace
+**26 de septiembre, 14:00-15:00 hs ET**
 
-Some of you may remember last year’s Hack Day project on developing a PBCore plugin to represent audiovisual content in the open-source archival management system ArchivesSpace. We’re happy to announce that this project is now completed!
+Tal vez algunos de ustedes recuerden el proyecto Hack Day del año pasado, en el que se trabajó sobre el desarrollo de un plugin de PBCore para representar contenido audiovisual en el sistema de gestión de archivos de código abierto ArchivesSpace. ¡Nos complace anunciar que este proyecto ha concluído!
 
-WBGH web developer Jason Corum will be presenting the PBSpace plugin at an ArchivesSpace webinar next Thursday, September 26th, 2-3 PM ET. No registration is required for this webinar. You can find more information and a viewing link [here](https://archivesspace.org/archives/5645).
+El desarrollador web de WBGH, Jason Corum, presentará el plugin PBSpace en un webinario de ArchivesSpace el próximo jueves 26 de septiembre, de 14:00 a 15:00 hs ET. No es necesario registrarse para este webinario. Puede encontrar más información y un enlace de visualización aquí.
 
-The code for the plugin is available on [GitHub](https://github.com/WGBH-MLA/pbspace). Check the External Tools and Integrations page of the website for more information about PBSpace, as well as upcoming integrations with Collective Access and Omeka! 
+El código del plugin está disponible en [GitHub](https://github.com/WGBH-MLA/pbspace). ¡Consulte la página External Tools and Integrations del sitio web para obtener más información sobre PBSpace, así como las próximas integraciones con Collective Access y Omeka!
 
-## Core Developments in Audiovisual Metadata: A Standards Update
-**International Association of Sound and Audiovisual Archives Annual Conference <br />
-October 2, 11 AM CET <br />
-Hilversum, The Netherlands**
+## Desarrollos Fundamentales en Metadatos Audiovisuales: una actualización de estándares
+**Congreso anual de la Association of Sound and Audiovisual Archives (Asociación Internacional de Archivos Sonoros y Audiovisuales)<br />
+2 de octubre, 11:00 hs. CET<br />
+Hilversum, Países Bajos**
 
-In this IASA conference panel, representatives of PBCore and EBUCore will discuss the latest developments in the standardization of audiovisual metadata and how those standards can be implemented in real-world use cases. PBCore is primarily an XML-based standard, while EBUCore is both an XML-based standard and a fully-fledged RDF ontology. In 2015, PBCore and EBUCore began the process of developing a roadmap between PBCore XML to EBUCore RDF by unifying the existing vocabularies of both metadata standards. As a result of the NEH-funded PBCore Development and Training Project, a mapping between the two standards is now complete and available on the updated PBCore website, along with updated tools and documentation supporting standardized audiovisual metadata (including a Cataloging Tool, an XML Validator, and improved MediaInfo support, among others). The panel will include demonstrations of the new website and metadata tools, a discussion of the use cases for the PBCore and EBUCore data models and semantic web applications, and a conversation about the future of a/v metadata, including the implications of AI for metadata enrichment. 
+En este panel del congreso de la IASA, representantes de PBCore y EBUCore discutirán los últimos avances en la estandarización de metadatos audiovisuales y cómo se pueden implementar estos estándares en casos de uso reales. PBCore es esencialmente un estándar que se basa en XML, mientras que EBUCore es tanto un estándar que se basa en XML como una ontología RDF completa. En 2015, PBCore y EBUCore comenzaron el proceso de desarrollo de una hoja de ruta entre PBCore XML hacia EBUCore RDF unificando los vocabularios existentes de ambos estándares de metadatos.
+Como resultado del Proyecto de Capacitación y Desarrollo de PBCore, financiado por NEH, se terminó un mapeo entre los dos estándares y el mismo está disponible en el sitio web actualizado de PBCore. También se encuentran disponibles herramientas y documentación actualizadas de apoyo para los metadatos audiovisuales estandarizados (incluyendo una herramienta de catalogación, un validador XML y una mejor compatibilidad con MediaInfo, entre otros). El panel contará con demostraciones del nuevo sitio web y las nuevas herramientas de metadatos, una discusión sobre los casos de uso de los modelos de datos y las aplicaciones de la web semántica de PBCore y EBUCore y una conversación sobre el futuro de los metadatos audiovisuales, incluidas las implicancias de la IA para el enriquecimiento de metadatos.
 
-You can find the full [IASA conference schedule](https://iasa2019annualconference.sched.com/) and [registration information](http://2019.iasa-web.org/registration) at http://2019.iasa-web.org. 
+Puede encontrar [el calendario completo del congreso IASA](https://iasa2019annualconference.sched.com/) y [la información de registro](http://2019.iasa-web.org/registration) en http://2019.iasa-web.org. 
 
-## Cataloging the Moving Image: Data Modeling, FRBR, BIBFRAME, and PBCore
-**Association of Moving Image Archives Annual Conference <br />
-November 13, 8:30-5:30 PM ET <br />
+## Catalogación de la Imagen en Movimiento: modelado de datos, FRBR, BIBFRAME y PBCore
+**Congreso anual de la Association of Moving Image Archivists (Asociación de Archivistas de Imágenes en Movimiento) <br />
+13 de noviembre, de 8:30 a 17:30 ET <br />
 Baltimore, Maryland**
 
-This highly-interactive workshop will provide participants with real-world strategies to evaluate and implement data models, descriptive  standards, controlled vocabularies, and shared data authorities, through practical hands-on exercises. Dynamic presentations will  illustrate the role and purpose of putting in place a strong data model for bibliographic description, using BIBFRAME and FRBR  examples, and the value of implementing standards such as LCSH, LCGFT, and AAT as data authorities. Participants will put these  cataloging and metadata concepts directly into practice utilizing tools emerging from the NEH-funded PBCore Development and Training  Project.  A special hands-on session will apply genre/form headings to moving images, and show how they are used symbiotically with Library of  Congress Subject Headings to describe both what a work is and what it is about. 
+Este seminario altamente interactivo proporcionará a los participantes estrategias del mundo real para evaluar e implementar modelos de datos, estándares descriptivos, vocabularios controlados y autoridades de datos compartidos, a través de ejercicios prácticos. Habrá presentaciones dinámicas que ilustrarán el papel y el propósito de la implementación de un modelo de datos sólido para la descripción bibliográfica, utilizando ejemplos de BIBFRAME y FRBR y el valor de la implementación de estándares como LCSH, LCGFT y AAT como autoridades de datos. Los participantes pondrán directamente en práctica estos conceptos de catalogación y metadatos, utilizando herramientas surgidas del Proyecto de Capacitación y Desarrollo de PBCore, financiado por NEH. A través de una sesión práctica especial se aplicarán encabezados de género/forma a imágenes en movimiento y se mostrará cómo se usan simbióticamente con los encabezados de materia de la Library of Congress para describir en qué consiste una obra y de qué se trata.
 
-Participants will complete simple and complex  inventory projects using PBCore Inventory Templates; generate detailed PBCore catalog records using the PBCore Cataloging Tool;  compare/contrast inventory records, catalog records, and XML records; and validate PBCore XML records using the PBCore XML  Validator. Participants will also practice cross walking between different standards.  Presenters include well-respected experts in the field who take care to design sessions that are highly engaging and reflect the most  current developments in audiovisual archiving. This workshop is sponsored by the Cataloging and Metadata Committee in collaboration  with the PBCore advisory subcommittee. This workshop is intended for those with a moderate level of understanding of metadata  standards and implementation strategies.
+Los participantes realizarán proyectos de inventario simples y complejos utilizando las plantillas de inventario de PBCore. También generarán registros detallados de catálogo de PBCore utilizando la herramienta de catalogación de PBCore y compararán/contrastarán registros de inventario, registros de catálogo y registros XML. Además, validarán los registros XML de PBCore utilizando el validador XML de PBCore. Los participantes también practicarán el cruce entre diferentes estándares. Entre los presentadores habrá respetados expertos en el campo que preparan sesiones interesantes que reflejan los desarrollos más actualizados de los archivos audiovisuales. Este seminario está patrocinado por el Cataloging and Metadata Committee (Comité de Catalogación y Metadatos), en colaboración con el PBCore advisory subcommittee (Subcomité asesor de PBCore). Este seminario está destinado a aquellos participantes con un nivel moderado de comprensión de los estándares de metadatos y las estrategias de implementación.
 
-You can find the [preliminary AMIA program](http://www.amiaconference.net/preliminary-program-4/), including workshops, and [registration information](http://www.amiaconference.net/register-for-amia-2019/) at http://www.amiaconference.net/. 
+Puede encontrar [el programa preliminar de la AMIA](http://www.amiaconference.net/preliminary-program-4/), que inluye los seminarios y [la información de registro](http://www.amiaconference.net/register-for-amia-2019/) en http://www.amiaconference.net/. 
 
-## Annual PBCore Advisory Sub-Committee Meeting 
-**Association of Moving Image Archives Annual Conference <br />
-Date/Time TBD**
+## Reunión anual del PBCore Advisory Sub-Committee (Subcomité asesor de PBCore)
+**Congreso anual de la Association of Moving Image Archivists (Asociación de Archivistas de Imágenes en Movimiento) <br />
+Fecha/hora por determinar**
 
-As usual, the Association of Moving Image Archives Annual Conference will host the meeting of the PBCore Advisory Sub-Committee, at which we'll present developments over the past year and discuss future directions for the standard. Although the meeting will take place at AMIA in Baltimore, any PBCore users are welcome to join virtually.
+Como de costumbre, en el Congreso anual de la Association of Moving Image Archivists (Asociación de Archivistas de Imágenes en Movimiento) se llevará a cabo la reunión del Subcomité Asesor de PBCore, en la que presentaremos los desarrollos del año pasado y discutiremos las direcciones futuras para el estándar. Aunque la reunión tendrá lugar en AMIA en Baltimore, cualquier usuario de PBCore podrá unirse de modo virtual.
 
-This year, we'll be asking attendees to approve some language changes in PBCore definitions for the forthcoming PBCore Handbook, which will be reflected on the official website. The prospective changes will be circulated through the PBCore Basecamp in the next few weeks so attendees have the opportunity to review, so stay tuned. 
+Este año, les pediremos a los asistentes que aprueben algunos cambios de lenguaje en las definiciones de PBCore para el próximo Manual de PBCore, que se reflejarán en el sitio web oficial. Los posibles cambios serán enviados a través del Basecamp de PBCore en las próximas semanas, para que los asistentes tengan la oportunidad de revisarlos, así que estén atentos.
 
-We're also seeking any interested PBCore users to present case studies at the annual meeting of how PBCore is used at their organizations.
+También estamos buscando usuarios de PBCore que estén interesados en presentar estudios de casos en la reunión anual sobre cómo se utiliza PBCore en sus organizaciones.
 
-If you're interested in presenting a case study, and/or would like to attend the meeting virtually, contact PBCoreInfo@wgbh.org. 
+Si está interesado en presentar un estudio de caso y/o le gustaría asistir a la reunión virtualmente, comuníquese con PBCoreInfo@wgbh.org.

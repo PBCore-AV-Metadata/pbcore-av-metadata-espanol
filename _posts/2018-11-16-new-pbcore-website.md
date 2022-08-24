@@ -1,27 +1,27 @@
 ---
 layout: post
-title: "New PBCore Website"
+title: "Nuevo sitio web de PBCore"
 section: Community
 excerpt-separator: <span class="end-blurb"></span>
 ---
 
-Welcome to the new PBCore website! Thanks to the NEH-funded PBCore Development and Training Project, PBCore has a new look and a number of new tools and features designed to make it more usable and accessible to the archival and public media communities.
+¡Bienvenidos al nuevo sitio web de PBCore! Gracias al Proyecto de Capacitación y Desarrollo de PBCore financiado por NEH, PBCore ha renovado su imagen y cuenta con una serie de nuevas herramientas y funciones diseñadas para hacerlo más utilizable y accesible para las comunidades de los archivos y los medios públicos.
 <span class="end-blurb"></span>
 
-If you’re just getting started with PBCore, or want to learn more about the basics, visit [What Is PBCore]({{site.url}}/what-is-pbcore), [FAQ]({{site.url}}/faq), and [Glossary]({{site.url}}/glossary) to learn about PBCore’s basic functionality and implementation, as well as get a handle on key terms used throughout the site. You can see all elements, with their definitions, on the [Elements]({{site.url}}/elements) page; view attributes with their definitions on the [Attributes]({{site.url}}/attribute) page; and see PBCore’s supported controlled vocabularies on the [Controlled Vocabularies]({{site.url}}/pbcore-controlled-vocabularies) page. The [PBCore XML Schema]({{site.url}}/xsd) page provides an overview on PBCore’s structure and revisions from PBCore 2.0 to PBCore 2.1, as well as a link to the [PBCore GitHub repository](https://github.com/PBCore-AV-Metadata/PBCore_2.1/).
+Si usted recién está comenzando a utilizar  PBCore o desea obtener más información sobre los conceptos básicos, visite [¿Qué es PBCore?]({{site.url}}/what-is-pbcore), [Preguntas Frecuentes]({{site.url}}/faq), y [Glosario]({{site.url}}/glossary) para saber más sobre las funciones básicas de PBCore y su implementación, y para obtener un primer acercamiento a los términos clave que se utilizan a través de todo el sitio web. Puede ver todos los elementos, con sus definiciones, en la página [Elementos]({{site.url}}/elements); los atributos y sus definiciones en la página [Atributos]({{site.url}}/attribute); y los vocabularios controlados compatibles con PBCore en la página [Vocabularios Controlados]({{site.url}}/pbcore-controlled-vocabularies). La página del [esquema XML de PBCore]({{site.url}}/xsd) proporciona una descripción general de la estructura y las revisiones de PBCore de PBCore 2.0 a PBCore 2.1, así como un enlace al [repositorio de PBCore GitHub.](https://github.com/PBCore-AV-Metadata/PBCore_2.1/).
 
 
-If you’re already familiar with PBCore, check out our new pages and features, including:
-- The [PBCore Cataloging Tool]({{site.url}}/cataloging-tool), a web app created by Digital Bedrock that supports the creation, editing, and export of moving image-related metadata as PBCore XML records
-- [PBCore Spreadsheet Templates]({{site.url}}/spreadsheet-templates), designed to capture PBCore metadata in an easy human-readable format for inventory or database import
-- [PBCore Validator]({{site.url}}/validator), which checks the validity and provides best practice recommendations for PBCore XML documents
-- Updated integrations with [external tools]({{site.url}}/external-tools-and-integrations), including MediaInfo and ProTrack
-- [Mappings]({{site.url}}/mappings) to and from additional metadata standards, including MARC, Dublin Core, MODS, PREMIS, and EBUCore RDF
-- Updated [sample records]({{site.url}}/sample-records)
-- Video [tutorials]({{site.url}}/tutorials) covering everything from the basic structure of PBCore to how to design a PBCore-compliant database
-- [Case studies]({{site.url}}/pbcore-users) highlighting how different institutions implement the PBCore standard
-- Collected [annual meeting notes]({{site.url}}/annual-meeting-notes) from 2015 on
+Si ya está familiarizado con PBCore, consulte nuestras nuevas páginas y funciones, que incluyen:
+- La [herramienta de catalogación de PBCore]({{site.url}}/cataloging-tool), una aplicación web creada por Digital Bedrock que permite la creación, edición y exportación de metadatos relacionados con imágenes en movimiento como registros XML de PBCore
+- [Las plantillas de hojas de cálculo de PBCore]({{site.url}}/spreadsheet-templates), diseñadas para capturar metadatos de PBCore en un formato de fácil lectura para inventario o importación de bases de datos
+- [El Validador de PBCore]({{site.url}}/validator), que verifica la validez y proporciona recomendaciones de mejores prácticas para documentos XML de PBCore
+- Integraciones actualizadas con [herramientas externas]({{site.url}}/external-tools-and-integrations), incluidas MediaInfo y ProTrack
+- [Mapeos]({{site.url}}/mappings) hacia y desde estándares de metadatos adicionales, incluyendo MARC, Dublin Core, MODS, PREMIS y EBUCore RDF
+- [Ejemplos de registros]({{site.url}}/sample-records) actualizados
+- [Tutoriales en video]({{site.url}}/tutorials) que cubren todo, desde la estructura básica de PBCore hasta cómo diseñar una base de datos compatible con PBCore
+- [Estudios de casos]({{site.url}}/pbcore-users) que ilustran cómo diferentes instituciones implementan el estándar PBCore
+- Una recopilación de  [notas de reuniones anuales]({{site.url}}/annual-meeting-notes) desde 2015 en adelante 
 
-As the PBCore Development and Training Project continues, we’ll be adding more content to the site, including more video tutorials, updated external tool integrations, information about upcoming workshops, and more. We’d also love to feature more case studies and sample records, so please [contact us]({{site.url}}/contact) if you have any PBCore-related content that you’d like to share!
+A medida que continúe el Proyecto de Capacitación y Desarrollo de PBCore, agregaremos más contenido al sitio, incluyendo más tutoriales en video, integraciones de herramientas externas actualizadas, información sobre los próximos seminarios y más. También nos encantaría contar con más estudios de casos y ejemplos de registros, ¡así que [contáctenos]({{site.url}}/contact) si tiene algún contenido relacionado con PBCore que le gustaría compartir! 
 
-Thanks to everyone who’s made the new website possible, including the PBCore Development and Training Project Advisory Board; Dr. Rong Tang and the Simmons Usability Lab; and the WGBH Creative team.
+Gracias a todos los que hicieron posible el nuevo sitio web, incluida la PBCore Development and Training Project Advisory Board, el Dr. Rong Tang y el Simmons Usability Lab y el equipo creativo de WGBH.

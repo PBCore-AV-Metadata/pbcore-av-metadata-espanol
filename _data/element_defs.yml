@@ -1,296 +1,284 @@
 contributor:
-  definition: <strong>contributor</strong> identifies a person, people, or organization that has made substantial creative contributions to the asset. This contribution is considered to be secondary to the primary author(s) (person or organization) identified in the descriptor creator.
-  usage: required within pbcoreContributor, not repeatable
+  definition: <strong>contributor</strong> identifica a una persona, personas u organización que ha realizado contribuciones creativas sustanciales al recurso. Esta contribución se considera secundaria en relación a los autores principales (persona u organización) identificados en el creador del descriptor.
+  usage: requerido dentro de pbcoreContributor, no repetible
 contributorRole:
-  definition: <strong>contributorRole</strong> is used to identify the role played by the person, people or organizations identified in the companion element contributor. The PBCore schema allows for contributorRole to be repeated in the pbcoreContributor container element. This can be useful when a single person or organization is associated with multiple roles in an asset.
-  usage: optional, repeatable
+  definition: <strong>contributorRole</strong> se utiliza para identificar el rol que desempeña la persona, personas u organizaciones identificadas en el elemento complementario contributor. El esquema PBCore permite que se repita el rol de colaborador en el elemento contenedor pbcoreContributor. Esto puede ser útil cuando una sola persona u organización está asociada con varios roles en un recurso.
+  usage: opcional, repetible
 coverage:
-  definition: <strong>coverage</strong> refers to either the geographic location or the time period covered by the asset’s intellectual content. For geographic locations (‘spatial’ descriptors), it is expressed by keywords such as place names (e.g. ‘Alaska’ or ‘Washington, DC’), numeric coordinates or geo-spatial data. For time-based events (‘temporal’ descriptors), it is expressed by using a date, period, era, or time-based event that is portrayed or covered in the intellectual content (e.g. ‘2007’ or ‘Victorian Era’). The PBCore metadata element coverage houses the actual spatial or temporal keywords. The companion element coverageType is used to identify the type of keywords that are being used.
-  usage: required with pbcoreCoverage, not repeatable
+  definition: <strong>coverage</strong> se refiere a la ubicación geográfica o al período de tiempo cubierto por el contenido intelectual del recurso. Para ubicaciones geográficas (descriptores “espaciales”), se expresa mediante palabras clave como nombres de lugares (por ejemplo, “Alaska” o “Washington, DC”), coordenadas numéricas o datos geoespaciales. Para eventos basados ​​en el tiempo (descriptores 'temporales'), se expresa mediante el uso de una fecha, período, era o evento basado en el tiempo que se representa o cubre en el contenido intelectual (por ejemplo, “2007” o “Era victoriana”). La cobertura de elementos de metadatos de PBCore alberga las palabras clave espaciales o temporales reales. El elemento complementario coverageType se utiliza para identificar el tipo de palabras clave que se utilizan.
+  usage: requerido con pbcoreCoverage, no repetible
 coverageType:
-  definition: <strong>coverageType</strong> is used to identify the actual type of keywords that are being used by its companion metadata element coverage. coverageType provides a picklist of two possible types – spatial or temporal – because coverage in intellectual content may be expressed spatially by geographic location or it may also be expressed temporally by a date, period, era, or time-based event.
-  usage: option, not repeatable
+  definition: <strong>coverageType</strong> se utiliza para identificar el tipo real de palabras clave que utiliza su cobertura de elementos de metadatos complementarios. coverageType proporciona una lista de selección de dos tipos posibles en inglés, Spatial (espacial) o Temporal (temporal), porque la cobertura en el contenido intelectual puede expresarse espacialmente por ubicación geográfica o también puede expresarse temporalmente por una fecha, un período, una era o un evento basado en el tiempo.
+  usage: opcional, no repetible
 creator:
-  definition: <strong>creator</strong> identifies the primary person, people, or organization(s) responsible for creating the asset. Note that non-primary names and roles should be included within the pbcoreContributor container.
-  usage: required within pbcoreCreator, not repeatable
+  definition: <strong>creator</strong> identifica a la persona, personas u organizaciones principales responsables de crear el recurso. Tenga en cuenta que los nombres y roles no principales deben incluirse dentro del contenedor pbcoreContributor.
+  usage: requerido dentro de pbcoreCreator, no repetible
 creatorRole:
-  definition: <strong>creatorRole</strong> is used to identify the role played by the person, people or organization(s) identified in the companion descriptor creator. The PBCore schema allows for creatorRole to be repeated in the pbcoreCreator container element. This can be useful when a single person or organization is associated with multiple roles in an asset.
-  usage: optional, repeatable
+  definition: <strong>creatorRole</strong> se utiliza para identificar el rol desempeñado por la persona, las personas o las organizaciones identificadas en el creador del descriptor complementario. El esquema de PBCore permite que CreatorRole se repita en el elemento contenedor pbcoreCreator. Esto puede ser útil cuando una sola persona u organización está asociada con varios roles en un recurso.
+  usage: opcional, repetible
 essenceTrackAnnotation:
-  definition: <strong>essenceTrackAnnotation</strong> can store any supplementary information about a track or the metadata used to describe it. It clarifies element values, terms, descriptors, and vocabularies that may not be otherwise sufficiently understood.
-  usage: optional, repeatable
+  definition: <strong>essenceTrackAnnotation</strong> puede almacenar cualquier información adicional sobre una pista o los metadatos utilizados para describirla. Aclara los valores de los elementos, los términos, los descriptores y los vocabularios que de otro modo no se comprenderían lo suficiente.
+  usage: opcional, repetible
 essenceTrackAspectRatio:
-  definition: <strong>essenceTrackAspectRatio</strong> indicates the ratio of horizontal to vertical proportions in the display of a static image or moving image.
-  usage: optional, not repeatable
+  definition: <strong>essenceTrackAspectRatio</strong> indica la relación entre las proporciones horizontales y verticales en la visualización de una imagen estática o en movimiento.
+  usage: opcional, no repetible
 essenceTrackBitDepth:
-  definition: <strong>essenceTrackBitDepth</strong> specifies how much data is sampled when information is digitized, encoded, or converted for an instantiation (specifically, audio, video, or image). Bit depth is measured in bits and generally implies an arbitrary perception of quality during playback of an instantiation (the higher the bit depth, the greater the fidelity).
-  usage: optional, not repeatable
-essenceTrackBitDepth:
-  definition: <strong>essenceTrackBitDepth</strong> specifies how much data is sampled when information is digitized, encoded, or converted for an instantiation (specifically, audio, video, or image). Bit depth is measured in bits and generally implies an arbitrary perception of quality during playback of an instantiation (the higher the bit depth, the greater the fidelity).
-  usage: optional, not repeatable
+  definition: <strong>essenceTrackBitDepth</strong> especifica cuántos datos se muestran cuando la información se digitaliza, codifica o convierte para una instanciación (específicamente, audio, video o imagen). La profundidad de bits se mide en bits y generalmente implica una percepción arbitraria de la calidad durante la reproducción de una instanciación (a mayor profundidad de bits, mayor fidelidad).
+  usage: opcional, no repetible
 essenceTrackDataRate:
-  definition: <strong>essenceTrackDataRate</strong> measures the amount of data used per time interval for encoded data. The data rate can be calculated by dividing the total data size of the track's encoded data by a time unit.
-  best-practice: By default use bytes per second. Otherwise, this should be expressed as numerical data, with the units of measure declared in the unitsOfMeasure attribute.
-  usage: optional, not repeatable
+  definition: <strong>essenceTrackDataRate</strong> mide la cantidad de datos utilizados por intervalo de tiempo para datos codificados. La velocidad de datos se puede calcular dividiendo el tamaño total de datos de la pista datos codificados por una unidad de tiempo.
+  best-practice: De forma predeterminada, use bytes por segundo. De lo contrario, esto debe expresarse como datos numéricos, con las unidades de medida declaradas en el atributo unitsOfMeasure.
+  usage: opcional, no repetible
 essenceTrackDuration:
-  definition: <strong>essenceTrackDuration</strong> provides a timestamp for the overall length or duration of a track. It represents the track playback time.
+  definition: <strong>essenceTrackDuration</strong> proporciona una marca de tiempo para la longitud total o la duración de una pista. Representa el tiempo de reproducción de la pista.
   best-practice: |
-    Best practice is to use a timestamp format such as HH:MM:SS[:|;]FF or HH:MM:SS.mmm or S.mmm.
-  usage: optional, not repeatable
+    la práctica recomendada es utilizar un formato de marca de tiempo como HH:MM:SS[:|;]FF o HH:MM:SS.mmm o S.mmm.
+  usage: opcional, no repetible
 essenceTrackEncoding:
-  definition: <strong>essenceTrackEncoding</strong> identifies how the actual information in an instantiation is compressed, interpreted, or formulated using a particular scheme. Identifying the encoding used is beneficial for a number of reasons, including as a way to achieve reversible compression; for the construction of document indices to facilitate searching and access; or for efficient distribution of the information across data networks with differing bandwidths or pipeline capacities. Human-readable encoding value should be placed here. Use @ref to identify the codec ID.
-  best-practice: Use @source to describe the type of encoding reference used, such as fourcc. In @ref, use a URI/URL from the source to identify the codec utilized by its container format.
-  usage: optional, not repeatable
+  definition: <strong>essenceTrackEncoding</strong> identifica cómo se comprime, interpreta o formula la información real en una instanciación usando un esquema particular. Identificar la codificación utilizada es beneficioso por varias razones, incluso como una forma de lograr una compresión reversible; para la construcción de índices de documentos para facilitar la búsqueda y el acceso; o para la distribución eficiente de la información a través de redes de datos con diferentes anchos de banda o capacidades de canalización. El valor de codificación legible para humanos debe colocarse aquí. Utilice @ref para identificar la identificación del códec.
+  best-practice: Use @source para describir el tipo de referencia de codificación utilizada, como fourcc. En @ref, use un URI/URL de la fuente para identificar el códec utilizado por su formato de contenedor.
+  usage: opcional, no repetible
 essenceTrackExtension:
-  definition: <strong>essenceTrackExtension</strong> is an extension element. Extensions are either a wrapper containing a specific element from another standard OR embedded xml containing the extension. The essenceTrackExtension element is a container to accomodate track-level metadata from external systems. Use it to supplement other metadata sub-elements of instantiationEssenceTrack in which it appears.
-  usage: optional, repeatable
+  definition: <strong>essenceTrackExtension</strong> es un elemento de extensión. La extensión es un contenedor que contiene un elemento específico de otro estándar o un XML incrustado que contiene la extensión. El elemento essenceTrackExtension es un contenedor para acomodar metadatos a nivel de pista de sistemas externos. Úselo para complementar otros subelementos de metadatos de instanciationEssenceTrack en los que aparece.
+  usage: opcional, repetible
 essenceTrackFrameRate:
-  definition: <strong>essenceTrackFrameRate</strong> is relevant to tracks of video track type only. The frame rate is calculated by dividing the total number of frames by the duration of the video track. By default measure frame rate in frames per second expressed as fps as a unit of measure. e.g., 24 fps.
-  usage: optional, not repeatable
+  definition: <strong>essenceTrackFrameRate</strong> es relevante sólo para las pistas del tipo de pista de video. La velocidad de fotogramas se calcula dividiendo el número total de fotogramas por la duración de la pista de vídeo. Por defecto, mida la velocidad de fotogramas en fotogramas por segundo expresados ​​como fps como unidad de medida. Por ejemplo, 24 fps.
+  usage: opcional, no repetible
 essenceTrackFrameSize:
-  definition: <strong>essenceTrackFrameSize</strong> measures the width and height of the encoded video or image track. The frame size refers to the size of the encoded pixels and not the size of the displayed image. It may be expressed as combination of pixels measured horizontally vs. the number of pixels of image/resolution data stacked vertically (interlaced and progressive scan).
-  usage: optional, not repeatable
+  definition: <strong>essenceTrackFrameSize</strong> mide la anchura y la altura de la pista de vídeo o imagen codificada. El tamaño del cuadro se refiere al tamaño de los píxeles codificados y no al tamaño de la imagen mostrada. Puede expresarse como una combinación de píxeles medidos horizontalmente frente al número de píxeles de datos de imagen/resolución apilados verticalmente (barrido entrelazado y progresivo).
+  usage: opcional, no repetible
 essenceTrackIdentifier:
-  definition: <strong>essenceTrackIdentifier</strong> is an identifier of the track. Several audiovisual containers include such identifier schema to identify each track, such as MPEG2 PIDs or QuickTime Track ids.
-  usage: optional, repeatable
+  definition: <strong>essenceTrackIdentifier</strong> es un identificador de la pista. Varios contenedores audiovisuales incluyen dicho esquema de identificador para identificar cada pista, como MPEG2 PID o identificaciones de pistas de QuickTime.
+  usage: opcional, repetible
 essenceTrackLanguage:
-  definition: <strong>essenceTrackLanguage</strong> identifies the primary language of the tracks’ audio or text. Languages must be indicated using 3-letter codes standardized in ISO 639-2 or 639-3. If an instantiation includes more than one language, the element can be repeated. Alternately, both languages can be expressed in one element by separating two three-letter codes with a semicolon, i.e. eng;fre.
-  usage: optional, repeatable
+  definition: <strong>essenceTrackLanguage</strong> identifica el idioma principal del audio o texto de las pistas. Los idiomas deben indicarse mediante códigos de 3 letras estandarizados en ISO 639-2 o 639-3. Si una instanciación incluye más de un idioma, el elemento se puede repetir. Alternativamente, ambos idiomas se pueden expresar en un elemento separando dos códigos de 3 letras con un punto y coma, por ejemplo, eng;spa para referir a inglés y español.
+  usage: opcional, repetible
 essenceTrackPlaybackSpeed:
-  definition: <strong>essenceTrackPlaybackSpeed</strong> specifies the rate of units against time at which the media track should be rendered for human consumption. e.g., 15ips (inches per second).
-  usage: optional, not repeatable
+  definition: <strong>essenceTrackPlaybackSpeed</strong> especifica la tasa de unidades contra el tiempo en el que la pista de medios debe renderizarse para el consumo humano. Por ejemplo, 15 ips (pulgadas por segundo).
+  usage: opcional, no repetible
 essenceTrackSamplingRate:
-  definition: <strong>essenceTrackSamplingRate</strong> measures how often data is sampled when information from the audio portion from an instantiation is digitized. For a digital audio signal, the sampling rate is measured in kilohertz and is an indicator of the perceived playback quality of the media item (the higher the sampling rate, the greater the fidelity).
-  usage: optional, not repeatable
+  definition: <strong>essenceTrackSamplingRate</strong> mide la frecuencia con la que se muestran los datos cuando se digitaliza la información de la porción de audio de una instanciación. Para una señal de audio digital, la frecuencia de muestreo se mide en kilohercios y es un indicador de la calidad de reproducción percibida del elemento multimedia (a mayor frecuencia de muestreo, mayor fidelidad).
+  usage: opcional, no repetible
 essenceTrackStandard:
-  definition: <strong>essenceTrackStandard</strong> should be be used with file-based instantiations to describe the broadcast standard of the video signal (e.g. NTSC, PAL) or to further clarify the standard of the essenceTrackEncoding format.
-  usage: optional, not repeatable
+  definition: <strong>essenceTrackStandard</strong> debe usarse con instanciaciones basadas en archivos para describir el estándar de transmisión de la señal de video (por ejemplo, NTSC, PAL) o para aclarar aún más el estándar del formato de essenceTrackEncoding.
+  usage: opcional, no repetible
 essenceTrackTimeStart:
-  definition: <strong>essenceTrackTimeStart</strong> provides a time stamp for the beginning point of playback for a time-based essence track. It is likely that the content on a tape may begin an arbitrary amount of time after the beginning of the instantiation.
+  definition: <strong>essenceTrackTimeStart</strong> proporciona una marca de tiempo para el punto de inicio de la reproducción de una pista de esencia basada en el tiempo. Es probable que el contenido de una cinta comience una cierta cantidad de tiempo arbitrario después del comienzo de la instanciación.
   best-practice: |
-    Best practice: Use in combination with essenceTrackDuration to identify a sequence or segment of an essence track that has a fixed start time and end time. Best practice is to use a timestamp format such as HH:MM:SS[:|;]FF or HH:MM:SS.mmm or S.mmm.
-  usage: optional, not repeatable
+    Best practice: Úselo en combinación con essenceTrackDuration para identificar una secuencia o segmento de una pista de esencia que tiene una hora de inicio y una hora de finalización fijas. La mejor práctica es usar un formato de marca de tiempo como HH:MM:SS[:|;]FF o HH:MM:SS.mmm o S.mmm.
+  usage: opcional, no repetible
 essenceTrackType:
   definition: |
-    <strong>essenceTrackType</strong> refers to the media type of the decoded data. Tracks may possibly be of these types: video, audio, caption, metadata, image, etc.
-  usage: optional, not repeatable
+    <strong>essenceTrackType</strong> se refiere al tipo de medio de los datos decodificados. Las pistas pueden ser de estos tipos: video, audio, subtítulos, metadatos, imágenes, etc.
+  usage: opcional, no repetible
 extensionAuthorityUsed:
   definition: <strong>extensionAuthorityUsed</strong> identifies the authority used for the extensionElement.
   best-practice: If metadata extensions to PBCore are assigned to a media item with the element extensionElement, and the terms used are derived from a specific authority or metadata scheme, use extensionAuthorityUsed to identify whose metadata extensions are being used.
-  usage: optional, not repeatable
+  usage: opcional, no repetible
 extensionElement:
   definition: <strong>extensionElement</strong> provides metadata descriptions from metadata dictionaries and schemas outside of PBCore.
   best-practice: These extensions fulfill the metadata requirements for communities identifying and describing their own types of media with specialized, custom terminologies.
-  usage: required within extensionWrap, not repeatable
+  usage: requerido dentro de extensionWrap, no repetible
 extensionEmbedded:
-  definition: <strong>extensionEmbedded</strong> is an element allows the inclusion of xml from another schema, e.g. TEI, METS, etc.
-  best-practice:
-  usage: required within pbcoreExtension, instantiationExtension, or essenceTrackExtension, if extensionWrap is not used; cannot be used with extensionWrap; repeatable
+  definition: <strong>extensionEmbedded</strong> es un elemento que permite la inclusión de XML de otro esquema, por ejemplo, TEI, METS, etc.
+  usage: requerido dentro de pbcoreExtension, instanciationExtension o essentialTrackExtension, si no se usa extensionWrap; no se puede usar con extensionWrap; repetible
 extensionValue:
   definition: <strong>extensionValue</strong> is used express the data value of the label indicated by extensionElement.
-  usage: required within extensionWrap, not repeatable
+  usage: requerido dentro de extensionWrap, no repetible
 extensionWrap:
-  definition: <strong>extensionWrap</strong> serves as a container for the elements extensionElement, extensionValue, and extensionAuthorityUsed.
-  usage: required within pbcoreExtension, instantiationExtension, or essenceTrackExtension, if extensionEmbedded is not used; cannot be used with extensionEmbedded; repeatable
+  definition: <strong>extensionWrap</strong> sirve como contenedor para los elementos extensionElement, extensionValue y extensionAuthorityUsed.
+  usage: requerido dentro de pbcoreExtension, instanciationExtension o essentialTrackExtension, si no se usa extensionEmbedded; no se puede usar con extensionEmbedded; repetible
 instantiationAlternativeModes:
-  definition: <strong>instantiationAlternativeModes</strong> is a catch-all metadata element that identifies equivalent alternatives to the primary visual, sound or textual information that exists in an instantiation. These are modes that offer alternative ways to see, hear, and read the content of an instantiation. Examples include DVI (Descriptive Video Information), SAP (Supplementary Audio Program), ClosedCaptions, OpenCaptions, Subtitles, Language Dubs, and Transcripts. For each instance of available alternativeModes, the mode and its associated language should be identified together, if applicable. Examples include ‘SAP in English,’ ‘SAP in Spanish,’ ‘Subtitle in French,’ ‘OpenCaption in Arabic.’
-  best-practice: Best practice is to use a semi-colon as a delimiter when defining more than one alternative mode.
-  usage: optional, not repeatable
+  definition: <strong>instantiationAlternativeModes</strong> es un elemento de metadatos general que identifica alternativas equivalentes a la información primaria visual, sonora o textual que existe en una instanciación. Estos son modos que ofrecen formas alternativas de ver, escuchar y leer el contenido de una instanciación. Los ejemplos incluyen DVI (información de video descriptiva), SAP (programa de audio complementario), closed captions, subtítulos abiertos, subtítulos, doblajes de idiomas y transcripciones. Para cada instanciación de modos alternativos disponibles, el modo y su idioma asociado deben identificarse juntos, si corresponde. Los ejemplos incluyen 'SAP en inglés', 'SAP en español', 'Subtítulos en francés', 'OpenCaption en árabe'.
+  best-practice: la práctica recomendada es utilizar un punto y coma como delimitador al definir más de un modo alternativo.
+  usage: opcional, no repetible
 instantiationAnnotation:
-  definition: <strong>instantiationAnnotation</strong> is used to add any supplementary information about an instantiation of the instantiation or the metadata used to describe it. It clarifies element values, terms, descriptors, and vocabularies that may not be otherwise sufficiently understood.
-  usage: optional, repeatable
+  definition: <strong>instantiationAnnotation</strong> se utiliza para agregar cualquier información complementaria sobre una instanciación de la instanciación o los metadatos utilizados para describirla. Aclara los valores de los elementos, los términos, los descriptores y los vocabularios que de otro modo no se comprenderán lo suficiente. 
+  usage: opcional, repetible
 instantiationChannelConfiguration:
-  definition: <strong>instantiationChannelConfiguration</strong> is designed to indicate, at a general narrative level, the arrangement or configuration of specific channels or layers of information within an instantiation’s tracks. Examples are 2-track mono, 8- track stereo, or video track with alpha channel.
-  usage: optional, not repeatable
+  definition: <strong>instantiationChannelConfiguration</strong> está diseñado para indicar, a nivel narrativo general, la disposición o configuración de canales específicos o capas de información dentro de las pistas de una instanciación. Los ejemplos son mono de 2 pistas, estéreo de 8 pistas o pista de vídeo con canal alfa.
+  usage: opcional, no repetible
 instantiationColors:
-  definition: <strong>instantiationColors</strong> indicates the overall color, grayscale, or black and white nature of the presentation of an instantiation, as a single occurrence or combination of occurrences in or throughout the instantiation.
-  usage: optional, not repeatable
+  definition: <strong>instantiationColors</strong> indica el color general, la escala de grises o la naturaleza en blanco y negro de la presentación de una instanciación, como una ocurrencia única o una combinación de ocurrencias en o a lo largo de la instanciación.
+  usage: opcional, no repetible
 instantiationDataRate:
-  definition: <strong>instantiationDataRate</strong> expresses the amount of data in a digital media file that is encoded, delivered or distributed, for every second of time.
-  best-practice: This should be expressed as numerical data, with the units of measure declared in the unitsOfMeasure attribute. For example, if the audio file is 56 kilobits/second, then 56 should be the value of instantiationDataRate and the attribute unitsOfMeasure should be kilobits/second.
-  usage: optional, not repeatable
+  definition: <strong>instantiationDataRate</strong> expresa la cantidad de datos en un archivo de medios digitales que se codifica, entrega o distribuye, por cada segundo de tiempo.
+  best-practice: Esto debe expresarse como datos numéricos, con las unidades de medida declaradas en el atributo unitsOfMeasure. Por ejemplo, si el archivo de audio tiene 56 kilobits/segundo, entonces 56 debería ser el valor de instantiationDataRate y el atributo unitsOfMeasure debería ser kilobits por segundo (kilobits/segundo).
+  usage: opcional, no repetible
 instantiationDate:
-  definition: <strong>instantiationDate</strong> is a date associated with an instantiation.
-  usage: Best practice is to use ISO 8601 or some other date/time standard if possible.
+  definition: <strong>instantiationDate</strong> es una fecha asociada con una instanciación.
+  usage: se recomienda utilizar ISO 8601 o algún otro estándar de fecha/hora si es posible.
 instantiationDigital:
-  definition: <strong>instantiationDigital</strong> is used to identify the format of a particular instantiation of an asset as it exists as a digital file on a server, hard drive, or other digital storage medium. Digital instantiations should be expressed as a formal Internet MIME types.
-  best-practice: InstantiationDigital should only be used to describe the MIME type of the digital file itself. There are multiple options to convey more information about the storage medium or location of the digital file, which are discussed in more detail on the PBCore site.
-  usage: optional, not repeatable
+  definition: <strong>instantiationDigital</strong> se utiliza para identificar el formato de una instanciación particular de un recurso tal como existe como un archivo digital en un servidor, disco duro u otro medio de almacenamiento digital. Las instanciaciones digitales deben expresarse como tipos MIME formales de Internet.
+  best-practice: InstantiationDigital sólo debe usarse para describir el tipo MIME del archivo digital en sí. Hay múltiples opciones para transmitir más información sobre el medio de almacenamiento o la ubicación del archivo digital, que se analizan con más detalle en el sitio de PBCore.
+  usage: opcional, no repetible
 instantiationDimensions:
-  definition: <strong>instantiationDimensions</strong> is an element that specifies either the dimensions of a physical instantiation, or the high-level visual dimensions of a digital instantiation
-  best-practice: For physical dimensions, usage examples might be 7″ for an audio reel. When describing visual dimensions, use this for high-level descriptors such as 1080p. Use the element frameSize to describe the pixel dimensions of a visual resource.
-  usage: optional, repeatable
+  definition: <strong>instantiationDimensions</strong> o es un elemento que especifica las dimensiones de una instanciación física o las dimensiones visuales de alto nivel de una instanciación digital
+  best-practice: Para las dimensiones físicas, puede usar, los ejemplos de uso pueden ser 7″ para un carrete de audio. Cuando describa dimensiones visuales, use esto para descriptores de alto nivel como 1080p. Utilice el elemento frameSize para describir las dimensiones en píxeles de un recurso visual.
+  usage: opcional, repetible
 instantiationDuration:
-  definition: <strong>instantiationDuration</strong> provides a timestamp for the overall length or duration of a time-based media item. It represents the playback time.
-  best-practice: Best practice is to use a timestamp format such as HH:MM:SS[:|;]FF or HH:MM:SS.mmm or S.mmm.
-  usage: optional, not repeatable
+  definition: <strong>instantiationDuration</strong> proporciona una marca de tiempo para la longitud total o la duración de elementos mediales. Representa el tiempo de reproducción.
+  best-practice: la práctica recomendada es utilizar un formato de marca de tiempo como HH:MM:SS[:|;]FF o HH:MM:SS.mmm o S.mmm.
+  usage: opcional, no repetible
 instantiationEssenceTrack:
-  definition: <strong>instantiationEssenceTrack</strong> is an XML container element that allows for grouping of related essenceTrack elements and their repeated use. Use instantiationEssenceTrack element to describe the individual streams that comprise an instantiation, such as audio, video, timecode, etc.
-  best-practice: Essence tracks can exist in either the digital or physical realm. In the digital realm, they may refer to the separate audio and video tracks within a digital file. In the physical realm, they may refer to the video and audio tracks contained on a single video tape.
-  usage: optional, repeatable
+  definition: <strong>instantiationEssenceTrack</strong> es un elemento contenedor XML que permite agrupar elementos essenceTrack relacionados y su uso repetido. Use el elemento instantiationEssenceTrack para describir las pistas individuales que componen una instanciación, como audio, video, código de tiempo, etc.
+  best-practice: Las pistas de esencia pueden existir en el ámbito digital o físico. En el ámbito digital, pueden referirse a las pistas de audio y video separadas dentro de un archivo digital. En el ámbito físico, pueden referirse a las pistas de video y audio contenidas en una sola cinta de video.
+  usage: opcional, repetible
 instantiationExtension:
-  definition: <strong>instantiationExtension</strong> is an extension element. Extensions are either a wrapper containing a specific element from another standard OR embedded xml containing the extension.
-  best-practice: Use it to supplement other metadata sub-elements of ‘instantiationPart’ or ‘pbcoreInstantiationDocument’ in which it appears.
-  usage: optional, repeatable
+  definition: <strong>instantiationExtension</strong> es un elemento de extensión. Las extensiones son un contenedor que contiene un elemento específico de otro estándar o un xml incrustado que contiene la extensión.
+  best-practice: Úselo para complementar otros subelementos de metadatos de 'instantiationPart' o 'pbcoreInstantiationDocument' en los que aparece.
+  usage: opcional, repetible
 instantiationFileSize:
-  definition: <strong>instantiationFileSize</strong> indicates the file size of a digital instantiation. It should contain only numerical values. As a standard, express the file size in bytes. Units of Measure should be declared in the unitsOfMeasure attribute.
-  usage: optional, not repeatable
+  definition: <strong>instantiationFileSize</strong> indica el tamaño del archivo de una instanciación digital. Debe contener sólo valores numéricos. Como estándar, exprese el tamaño del archivo en bytes. Las unidades de medida deben declararse en el atributo unitsOfMeasure.
+  usage: opcional, no repetible
 instantiationGenerations:
-  definition: <strong>instantiationGenerations</strong> identifies the use type and provenance of the instantiation. For example, the generation of a video tape may be an “Original Master” or “Dub,” the generation of a film reel may be an “Original Negative” or “Composite Positive,” an audiotape may be a “Master” or “Mix Element,” and an image may be a “Photograph” or a “Photocopy.”
-  usage: optional, repeatable
+  definition: <strong>instantiationGenerations</strong> identifica el tipo de uso y la procedencia de la instanciación. Por ejemplo, la generación de una cinta de video puede ser un "Máster original" o "Copia", la generación de un rollo de película puede ser un "Negativo original" o un "Positivo compuesto", una cinta de audio puede ser un "Máster" o "Edición de vídeo” y una imagen puede ser una “Fotografía” o una “Fotocopia”.
+  usage: opcional, repetible
 instantiationIdentifier:
-  definition: <strong>instantiationIdentifier</strong> contains an unambiguous reference or identifier for a particular instantiation of an asset.
-  usage: required, repeatable
+  definition: <strong>instantiationIdentifier</strong> contiene una referencia inequívoca o un identificador para una instanciación particular de un recurso.
+  usage: requerido, repetible
 instantiationLanguage:
-  definition: <strong>instantiationLanguage</strong> identifies the primary language of the tracks’ audio or text. Languages must be indicated using 3-letter codes standardized in ISO 639-2 or 639-3. If an instantiation includes more than one language, the element can be repeated. Alternately, both languages can be expressed in one element by separating two three-letter codes with a semicolon, i.e. eng;fre.
-  best-practice: Alternative audio or text tracks and their associated languages should be identified using the element instantiationAlternativeModes.
-  usage: optional, repeatable
+  definition: <strong>instantiationLanguage</strong> identifica el idioma principal del audio o texto de las pistas. Los idiomas deben indicarse mediante códigos de 3 letras estandarizados en ISO 639-2 o 639-3. Si una instanciación incluye más de un idioma, el elemento se puede repetir. Alternativamente, ambos idiomas se pueden expresar en un elemento separando dos códigos de tres letras con un punto y coma, es decir, eng;spa para referir a inglés y español.
+  best-practice: las pistas de audio o texto alternativas y sus idiomas asociados deben identificarse mediante el elemento instantiationAlternativeModes.
+  usage: opcional, repetible
 instantiationLocation:
-  definition: <strong>instantiationLocation</strong> may contain information about a specific location for an instantiation, such as an organization’s name, departmental name, shelf ID and contact information. The instantiationLocation for a digital file should include domain, path or URI to the file.
-  best-practice: For digital files, instantiationLocation should always include a path or URI to the file. There are multiple ways to convey additional information about the location of a carrier or storage medium of the digital file, which are expressed on the PBCore site.
-  usage: required, not repeatable
+  definition: <strong>instantiationLocation</strong> puede contener información sobre una ubicación específica para una instanciación, como el nombre de una organización, el nombre del departamento, la identificación del estante y información de contacto. La ubicación de instanciación de un archivo digital debe incluir el dominio, la ruta o el URI del archivo.
+  best-practice: para los archivos digitales, instantiationLocation siempre debe incluir una ruta o un URI al archivo. Existen múltiples formas de transmitir información adicional sobre la ubicación de un soporte o medio de almacenamiento del archivo digital, que se expresan en el sitio de PBCore.
+  usage: requerido, no repetible
 instantiationMediaType:
-  definition: <strong>instantiationMediaType</strong> identifies the general, high level nature of the content of an instantiation. It uses categories that show how content is presented to an observer, e.g., as a sound, text or moving image.
-  usage: optional, not repeatable
+  definition: <strong>instantiationMediaType</strong> identifica la naturaleza general y de alto nivel del contenido de una instanciación. Utiliza categorías que muestran cómo se presenta el contenido a un observador, por ejemplo, como un sonido, texto o imagen en movimiento.
+  usage: opcional, no repetible
 instantiationPart:
-  definition: <strong>instantiationPart</strong> is a container that allows the instantiation to be split into multiple parts, which can describe the parts of a multi-section instantiation, e.g., a multi-disk DVD or vitagraph record and 35mm reel that are intended for synchronous playback. It contains all of the elements that a pbcoreInstantiation element would typically contain.
-  usage: optional, repeatable
+  definition: <strong>instantiationPart</strong> es un contenedor que permite que la instanciación se divida en varias partes, que pueden describir las partes de una instanciación de múltiples secciones, por ejemplo, un DVD de varios discos o un registro de vitagraph y un carrete de 35 mm que están destinados a la reproducción sincrónica. Contiene todos los elementos que normalmente contendría un elemento pbcoreInstantiation.
+  usage: opcional, repetible
 instantiationPhysical:
-  definition: <strong>instantiationPhysical</strong> is used to identify the format of a particular instantiation as it exists in a physical form that occupies physical space (e.g., a tape on a shelf). This includes physical digital media, such as a DV tape, audio CD or authored DVD, as well as analog media.
-  best-practice: PBCore provides a controlled vocabulary for media objects, though any controlled vocabulary can be used as long as it is referenced. For digital storage carriers that contain portable file-based media, such as data CDs, LTO tapes or hard drives, use instantiationDigital to convey the mime type of the file instead of describing the carrier.
-  usage: optional, not repeatable
-instantiationPhysical:
-  definition: <strong>instantiationPhysical</strong> is used to identify the format of a particular instantiation as it exists in a physical form that occupies physical space (e.g., a tape on a shelf). This includes physical digital media, such as a DV tape, audio CD or authored DVD, as well as analog media.
-  best-practice: PBCore provides a controlled vocabulary for media objects, though any controlled vocabulary can be used as long as it is referenced. For digital storage carriers that contain portable file-based media, such as data CDs, LTO tapes or hard drives, use instantiationDigital to convey the mime type of the file instead of describing the carrier.
-  usage: optional, not repeatable
+  definition: <strong>instantiationPhysical</strong> o ‘instanciación física’, se utiliza para identificar el formato de una instancia particular tal como existe en una forma física que ocupa espacio físico (por ejemplo, una cinta en un estante). Esto incluye medios digitales físicos, como cintas DV, CD de audio o DVD creados, así como medios analógicos.
+  best-practice: PBCore proporciona un vocabulario controlado para objetos audiovisuales, aunque se puede usar cualquier vocabulario controlado siempre que se haga referencia a él. Para los soportes de almacenamiento digital que contienen medios basados ​​en archivos portátiles, como CD de datos, cintas LTO o discos duros, use instantiationDigital para transmitir el tipo MIME del archivo en lugar de describir el soporte.
+  usage: opcional, no repetible
 instantiationRelation:
-  definition: <strong>instantiationRelation</strong> is a container for sub-elements instantiationRelationType and instantiationRelationIdentifier to describe relationships to other instantiations.
-  usage: optional, repeatable
+  definition: <strong>instantiationRelation</strong> es un contenedor para los subelementos instantiationRelationType e instantiationRelationIdentifier para describir las relaciones con otras instanciaciones.
+  usage: opcional, repetible
 instantiationRelationIdentifier:
-  definition: <strong>instantiationRelationIdentifier</strong> is used to provide a name, locator, accession, identification number or ID where the related item can be obtained or found.
-  best-practice: We recommend using a unique identifier or global unique ID in this element.
-  usage: required with instantiationRelation, not repeatable
+  definition: <strong>instantiationRelationIdentifier</strong> se utiliza para proporcionar un nombre, localizador, ingreso, número de identificación o ID donde se puede obtener o encontrar el artículo relacionado.
+  best-practice: recomendamos usar un identificador único o una ID única global en este elemento.
+  usage: requerido dentro de instantiationRelation, no repetible
 instantiationRelationType:
-  definition: <strong>instantiationRelationType</strong> describes the relation between the instantiation being described and another instantiation.
-  best-practice: The instantiations may be related in that they are different discrete parts of a single intellectual unit, they may be generationally related, one may be a derivative of another, they may be different versions.
-  usage: required within instantiationRelation, not repeatable
+  definition: <strong>instantiationRelationType</strong> describe la relación entre la instanciación que se describe y otra instanciación.
+  best-practice: las instanciaciones pueden estar relacionadas en el sentido de que son diferentes partes discretas de una sola unidad intelectual, pueden estar relacionadas generacionalmente, una puede ser un derivado de otra o pueden ser versiones diferentes, etc.
+  usage: requerido dentro de instantiationRelation, no repetible
 instantiationRights:
-  definition: <strong>instantiationRights</strong> is a container for sub-elements rightsSummary, rightsLink and rightsEmbedded to describe rights particular to this instantiation.
-  best-practice: This element contains rights information that is specific to an instantiation of an asset, such as rights conferred in a donation agreement that apply only to a single donated item.
-  usage: optional, repeatable
+  definition: <strong>instantiationRights</strong> es un contenedor para los subelementos rightsSummary, rightsLink y rightsEmbedded para describir los derechos particulares de esta instanciación.
+  best-practice: este elemento contiene información de derechos que es específica de una instanciación de un recurso, como los derechos conferidos en un acuerdo de donación que se aplican solo a un único artículo donado.
+  usage: opcional, repetible
 instantiationStandard:
-  definition: If the instantiation is a physical item, <strong>instantiationStandard</strong> can be used to refer to the broadcast standard of the video signal (e.g. NTSC, PAL), or the audio encoding (e.g. Dolby A, vertical cut). If the instantiation is a digital item, <strong>instantiationStandard</strong> should be used to express the container format of the digital file (e.g. MXF).
-  best-practice: While the usage described in the definition is best practice for 2.1, this usage is likely to change if new elements are added for PBCore 3.0.
-  usage: optional, not repeatable
+  definition: Si la instanciación es un elemento físico, <strong>instantiationStandard</strong> se puede usar para referirse al estándar de transmisión de la señal de video (por ejemplo, NTSC, PAL) o la codificación de audio (por ejemplo, Dolby A, corte vertical). Si la instanciación es un elemento digital, se debe usar instanciationStandard para expresar el formato contenedor del archivo digital (por ejemplo, MXF).
+  best-practice: Si bien el uso descrito en la definición es una mejor práctica para 2.1, es probable que este uso cambie si se agregan nuevos elementos para PBCore 3.0.
+  usage: opcional, no repetible
 instantiationTimeStart:
-  definition: <strong>instantiationTimeStart</strong> describes the point at which playback begins for a time-based instantiation. It is likely that the content on a tape may begin an arbitrary amount of time after the beginning of the instantiation.
-  best-practice: Best practice is to use a timestamp format such as HH:MM:SS[:|;]FF or HH:MM:SS.mmm or S.mmm.
-  usage: optional, repeatable
+  definition: <strong>instantiationTimeStart</strong> describe el punto en el que comienza la reproducción para una instanciación basada en el tiempo. Es probable que el contenido de una cinta comience una cierta cantidad arbitraria de tiempo después del comienzo de la instanciación.
+  best-practice: la práctica recomendada es utilizar un formato de marca de tiempo como HH:MM:SS[:|;]FF o HH:MM:SS.mmm o S.mmm.
+  usage: opcional, repetible
 instantiationTracks:
-  definition: <strong>instantiationTracks</strong> is simply intended to indicate the number and type of tracks that are found in a media item, whether it is analog or digital. (e.g. 1 video track, 2 audio tracks, 1 text track, 1 sprite track, etc.) Other configuration information specific to these identified tracks should be described using instantiationChannelConfiguration.
+  definition: <strong>instantiationTracks</strong> simplemente pretende indicar el número y el tipo de pistas que se encuentran en un elemento multimedia ya sea analógico o digital. (Por ejemplo, 1 pista de video, 2 pistas de audio, 1 pista de texto, 1 pista de sprites, etc.) Otra información de configuración específica de estas pistas identificadas debe describirse mediante instantiationChannelConfiguration.
   best-practice: Best practices is to use essenceTracks, as this element has been deprecated.
-  usage: optional, not repeatable
+  usage: opcional, no repetible
 pbcoreAnnotation:
-  definition: <strong>pbcoreAnnotation</strong> allows the addition of any supplementary information about the metadata used to describe the PBCore record. pbcoreAnnotation clarifies element values, terms, descriptors, and vocabularies that may not be otherwise sufficiently understood.
-  usage: optional, repeatable
+  definition: <strong>pbcoreAnnotation</strong> permite agregar cualquier información complementaria sobre los metadatos utilizados para describir el registro de PBCore. pbcoreAnnotation clarifica los valores de los elementos, los términos, los descriptores y los vocabularios que, de otro modo, podrían no entenderse lo suficiente.
+  usage: opcional, repetible
 pbcoreAssetDate:
-  definition: <strong>pbcoreAssetDate</strong> is intended to reflect dates associated with the Intellectual Content.
-  best-practice: By contrast, instantiationDate is intended to reflect date information for the specific instance. For instance, if you have a VHS copy of Gone With The Wind, the pbcoreAssetDate would be 1939, while the instantiationDate of the VHS copy could be 1985. pbcoreAssetDate may also be used to reflect availability dates, etc. Date types should be specified using the @dateType attribute.  Dates or time-based events related to the content of the asset, on the other hand, would be described in the ‘coverage’ element — so, while the storyline of Gone with the Wind takes place in the nineteenth century, this information should be noted in the Coverage field, not the assetDate field.  Best practice is to use ISO 8601 or some other date/time standard if possible.
-  usage: optional, repeatable
+  definition: <strong>pbcoreAssetDate</strong> pretende reflejar las fechas asociadas con el Contenido intelectual.
+  best-practice: Por el contrario, instantiationDate pretende reflejar la información de fecha para la instanciación específica. Por ejemplo, si tiene una copia en VHS de Lo que el viento se llevó, pbcoreAssetDate sería 1939, mientras que la fecha de instanciación de la copia en VHS podría ser 1985. pbcoreAssetDate también puede usarse para reflejar fechas de disponibilidad, etc. Los tipos de fecha deben especificarse usando el atributo @dateType. Las fechas o los eventos basados ​​en el tiempo relacionados con el contenido del recurso, por otro lado, se describirían en el elemento ‘coverage’; por lo tanto, si bien la historia de Lo que el viento se llevó tiene lugar en el siglo XIX, esta información debe ser anotada en el campo ‘coverage’, no en el campo ‘Fecha del recurso. La mejor práctica es usar ISO 8601 o algún otro estándar de fecha/hora si es posible.
+  usage: opcional, repetible
 pbcoreAssetType:
-  definition: <strong>pbcoreAssetType</strong> is a broad definition of the type of intellectual content being described. Asset types might include those without associated instantiations (a collection or series), or those with instantiations (programs, episodes, clips, etc.)
-  best-practice: The asset type should broadly describe all related instantiations — for example, if an asset includes many instantiations representing different generations of a program, the asset type ‘program’ remains accurate for all of them.
-  usage: optional, repeatable
+  definition: <strong>pbcoreAssetType</strong> es una definición amplia del tipo de contenido intelectual que se describe. Los tipos de recursos pueden incluir aquellos sin instanciaciones asociadas (una colección o serie) o aquellos con instanciaciones (programas, episodios, clips, etc.).
+  best-practice: el tipo de recurso debe describir ampliamente todas las instanciaciones relacionadas; por ejemplo, si un recurso incluye muchas instanciaciones que representan diferentes generaciones de un programa, el tipo de recurso "programa" sigue siendo preciso para todas ellas.
+  usage: opcional, repetible
 pbcoreAudienceLevel:
-  definition: <strong>pbcoreAudienceLevel</strong> identifies a type of audience, viewer, or listener for whom the media item is primarily designed or educationally useful.
-  usage: optional, repeatable
+  definition: <strong>pbcoreAudienceLevel</strong> identifica un tipo de audiencia, espectador u oyente para quien el elemento multimedia está diseñado principalmente o es educativamente útil.
+  usage: opcional, repetible
 pbcoreAudienceRating:
-  definition: <strong>pbcoreAudienceRating</strong> designates the type of users for whom the intellectual content of a media item is intended or judged appropriate. This element differs from the element pbcoreAudienceLevel in that it utilizes standard ratings that have been crafted by the broadcast television and film industries and that are used as flags for audience or age-appropriate materials.
-  usage: optional, repeatable
+  definition: <strong>pbcoreAudienceRating</strong> designa el tipo de usuarios para quienes está destinado o se considera adecuado el contenido intelectual de un elemento multimedia. Este elemento se diferencia del elemento pbcoreAudienceLevel en que utiliza clasificaciones estándar que han sido elaboradas por las industrias del cine y la televisión y que se utilizan como indicadores para la audiencia o materiales apropiados para la edad.
+  usage: opcional, repetible
 pbcoreCollection:
-  definition: <strong>pbcoreCollection</strong> groups multiple pbcoreDescriptionDocument XML into one container element to allow for a serialized output. Uses might include API returns or other web service output.
-  best-practice: This element is not intended to be equivalent to the archive/library concept of a ‘collection.’ Please see pbcoreAssetType for information on how PBCore can be used to express information about collections. The element is only applicable to XML expressions of PBCore. This container enables a similar function to RSS; pbcoreCollection would be similar to rss:channel and pbcoreDescription document to rss:item.
-  usage: not repeatable
+  definition: <strong>pbcoreCollection</strong> agrupa múltiples pbcoreDescriptionDocument XML en un elemento contenedor para permitir una salida serializada. Los usos pueden incluir devoluciones de API u otros resultados de servicios web.
+  best-practice: este elemento no pretende ser equivalente al concepto de "colección" tal como se utiliza en el archivo o la biblioteca. Consulte pbcoreAssetType para obtener información sobre cómo se puede usar PBCore para expresar información sobre las colecciones. El elemento solo es aplicable a las expresiones XML de PBCore. Este contenedor habilita una función similar a RSS; pbcoreCollection sería similar a rss:channel y pbcoreDescription document a rss:item.
+  usage: no repetible
 pbcoreContributor:
-  definition: <strong>pbcoreContributor</strong> is a container for sub-elements contributor and contributorRole.
-  usage: optional, repeatable
+  definition: <strong>pbcoreContributor</strong> es un contenedor para los subelementos contributor y contributorRole.
+  usage: opcional, repetible
 pbcoreCoverage:
-  definition: <strong>pbcoreCoverage</strong> is a container for subelements coverage and coverageType.
-  usage: optional, repeatable
+  definition: <strong>pbcoreCoverage</strong> es un contenedor para subelementos coverage y coverageType.
+  usage: opcional, repetible
 pbcoreCreator:
-  definition: <strong>pbcoreCreator</strong> is a container for sub-elements creator and creatorRole.
-  usage: optional, repeatable
+  definition: <strong>pbcoreCreator</strong> es un contenedor para los subelementos Creator y CreatorRole.
+  usage: opcional, repetible
 pbcoreDescription:
-  definition: <strong>pbcoreDescription</strong> is an element that uses free-form text or a narrative to report general notes, abstracts, or summaries about the intellectual content of an asset. The information may be in the form of an individual program description, anecdotal interpretations, or brief content reviews. The description may also consist of outlines, lists, bullet points, rundowns, edit decision lists, indexes, or tables of content.
-  best-practice: pbcoreDescription can be repeated, so that multiple descriptions can be provided. The attribute @descriptionType can be used to identify the type of description. The @source attribute can be used to identify the source of a description, e.g. @source=’NOVA website’.
-  usage: required, repeatable
+  definition: <strong>pbcoreDescription</strong> es un elemento que usa texto de forma libre o una narrativa para informar notas generales, abstracts o resúmenes sobre el contenido intelectual de un recurso. La información puede tener la forma de una descripción de programa individual, interpretaciones anecdóticas o breves revisiones de contenido. La descripción también puede consistir en esquemas, listas, índices, resúmenes, listas de decisiones de edición, índices o tablas de contenido.
+  best-practice: pbcoreDescription se puede repetir, de modo que se puedan proporcionar varias descripciones. El atributo @descriptionType se puede utilizar para identificar el tipo de descripción. El atributo @source se puede utilizar para identificar la fuente de una descripción, por ejemplo @source='Sitio web de NOVA'.
+  usage: requerido, repetible
 pbcoreDescriptionDocument:
-  definition: <strong>pbcoreDescriptionDocument</strong> is a root XML element for the expression of an individual PBCore record. pbcoreDescriptionDocument can be used to express intellectual content only (e.g. a series or collection level record with no associated instantiations), or intellectual content with one or more instantiations (e.g. an episode of a program with copies/instantiations on videotape and digital file). This element is only applicable to XML expressions of PBCore. pbcoreDescriptionDocument can only be contained by pbcoreCollection.
-  usage: only repeatable within pbcoreCollection
+  definition: <strong>pbcoreDescriptionDocument</strong> es un elemento XML raíz para la expresión de un registro PBCore individual. pbcoreDescriptionDocument puede usarse para expresar contenido intelectual únicamente (por ejemplo, un registro de nivel de colección o serie sin instanciaciones asociadas), o contenido intelectual con una o más instanciaciones (por ejemplo, un episodio de un programa con copias/instanciaciones en cinta de video y archivo digital). Este elemento solo es aplicable a las expresiones XML de PBCore. pbcoreDescriptionDocument solo puede estar contenido en pbcoreCollection.
+  usage: solo repetible dentro de pbcoreCollection
 pbcoreExtension:
-  definition: <strong>pbcoreExtension</strong> is an extension element. Extensions are either a wrapper containing a specific element from another standard OR embedded xml containing the extension.
-  best-practice: Use it to supplement other metadata sub-elements of the PBCore description document in which it appears.
-  usage: optional, repeatable
+  definition: <strong>pbcoreExtension</strong> es un elemento de extensión. Las extensiones son ya sea un contenedor que contiene un elemento específico de otro estándar, o un XML incrustado que contiene la extensión.
+  best-practice: Úselo para complementar otros subelementos de metadatos del documento de descripción de PBCore en el que aparece.
+  usage: opcional, repetible
 pbcoreGenre:
-  definition: <strong>pbcoreGenre</strong> is an element that describes the Genre of the asset, which can be defined as a categorical description informed by the topical nature or a particular style or form of the content.
-  best-practice: Genre refers to the intellectual content of the asset, whereas the element Asset Type defines a broader structural category; i.e. an asset might have the Asset Type of Segment, with a Genre of News, together defining a news segment.
-  usage: optional, repeatable
+  definition: <strong>pbcoreGenre</strong> es un elemento que describe el género del recurso, que se puede definir como una descripción categórica basada en la naturaleza temática o un estilo o forma particular del contenido.
+  best-practice: Género se refiere al contenido intelectual del recurso, mientras que el elemento Tipo de Recurso define una categoría estructural más amplia; es decir, un recurso puede tener el Tipo de Recurso de Segmento, con un Género de Noticias, definiendo juntos un segmento de noticias.
+  usage: opcional, repetible
 pbcoreIdentifier:
-  definition: <strong>pbcoreIdentifier</strong> is an identifier that can apply to the asset. This identifier should not be limited to a specific instantiation, but rather all instantiations of an asset. It can also hold a URL or URI that points to the asset.
-  best-practice: Best practice is to identify the media item (whether analog or digital) by means of an unambiguous string or number corresponding to an established or formal identification system if one exists. Otherwise, use an identification method that is in use within your agency, station, production company, office, or institution.
-  usage: required, repeatable
+  definition: <strong>pbcoreIdentifier</strong> es un identificador que se puede aplicar al recurso. Este identificador no debe limitarse a una instanciación específica, sino a todas las instanciaciones de un recurso. También puede contener una URL o URI que apunte al recurso.
+  best-practice: La práctica recomendada es identificar el ítem (ya sea analógico o digital) por medio de una cadena o número inequívoco correspondiente a un sistema de identificación formal o establecido, si existe. De lo contrario, utilice un método de identificación que esté en uso dentro de su agencia, estación, productora, oficina o institución.
+  usage: requerido, repetible
 pbcoreInstantiation:
-  definition: <strong>pbcoreInstantiation</strong> contains subelements that describe a single instantiation of an asset. The definition is malleable, but it should be thought of as any discreet and tangible unit that typically (though not always) comprises a whole representation of the asset. For example, an original master videotape, a preservation master video file, and a low-bitrate access copy would all be considered Instantiations of a single video program. All of the sub-elements held by this element are used to describe the instantiation specifically, not necessarily the asset as a whole.
-  usage: optional, repeatable
+  definition: <strong>pbcoreInstantiation</strong> contiene subelementos que describen una instanciación única de un recurso. La definición es maleable, pero debe considerarse como cualquier unidad discreta y tangible que normalmente (aunque no siempre) comprende una representación completa del recurso. Por ejemplo, un máster original en cinta de video, un archivo digital de video máster de preservación y una copia de acceso de baja tasa de bits se considerarían instanciaciones de un solo programa de video. Todos los subelementos que contiene este elemento se utilizan para describir la creación de instanciaciones específicamente, no necesariamente el recurso en su conjunto.
+  usage: opcional, repetible
 pbcoreInstantiationDocument:
-  definition: <strong>pbcoreInstantiationDocument</strong> is the equivalent of the instantiation element, but used for the expression of an instantiation record at the root of an XML document. This is most commonly used when referenced from other schemas, or if you want to create and express a single, stand-alone instantiation. pbcoreInstantiationDocument is a root element and cannot be contained by any other elements.
-  best-practice: This is most commonly used when Intellectual Content (in other words, descriptive metadata) is not expressed using PBCore, but rather another standard such as MODS or Dublin Core.
-  usage: not repeatable
+  definition: <strong>pbcoreInstantiationDocument</strong> es el equivalente del elemento instanciación, pero se utiliza para la expresión de un registro de creación de instanciaciones en la raíz de un documento XML. Esto se usa más comúnmente cuando se hace referencia desde otros esquemas, o si se desea crear y expresar una instanciación única e independiente. pbcoreInstantiationDocument es un elemento raíz y no puede estar contenido por ningún otro elemento.
+  best-practice: esto se usa más comúnmente cuando el Contenido Intelectual (en otras palabras, los metadatos descriptivos) no se expresa mediante PBCore, sino con otro estándar como MODS o Dublin Core.
+  usage: no repetible
 pbcorePart:
-  definition: <strong>pbcorePart</strong> is an element that may be used to split up a single asset so as to enable the use of all available elements at the pbcoreDescriptionDocument level to describe the intellectual content of individual segments of an asset.
-  best-practice: Splitting up an asset in this way allows for defining and describing segments, stories, episodes or other divisions within the asset, such as individual films in a compilation reel, or distinct segments of a news show when each may have their own titles, creators, publishers, or other specific intellectual content information that does not apply across the whole asset.
-  usage: optional, repeatable
+  definition: <strong>pbcorePart</strong> es un elemento que se puede usar para dividir un solo recurso a fin de permitir el uso de todos los elementos disponibles en el nivel de pbcoreDescriptionDocument para describir el contenido intelectual de segmentos individuales de un recurso.
+  best-practice: Dividir un recurso de esta manera permite definir y describir segmentos, historias, episodios u otras divisiones dentro del recurso, como películas individuales en un rollo de compilación o segmentos distintos de un programa de noticias cuando cada uno puede tener sus propios títulos, creadores, editores u otra información de contenido intelectual específico que no se aplica a todo el recurso.
+  usage: opcional, repetible
 pbcorePublisher:
-  definition: <strong>pbcorePublisher</strong> is a container for sub-elements publisher and publisherRole.
-  usage: optional, repeatable
+  definition: <strong>pbcorePublisher</strong> es un contenedor para los subelementos publisher y publisherRole.
+  usage: opcional, repetible
 pbcoreRelation:
-  definition: <strong>pbcoreRelation</strong> contains the pbcoreRelationType and pbcoreRelationIdentifier elements. In order to properly use these two elements they must be nested with the pbcoreRelation element, and pbcoreRelation must contain both pbcoreRelationType and pbcoreRelationIdentifier if it is included.
-  usage: optional, repeatable
+  definition: <strong>pbcoreRelation</strong> contiene los elementos pbcoreRelationType y pbcoreRelationIdentifier. Para utilizar correctamente estos dos elementos, deben estar anidados con el elemento pbcoreRelation, y pbcoreRelation debe contener tanto pbcoreRelationType como pbcoreRelationIdentifier, si está incluido.
+  usage: opcional, repetible
 pbcoreRelationIdentifier:
-  definition: <strong>pbcoreRelationIdentifier</strong> contains the identifier of the related asset. In the case that the related asset has a PBCore record, this identifier should correspond with the pbcoreIdentifier of the related asset. However, it is possible to use this element with a record that isn’t in PBCore, in which case the source attribute should identify the source of the identifier.
-  usage: required within relationType, not repeatable
+  definition: <strong>pbcoreRelationIdentifier</strong> contiene el identificador del recurso relacionado. En el caso de que el recurso relacionado tenga un registro PBCore, este identificador debe corresponder con el pbcoreIdentifier del recurso relacionado. Sin embargo, es posible usar este elemento con un registro que no está en PBCore, en cuyo caso el atributo fuente debe identificar la fuente del identificador.
+  usage: requerido dentro de pbcoreRelation, no repetible
 pbcoreRelationType:
-  definition: <strong>pbcoreRelationType</strong> describes the relationship between the asset being describe by the PBCore document and any other asset. Ideally it would contain text from a controlled vocabulary for describing relationships. There is some depth to what a relationship could be. The assets can be related as different episodes in a series, different tapes in a box set, or different versions of an original, among others.
-  best-practice: The assets may be related in that they are different discrete parts of a single intellectual unit, one may be a derivative of another, or they may be different versions that are distinct enough to be described as separate assets.
-  usage: required within pbcoreRelation, not repeatable
+  definition: <strong>pbcoreRelationType</strong> describe la relación entre el recurso descrito por el documento PBCore y cualquier otro recurso. Idealmente, debería contener texto de un vocabulario controlado para describir relaciones. Hay algo de profundidad en lo que podría ser una relación. Los recursos pueden relacionarse con diferentes episodios de una serie, diferentes cintas en una caja o diferentes versiones de un original, entre otros.
+  best-practice: los recursos pueden estar relacionados en el sentido de que son diferentes partes discretas de una sola unidad intelectual, uno puede ser un derivado de otro, o pueden ser versiones diferentes que son lo suficientemente distintas como para ser descritas como recursos separados.
+  usage: requerido dentro de pbcoreRelation, no repetible
 pbcoreRightsSummary:
-  definition: <strong>pbcoreRightsSummary</strong> is a container for sub-elements ‘rightsSummary’, ‘rightsLink’ and ‘rightsEmbedded’ used to describe Rights for the asset.
-  best-practice: The pbcoreRightsSummary container can be repeated to express multiple rights statements. However, all rights information contained within a pbcoreRightsSummary container should apply to the entire asset. Rights that relate to a specific instantiation of an asset, such as those conferred along with an item in a donation agreement, can be documented in the instantiationRights element.
-  usage: optional, repeatable
-pbcoreRightsSummary:
-  definition: <strong>pbcoreRightsSummary</strong> is a container for sub-elements ‘rightsSummary’, ‘rightsLink’ and ‘rightsEmbedded’ used to describe Rights for the asset.
-  best-practice: The pbcoreRightsSummary container can be repeated to express multiple rights statements. However, all rights information contained within a pbcoreRightsSummary container should apply to the entire asset. Rights that relate to a specific instantiation of an asset, such as those conferred along with an item in a donation agreement, can be documented in the instantiationRights element.
-  usage: optional, repeatable
+  definition: <strong>pbcoreRightsSummary</strong> es un contenedor para los subelementos 'rightsSummary', 'rightsLink' y 'rightsEmbedded' que se utilizan para describir los derechos del recurso.
+  best-practice: el contenedor pbcoreRightsSummary se puede repetir para expresar varias declaraciones de derechos. Sin embargo, toda la información de derechos que un contenedor pbcoreRightsSummary contiene debe aplicarse a todo el recurso. Los derechos que se relacionan con una instanciación específica de un recurso, como los que se otorgan junto con un artículo en un acuerdo de donación, se pueden documentar en el elemento instantiationRights.
+  usage: opcional, repetible
 pbcoreSubject:
-  definition: <strong>pbcoreSubject</strong> is used to assign topic headings or keywords that portray the intellectual content of the asset. A subject is expressed by keywords, key phrases, or even specific classification codes. Controlled vocabularies, authorities, formal classification codes, as well as folksonomies and user-generated tags, may be employed when assigning descriptive subject terms.
-  usage: optional, repeatable
+  definition: <strong>pbcoreSubject</strong> se utiliza para asignar encabezados de temas o palabras clave que representan el contenido intelectual del recurso. Un tema se expresa mediante palabras clave, frases clave o incluso códigos de clasificación específicos. Los vocabularios controlados, las autoridades, los códigos de clasificación formal, así como las folcsonomías y las etiquetas generadas por el usuario, pueden emplearse al asignar términos temáticos descriptivos.
+  usage: opcional, repetible
 pbcoreTitle:
-  definition: <strong>pbcoreTitle</strong> is a name or label relevant to the asset.
-  best-practice: There may be many types of titles an asset may have, such as a series title, episode title, segment title, or project title, therefore the element is repeatable.
-  usage: required, repeatable
+  definition: <strong>pbcoreTitle</strong> es un nombre o etiqueta relevante para el recurso.
+  best-practice: un recurso puede tener muchos tipos de títulos, como el título de una serie, el título de un episodio, el título de un segmento o el título de un proyecto; por lo tanto, el elemento es repetible.
+  usage: requerido, repetible
 publisher:
-  definition: <strong>publisher</strong> identifies a person, people, or organization primarily responsible for distributing or making the asset available to others. The publisher may be a person, a business, organization, group, project or service.
-  usage: required within pbcorePublisher, not repeatable
+  definition: <strong>publisher</strong> identifica a una persona, personas u organización principalmente responsable de distribuir o poner el recurso a disposición de otros. El editor puede ser una persona, una empresa, una organización, un grupo, un proyecto o un servicio.
+  usage: requerido dentro de pbcorePublisher, no repetible
 publisherRole:
-  definition: <strong>publisherRole</strong> is used to identify the role played by the specific publisher or publishing entity identified in the companion descriptor publisher. The PBCore schema allows for publisherRole to be repeated in the pbcorePublisher container element. This can be useful when a single person or organization is associated with multiple roles in an asset.
-  usage: optional, repeatable
+  definition: <strong>publisherRole</strong> se utiliza para identificar el rol desempeñado por el editor específico o la entidad editorial identificada en el descriptor complementario Publisher. El esquema PBCore permite que publisherRole se repita en el elemento contenedor pbcorePublisher. Esto puede ser útil cuando una sola persona u organización está asociada con varios roles en un recurso.
+  usage: opcional, repetible
 rightsEmbedded:
-  definition: <strong>rightsEmbedded</strong> allows the inclusion of xml from another rights standard, e.g. ODRL, METS, etc. The included XML then defines the rights for the PBCore asset and/or PBCore instantiation.
-  usage: required within pbcoreRightsSummary or instantiationRights if rightsSummary or rightsLink is not used; cannot be used with rightsSummary or rightsLink; repeatable
+  definition: <strong>rightsEmbedded</strong> permite la inclusión de XML de otro estándar de derechos, por ejemplo, ODRL, METS, etc. El XML incluido luego define los derechos para el recurso de PBCore y/o la creación de instanciaciones de PBCore.
+  usage: requerido dentro de pbcoreRightsSummary or instantiationRights if rightsSummary or rightsLink is not used; cannot be used with rightsSummary or rightsLink; repetible
 rightsLink:
-  definition: <strong>rightsLink</strong> is a URI pointing to a declaration of rights.
-  usage: required within pbcoreRightsSummary or instantiationRights if rightsSummary or rightsEmbedded is not used; cannot be used with rightsSummary or rightsEmbedded; repeatable
+  definition: <strong>rightsLink</strong> es un URI que apunta a una declaración de derechos.
+  usage: requerido dentro de pbcoreRightsSummary or instantiationRights if rightsSummary or rightsEmbedded is not used; cannot be used with rightsSummary or rightsEmbedded; repetible
 rightsSummary:
-  definition: <strong>rightsSummary</strong> is used as a general free-text element to identify information about copyrights and property rights held in and over an asset or instantiation, whether they are open access or restricted in some way. If dates, times and availability periods are associated with a right, include them. End user permissions, constraints and obligations may also be identified as needed.
-  best-practice: For rights information that applies to the asset as a whole, use this element within the container pbcoreRightsSummary. For rights information that is specific to an instantiation of an asset, use it within the container instantiationRights.
-  usage: required within pbcoreRightsSummary or instantiationRights if rightsLink or rightsEmbedded is not used; cannot be used with rightsLink or rightsEmbedded; repeatable
+  definition: <strong>rightsSummary</strong> se usa como un elemento general de texto libre para identificar información sobre los derechos de autor y los derechos de propiedad que se tienen en y sobre un recurso o instanciación ya sea que sean de acceso abierto o estén restringidos de alguna manera. Si las fechas, horas y períodos de disponibilidad están asociados a un derecho, inclúyalos. Los permisos, restricciones y obligaciones del usuario final también pueden identificarse según sea necesario.
+  best-practice: para información sobre los derechos que se aplica al recurso en su totalidad, use este elemento dentro del contenedor pbcoreRightsSummary. Para obtener información sobre derechos que sea específica de una instanciación de un recurso, utilícela dentro del contenedor instanciationRights.
+  usage: requerido dentro de pbcoreRightsSummary or instantiationRights if rightsLink or rightsEmbedded is not used; cannot be used with rightsLink or rightsEmbedded; repetible
