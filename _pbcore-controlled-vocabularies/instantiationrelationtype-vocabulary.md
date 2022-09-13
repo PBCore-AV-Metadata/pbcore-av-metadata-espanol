@@ -2,40 +2,40 @@
 section: Schema
 name: instantiationRelationType Vocabulary
 usage: >
-  for <a href="elements/instantiationrelationtype">instantiationRelationType</a>
+  para <a href="elements/instantiationrelationtype">instantiationRelationType</a>
 omr-link: http://metadataregistry.org/concept/list/vocabulary_id/459.html
 download: /assets/downloads/pbcore_instantiationrelationtype_vocabulary.xlsx
 terms:
   - term: Is Clone Of
     id: IsCloneOf
-    definition: The instantiation being described was digitally or losslessly copied from another instantiation, which is being pointed to in this relation element.
+    definition: Español - Es clon de. La instanciación que se describe se copió digitalmente o sin pérdidas desde otra instanciación, a la cual se apunta en este elemento de relación.
   - term: Cloned To
     id: ClonedTo
-    definition: The instantiation being described has been digitally or losslessly copied to another instantiation, which is being pointed to in this relation element.
+    definition: Español - Clonado a. La instanciación que se describe se copió digitalmente o sin pérdidas hacia otra instanciación, a la cual se apunta en este elemento de relación.
   - term: Is Dub Of
     id: IsDubOf
-    definition: The instantiation being described was physically duplicated from another instantiation, which is being pointed to in this relation element.
+    definition: Español - Es duplicado de. La instanciación que se describe se duplicó físicamente desde otra instanciación, a la cual se apunta en este elemento de relación.
   - term: Dubbed To
     id: DubbedTo
-    definition: The instantiation being described has been physically duplicated onto another instantiation, which is being pointed to in this relation element.
+    definition: Español - Duplicado en. La instanciación que se describe se duplicó físicamente hacia otra instanciación, a la cual se apunta en este elemento de relación.
   - term: Is Format Of
     id: IsFormatOf
-    definition: The instantiation being described is an alternate format of an original instantiation (for example, a digital file which was created from an analog video) which is being pointed to in this relation element.
+    definition: Español - Es formato de. La instanciación que se describe es un formato alternativo de una instanciación original (por ejemplo, un archivo digital creado de un video analógico) a la cual se relaciona este elemento.
   - term: Has Format
     id: HasFormat
-    definition: The instantiation being described exists in an alternate format (for example, an analog video which also exists as a digital file) which is being pointed to in this relation element.
+    definition: Español - Tiene formato de. La instanciación que se describe existe en un formato alternativo (por ejemplo, un video analógico que también existe como un archivo digital) a la cual se relaciona este elemento
   - term: Is Part Of
     id: IsPartOf
-    definition: The instantiation being described is part of the asset or instantiation being pointed to in this relation element (for example, a clip that has been taken from a longer piece.)
+    definition: Español - Es parte de. La instanciación que se describe forma parte del recurso o la instanciación a la cual se apunta en este elemento de relación (por ejemplo, un clip extraído de una pieza mayor). 
   - term: Has Part
     id: HasPart
-    definition: A portion of the instatiation being described exists as an independent instantiation (for example, a clip) which is pointed to in this relation element.
+    definition: Español - Tiene parte. Una parte de la instanciación que se describe existe como una instanciación independiente (por ejemplo, un clip) a la cual se apunta en este elemento de relación.
   - term: Replaces
     id: Replaces
-    definition: The instantiation being described is a substitution for the instantiation being pointed to in the relation element (for example, because the original instantiation has been deaccessioned.)
+    definition: Español - Reemplaza a. La instanciación que se describe es una sustitución de la instanciación a la cual se apunta en este elemento de relación (por ejemplo, en el caso de que la instanciación original haya sido 
   - term: Is Replaced By
     id: IsReplacedBy
-    definition: The instantiation being described is being substituted for by the instantiation being pointed to in the relation element (for example, because it has been deaccessioned.)
+    definition: Español - Se reemplaza por. La instanciación que se describe se sustituye por la instanciación a la cual se apunta en este elemento de relación (por ejemplo, si fue desadquirida).
 uri: /pbcore-controlled-vocabularies/instantiationrelationtype-vocabulary/
 permalink: /pbcore-controlled-vocabularies/instantiationrelationtype-vocabulary/
 ---

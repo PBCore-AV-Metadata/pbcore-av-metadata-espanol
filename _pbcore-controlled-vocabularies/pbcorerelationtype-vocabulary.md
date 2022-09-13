@@ -2,34 +2,34 @@
 section: Schema
 name: pbcoreRelationType Vocabulary
 usage: >
-  for <a href="elements/pbcorerelationtype">pbcoreRelationType</a>
+  para <a href="elements/pbcorerelationtype">pbcoreRelationType</a>
 omr-link: http://metadataregistry.org/concept/list/vocabulary_id/458.html
 download: /assets/downloads/pbcore_pbcorerelationtype_vocabulary.xlsx
 terms:
   - term: Has Derivative
     id: HasDerivative
-    definition: The asset being described is the source for another asset which is based upon it (for example, a film and then a documentary about the making of that film).
+    definition: Español - Tiene Derivado. El recurso que se describe constituye la fuente de otro recurso que se basa en él (por ejemplo, una película y luego un documental sobre la realización de esa película).
   - term: Derived From
     id: DerivedFrom
-    definition: The asset being described has another asset as its source (for example, a documentary about the making of a film).
+    definition: Español - Derivado de. El recurso que se describe tiene otro recurso como fuente (por ejemplo, un documental sobre la realización de una película).
   - term: References
     id: References
-    definition: The asset being described mentions, uses or discusses another asset (for example, a review program that discusses a recorded theatrical work).
+    definition: Español - Referencia. El recurso que se describe menciona, usa o analiza otro recurso (por ejemplo, un programa de críticas que analiza una obra teatral grabada).
   - term: Is Referenced By
     id: IsReferencedBy
-    definition: The asset being described is mentioned, used or discussed by another asset (for example, a recorded theatrical performance that is reviewed in another program).
+    definition: Español - Referenciado por. El recurso que se describe es mencionado, utilizado o analizado por otro recurso (por ejemplo, un espectáculo teatral grabado que se reseña en otro programa).
   - term: Is Related To
     id: IsRelatedTo
-    definition: The asset being described is related somehow to the asset being pointed to in this relation element (for example, two programs related to the same topic). This should be used as a default if the specific relationship is unknown.
+    definition: Español - Relacionado a. El recurso que se describe está relacionado de alguna manera con el recurso al que se apunta en este elemento de relación (por ejemplo, dos programas sobre el mismo tema). Esta opción debe usarse como predeterminada si se desconoce cuál es la relación específica.
   - term: Is Part Of
     id: IsPartOf
-    definition: The asset being described is part of the asset being pointed to in this relation element (for example, one segment of a multi-segment television program.) This relationship can also be described using pbcorePart.
+    definition: Español - Es parte de. El recurso que se describe es parte del recurso al que se apunta en este elemento de relación (por ejemplo, un segmento de un programa de televisión que se compone de varios segmentos). Esta relación también se puede describir mediante pbcorePart.
   - term: Has Version
     id: HasVersion
-    definition: The asset being described has an alternate intellectual version (for example, a different edit, or in a different language) which is being pointed to by this relation element. Use this when the asset being described is the ‘official’ or ‘master’ version of the asset; if not, use ‘Is Version Of’ to point to the master.
+    definition: Español - Tiene versión. El recurso que se describe tiene una versión intelectual alternativa a la que se apunta con este elemento de relación (por ejemplo, una edición diferente o en un idioma diferente). Debe usarse cuando el recurso que se describe es la versión “oficial” o “máster” del recurso. De lo contrario, debe usarse “Is Version Of”’ para señalar la versión máster.
   - term: Is Version Of
     id: IsVersionOf
-    definition: The asset being described is an alternate intellectual version (for example, a different edit, or in a different language) of the resource being pointed to by this relation element. Use this if the asset being described is not the ‘official’ or ‘master’ version of the asset; if it is the master version, use ‘Has Version.’
+    definition: Español - Es versión de. El recurso que se describe es una versión intelectual alternativa del recurso al que se apunta con este elemento de relación (por ejemplo, una edición diferente o en un idioma diferente). Debe usarse si el recurso que se describe no es la versión “oficial” o “máster” del recurso. Si es la versión máster, use ‘Has Version.’
 uri: /pbcore-controlled-vocabularies/pbcorerelationtype-vocabulary/
 permalink: /pbcore-controlled-vocabularies/pbcorerelationtype-vocabulary/
 ---

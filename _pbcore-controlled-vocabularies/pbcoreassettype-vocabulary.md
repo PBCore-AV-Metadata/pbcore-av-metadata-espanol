@@ -2,52 +2,52 @@
 section: Schema
 name: pbcoreAssetType Vocabulary
 usage: >
-  for <a href="elements/pbcoreassettype">pbcoreAssetType</a>
+  para <a href="elements/pbcoreassettype">pbcoreAssetType</a>
 omr-link: http://metadataregistry.org/concept/list/vocabulary_id/454.html
 download: /assets/downloads/pbcore_pbcoreassettype_vocabulary.xlsx
 terms:
   - term: Album
     id: Album
-    definition: A collection of recordings issued as a single item on CD, record, or another medium.
+    definition: Español - Álbum. Una colección de grabaciones editadas como un elemento individual en un CD, disco, o en algún otro medio.
   - term: Animation
     id: Animation
-    definition: A moving image production element created from static drawings or objects.
+    definition: Español - Animación. Una producción de imágenes en movimiento que se crea a partir de dibujos estáticos u objetos.
   - term: Clip
     id: Clip
-    definition: A short excerpt taken from a moving image or audio resource. A clip may not convey a complete intellectual concept.
+    definition: Un fragmento corto extraído de un recurso de audio o de imágenes en movimiento. No todos los clips transmiten un concepto intelectual completo.
   - term: Collection
     id: Collection
-    definition: A group of materials with some unifying characteristic. – 2. Materials assembled by a person, organization, or repository from a variety of sources; an artificial collection.
+    definition: Español - Colección. – 1. Un conjunto de materiales que poseen algunas características unificadoras. – 2. Materiales de una variedad de fuentes que fueron reunidos por una persona, organización, o repositorio; una colección artificial.
   - term: Compilation
     id: Compilation
-    definition: A single asset containing multiple different sub-assets; for example, a reel with programs, clips, and raw footage.
+    definition: Español - Compilación. Un único recurso que contiene múltiples y diversos sub-recursos. Por ejemplo, un rollo con programas, clips y tomas crudas.
   - term: Episode
     id: Episode
-    definition: A single installment of a series, whether linearly relate to other episodes in the series, or simply presented under the same branding.
+    definition: Español - Episodio. Una entrega individual de una serie ya sea que se relaciona linealmente con otros episodios de la serie o simplemente se presenta bajo el mismo nombre.
   - term: Miniseries
     id: Miniseries
-    definition: A multi-episode resource of limited duration, aired daily or weekly, usually with a total running time of less than 15 hours.
+    definition: Español - Miniserie. Un recurso de múltiples episodios de duración limitada, que se emite diaria o semanalmente y que generalmente tiene una duración de menos de 15 horas.
   - term: Program
     id: Program
-    definition: A resource that has been prepared for broadcast/publication and is presented as a single work, with no series branding.
+    definition: Español - Programa. Un recurso preparado para su transmisión/publicación y que se presenta como una obra única y no en el marco de una serie.
   - term: Promo
     id: Promo
-    definition: An edited piece of audio or video announcing an upcoming work (like a program or series).
+    definition: Español - Video promocional. Un fragmento de video o audio editado que anuncia una nueva obra.
   - term: Raw Footage
     id: RawFootage
-    definition: Originally captured footage or other unedited content, not intended for broadcast in its current form.
+    definition: Español - Tomas crudas, material en bruto. Tomas originales o cualquier otro contenido no editado, que no está destinado a su transmisión en su formato actual.
   - term: Segment
     id: Segment
-    definition: A self-contained portion of a program/episode, which serves its own function, but operates within the larger program/episode.
+    definition: Español - Segmento. Una parte independiente de un programa/episodio, que cumple una función propia, pero opera dentro de un programa/episodio mayor.
   - term: Series
     id: Series
-    definition: A set of episodes broadcast in sequence, usually conceived without a definite end and aired on a regular schedule. Typically all episodes within a single series follow a specific theme or continuous storyline, or are all broadcast under the same series title and branding.
+    definition: Español - Serie. Conjunto de episodios transmitidos en secuencia, generalmente concebidos sin un final definido y emitidos en un horario regular. Por lo general, todos los episodios dentro de una sola serie siguen un tema específico o una historia argumental continua, o todos se transmiten bajo el mismo título y marca de la serie.
   - term: Season
     id: Season
-    definition: A set of episodes from a series, which were all aired in the same broadcast period.
+    definition: Español - Temporada. Conjunto de episodios de una serie que se emitieron en el mismo período.
   - term: Subseries
     id: Subseries
-    definition: A set of episodes that makes up its own series, which is broadcast under an umbrella series with its own branding.
+    definition: Español - Subserie. Un conjunto de episodios que conforman una serie propia y que se emite en el marco de una serie mayor con su propia marca.
 uri: /pbcore-controlled-vocabularies/pbcoreassettype-vocabulary/
 permalink: /pbcore-controlled-vocabularies/pbcoreassettype-vocabulary/
 ---

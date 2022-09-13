@@ -9,7 +9,7 @@ layout: default
 
     <span class="definition-icon def-elements"></span>
 
-    <h3 class="green bold">Elements defined</h3>
+    <h3 class="green bold">Elementos definidos</h3>
 
     <h2 class="ele-title-highlight">{{ page.name }}</h2>
 
@@ -17,12 +17,12 @@ layout: default
 
     {% if site.data.element_defs[page.name].best-practice %}
 
-      <p><span class="green">Best Practice: </span><span>{{ site.data.element_defs[page.name].best-practice }}</span></p>
+      <p><span class="green">Práctica recomendada: </span><span>{{ site.data.element_defs[page.name].best-practice }}</span></p>
     {% endif %}
 
-    <p><span class="green">Usage: </span><span>{{ site.data.element_defs[page.name].usage }}</span></p>
+    <p><span class="green">Uso: </span><span>{{ site.data.element_defs[page.name].usage }}</span></p>
 
-    <h3 class="green bold">Attributes</h3>
+    <h3 class="green bold">Atributos</h3>
 
     {% if page.attributes %}
       <ul class="attribute-container">
@@ -40,7 +40,7 @@ layout: default
       <p>This element cannot have any attributes.</p>
     {% endif %}
 
-    <h3 class="green bold">Subelements</h3>
+    <h3 class="green bold">Subelementos</h3>
 
     {% if page.subelements %}
       <ul class="attribute-container">
@@ -57,7 +57,7 @@ layout: default
     {% endif %}
 
     {% if page.controlled-vocabs %}
-      <h3 class="green bold">Controlled Vocabularies</h3>
+      <h3 class="green bold">Vocabularios controlados</h3>
       <ul class="pb-list">
         {% for item in page.controlled-vocabs %}
           <li class="black">
@@ -67,7 +67,7 @@ layout: default
       </ul>
     {% endif %}
 
-    <h3 class="green bold">Example</h3>
+    <h3 class="green bold">Ejemplo</h3>
 
     {{ content }}
   </div>

@@ -1,127 +1,124 @@
 affiliation:
-  definition: The affiliation attribute is used to indicate the organization with which an agent is associated or affiliated. Can be used as an attribute of the following elements - contributor, creator, publisher.
+  definition: Español - afiliación. El atributo “affiliation” se utiliza para indicar la organización con la que un agente está asociado o afiliado. Se puede utilizar como un atributo de los siguientes elementos - contributor, creator, publisher. 
 affiliationAnnotation:
-  definition: The affiliationAnnotation attribute includes narrative information intended to clarify the nature of data used in the attribute affiliation. Can be used as an attribute of the following elements - contributor, creator, publisher.
-  best-practice: This attribute can be used as a notes field to include any additional information about the element or associated attributes.
+  definition: Español - anotación de afiliación. El atributo “affiliationAnnotation” incluye información narrativa destinada a aclarar la naturaleza de los datos utilizados en la afiliación del atributo. Se puede utilizar como un atributo de los siguientes elementos - contributor, creator, publisher.
+  best-practice: Este atributo se puede utilizar como un campo de notas para incluir cualquier información adicional sobre el elemento o los atributos asociados.
 affiliationRef:
-  definition: The affiliationRef attribute is used supply a source’s URI for the value of the attribute affiliation. Can be used as an attribute of the following elements - contributor, creator, publisher.
-  best-practice: Attribute affiliationRef can be used to point to a term in a controlled vocabulary, or a URI associated with a source.
+  definition: Español - referencia de afiliación. El atributo “affiliationRef” se utiliza para proporcionar el URI de una fuente para el valor del atributo afiliación. Se puede utilizar como un atributo de los siguientes elementos - contributor, creator, publisher.
+  best-practice: La referencia de afiliación se puede utilizar para señalar un término en un vocabulario controlado o un URI asociado con una fuente.
 affiliationSource:
-  definition: The affiliationSource attribute provides the name of the authority used to declare the value of the attribute affiliation. Can be used as an attribute of the following elements - contributor, creator, publisher.
-  best-practice: This might be the name of a controlled vocabulary, namespace or authority list, such as the official PBCore recommended vocabulary.
+  definition: Español - fuente de afiliación. El atributo “affiliationSource” proporciona el nombre de la autoridad utilizada para declarar el valor del atributo afiliación. Se puede utilizar como un atributo de los siguientes elementos - contributor, creator, publisher.
+  best-practice: Puede ser el nombre de un vocabulario controlado, ‘namespace’ o una lista de autoridades, como el vocabulario recomendado oficial de PBCore.
 affiliationVersion:
-  definition: The affiliationVersion attribute identifies any version information about the authority or convention used to express data of the attribute affiliation. Can be used as an attribute of the following elements - contributor, creator, publisher.
+  definition: Español - versión de la afiliación. El atributo “affiliationVersion” identifica cualquier información de versión sobre la autoridad o convención utilizada para expresar datos del atributo afiliación. Se puede utilizar como un atributo de los siguientes elementos - contributor, creator, publisher.
 annotation:
-  definition: The annotation attribute includes narrative information intended to clarify the nature of data used in the element. Can be used as an attribute of any element.
-  best-practice: This attribute can be used as a notes field to include any additional information about the element or associated attributes.
+  definition: Español - anotación. El atributo "annotation" incluye información narrativa destinada a aclarar la naturaleza de los datos utilizados en el elemento. Se puede utilizar como atributo de cualquier elemento.
+  best-practice: Este atributo se puede utilizar como un campo de notas para incluir cualquier información adicional sobre el elemento o los atributos asociados.
 annotationType:
-  definition: The annotationType attribute is used to indicate the type of annotation being assigned to the asset, such as a comment, clarification, or cataloging note. Can be used as an attribute of the following elements - essenceTrackAnnotation, instantiationAnnotation, pbcoreAnnotation.
+  definition: Español - tipo de anotación. El atributo “annotationType” se utiliza para indicar el tipo de anotación que se asigna al recurso, como un comentario, una aclaración o una nota de catalogación. Se puede utilizar como un atributo de los siguientes elementos - essenceTrackAnnotation, instantiationAnnotation, pbcoreAnnotation.
 collectionDate:
-  definition: The collectionDate attribute provides the date of creation for a pbcoreCollection XML document. Can be used as an attribute of the pbcoreCollection element.
+  definition: Español - fecha de colección. El atributo “collectionDate” proporciona la fecha de creación de un documento XML pbcoreCollection. Puede usarse como un atributo del elemento pbcoreCollection.
 collectionDescription:
-  definition: The collectionDescription attribute is a description group of individual serialized XML records contained within one pbcoreCollection element. Can be used as an attribute of the pbcoreCollection element.
+  definition: Español - descripción de colección. El atributo “collectionDescription” es una descripción para el grupo de registros XML serializados individuales contenidos dentro de un elemento pbcoreCollection. Puede usarse como un atributo del elemento pbcoreCollection.
 collectionRef:
-  definition: The collectionRef attribute provides a URL for the source organization, application, or individual for a group of XML records contained within a pbcoreCollection element. Can be used as an attribute of the pbcoreCollection element.
-  best-practice: Attribute collectionRef can be used to point to a term in a controlled vocabulary, or a URI associated with a source.
+  definition: Español - referencia de colección. El atributo “collectionRef” proporciona una URL para la organización, aplicación o persona de origen para un grupo de registros XML contenidos en un elemento pbcoreCollection. Puede usarse como un atributo del elemento pbcoreCollection.
+  best-practice: El atributo “collectionRef” se puede usar para señalar un término en un vocabulario controlado o un URI asociado con una fuente.
 collectionSource:
-  definition: The collectionSource attribute indicates a source organization, application, or individual for group of individual XML records contained within a pbcoreCollection element. Can be used as an attribute of the pbcoreCollection element.
-  best-practice: This might be the name of a controlled vocabulary, namespace or authority list, such as the official PBCore recommended vocabulary.
+  definition: Español - fuente de colección. El atributo “collectionSource” indica una organización, aplicación o persona de origen para un grupo de registros XML individuales contenidos en un elemento pbcoreCollection. Puede usarse como un atributo del elemento pbcoreCollection.
+  best-practice: Puede ser el nombre de un vocabulario controlado, un ‘namespace’ o lista de autoridades, como el vocabulario recomendado oficial de PBCore.
 collectionTitle:
-  definition: The collectionTitle attribute is a title or label for the group of individual serialized XML records contained within one pbcoreCollection element. Can be used as an attribute of the pbcoreCollection element.
+  definition: Español - título de colección. El atributo “collectionTitle” es un título o etiqueta para el grupo de registros XML serializados individuales contenidos dentro de un elemento pbcoreCollection. Puede usarse como un atributo del elemento pbcoreCollection.
 dateType:
-  definition: The dateType attribute classifies by named type the date-related data of the element e.g., created, broadcast, dateAvailableStart. Can be used as an attribute of the following elements - pbcoreAssetDate, instantiationDate.
-  best-practice: Used to clarify how the date is related to the asset or instantiation. Date Created may be the most common, but the element could also be used to describe the Date Accessioned or Date Deaccessioned, for example.
+  definition: Español - tipo de fecha. El atributo “dateType” clasifica por tipo nombrado los datos relacionados con la fecha del elemento, por ejemplo - created, broadcast, dateAvailableStart. Se puede usar como un atributo de los siguientes elementos - pbcoreAssetDate, instantiationDate.
+  best-practice: Se utiliza para aclarar cómo se relaciona la fecha con el recurso o la creación de instanciaciones. La fecha de creación puede ser la más común, pero el elemento también podría usarse para describir la Fecha de Acceso o la Fecha de Baja, por ejemplo.
   controlled-vocab:
 descriptionType:
-  definition: The descriptionType attribute is used to indicate the type of description being assigned to the element, such as ‘abstract,’ ‘summary,’ or ‘physical description.’ Can be used as an attribute of the pbcoreDescription element.
+  definition: Español - tipo de descripción. El atributo “descriptionType” se usa para indicar el tipo de descripción que se asigna al elemento, como ‘abstract,' 'summary,' o 'physical description'. Se puede usar como un atributo del elemento pbcoreDescription.
 descriptionTypeAnnotation:
-  definition: The descriptionTypeAnnotation attribute includes narrative information intended to clarify the nature of data used in the element. Can be used as an attribute of the pbcoreDescription element.
-  best-practice: This attribute can be used as a notes field to include any additional information about the element or associated attributes.
+  definition: Español - anotación del tipo de descripción. El atributo “descriptionTypeAnnotation” incluye información narrativa destinada a aclarar la naturaleza de los datos utilizados en el elemento. Se puede utilizar como atributo del elemento pbcoreDescription.
+  best-practice: este atributo se puede utilizar como un campo de notas para incluir cualquier información adicional sobre el elemento o los atributos asociados.
 descriptionTypeRef:
-  definition: The descriptionTypeRef attribute is used to supply a source’s URI for the value of the attribute descriptionType. Can be used as an attribute of the pbcoreDescription element.
-  best-practice: Attribute descriptionTypeRef can be used to point to a term in a controlled vocabulary, or a URI associated with a source.
+  definition: Español - referencia del tipo de descripción. El atributo “descriptionTypeRef” se utiliza para proporcionar el URI de una fuente para el valor del atributo descriptionType. Se puede utilizar como atributo del elemento pbcoreDescription.
+  best-practice: El atributo “descriptionTypeRef” se puede usar para señalar un término en un vocabulario controlado o un URI asociado con una fuente.
 descriptionTypeSource:
-  definition: The descriptionTypeSource attribute provides the name of the authority used to declare data value of the attribute descriptionType. Can be used as an attribute of the pbcoreDescription element.
-  best-practice: This might be the name of a controlled vocabulary, namespace or authority list, such as the official PBCore recommended vocabulary.
+  definition: Español - fuente del tipo de descripción. El atributo “descriptionTypeSource” proporciona el nombre de la autoridad utilizada para declarar el valor de los datos del atributo descriptionType. Se puede utilizar como atributo del elemento pbcoreDescription.
+  best-practice: Puede ser el nombre de un vocabulario controlado, un namespace o una lista de autoridades, como el vocabulario recomendado oficial de PBCore.
 descriptionTypeVersion:
-  definition: The descriptionTypeVersion attribute identifies any version information about the authority or convention used to express data of the attribute descriptionType. Can be used as an attribute of the pbcoreDescription element.
+  definition: Español - versión del tipo de descripción. El atributo “descriptionTypeVersion” identifica cualquier información de versión sobre la autoridad o convención utilizada para expresar datos del atributo descriptionType. Se puede utilizar como atributo del elemento pbcoreDescription.
 endTime:
-  definition: The endTime attribute combines with a similar value in the startTime attribute to define a specific media segment within a broader timeline of an asset and/or instantiation. Can be used as an attribute of the following elements - contributor, coverage, creator, instantiationRights, pbcoreDescription, pbcoreGenre, pbcoreInstantiation, pbcoreInstantiationDocument, pbcorePart, pbcoreRightsSummary, pbcoreSubject, pbcoreTitle, publisher.
+  definition: Español - tiempo de finalización. El atributo “endTime” se combina con un valor similar en el atributo “startTime” para definir un segmento de medios específico dentro de una línea de tiempo más amplia de un recurso y/o instanciación. Se puede usar como atributo de los siguientes elementos - contributor, coverage, creator, instantiationRights, pbcoreDescription, pbcoreGenre, pbcoreInstantiation, pbcoreInstantiationDocument, pbcorePart, pbcoreRightsSummary, pbcoreSubject, pbcoreTitle, publisher.
 partType:
-  definition: The partType attribute is used to indicate the nature of the part into which the asset has been divided. Can be used as an attribute of the pbcorePart element.
+  definition: Español - tipo de parte. El atributo “partType” se utiliza para indicar el comportamiento de la parte en la que se ha dividido el recurso. Se puede utilizar como atributo del elemento pbcorePart.
 partTypeAnnotation:
-  definition: The partTypeAnnotation attribute includes narrative information intended to clarify the nature of data used in the attribute partType. an be used as an attribute of the pbcorePart element.
-  best-practice: This attribute can be used as a notes field to include any additional information about the element or associated attributes.
+  definition: Español - anotación del tipo de parte. El atributo “partTypeAnnotation” incluye información narrativa destinada a aclarar la naturaleza de los datos utilizados en el atributo partType. Puede usarse como un atributo del elemento pbcorePart.
+  best-practice: Este atributo se puede utilizar como un campo de notas para incluir cualquier información adicional sobre el elemento o los atributos asociados.
 partTypeRef:
-  definition: The partTypeRef attribute is used to supply a source’s URI for the value of the attribute partType. Can be used as an attribute of the pbcorePart element.
-  best-practice: Attribute partTypeRef can be used to point to a term in a controlled vocabulary, or a URI associated with a source.
+  definition: Español - referencia del tipo de parte. El atributo “partTypeRef” se usa para proporcionar el URI de una fuente para el valor del atributo partType. Se puede utilizar como atributo del elemento pbcorePart.
+  best-practice: El atributo “partTypeRef” se puede usar para señalar un término en un vocabulario controlado o un URI asociado con una fuente.
 partTypeSource:
-  definition: The partTypeSource provides the name of the authority used to declare data value of the attribute partType. Can be used as an attribute of the pbcorePart element.
-  best-practice: This might be the name of a controlled vocabulary, namespace or authority list, such as the official PBCore recommended vocabulary.
-partTypeSource:
-  definition: The partTypeVersion attribute is used to identify any version information about the authority or convention used to express data of the attribute partType. Can be used as an attribute of the pbcorePart element.
+  definition: Español - versión del tipo de parte. El atributo “partTypeVersion” se utiliza para identificar cualquier información de versión sobre la autoridad o convención utilizada para expresar datos del atributo partType. Se puede utilizar como atributo del elemento pbcorePart.
 portrayal:
-  definition: The portrayal attribute identifies any roles or characters performed by a contributor. Can be used as an attribute of the contributorRole element.
+  definition: Español - representación. El atributo "portrayal" identifica cualquier rol o personaje realizado por un colaborador. Se puede utilizar como un atributo del elemento contributorRole.
 profile:
-  definition: The profile attribute is used to further quantify the profile of the container format (e.g. Op1a). Can be used as a notes field to include any additional information about the element or associated attributes.
+  definition: Español - perfil. El atributo “profile” se utiliza para cuantificar aún más el perfil del formato del contenedor (por ejemplo, Op1a). Se puede utilizar como un campo de notas para incluir cualquier información adicional sobre el elemento o los atributos asociados.
 ref:
-  definition: The ref attribute is used to supply a source’s URI for the value of the element. Can be used as an attribute of any element.
-  best-practice: Attribute ref can be used to point to a term in a controlled vocabulary, or a URI associated with a source.
+  definition: Español - referencia abreviada como ref. El atributo “ref” se utiliza para proporcionar el URI de una fuente para el valor del elemento. Se puede utilizar como atributo de cualquier elemento.
+  best-practice: La referencia de atributo se puede usar para señalar un término en un vocabulario controlado o un URI asociado con una fuente.
 schemaLocation:
-  definition: The schema location attribute has two values, separated by a space. The first value is the namespace to use. The second value is the location of the XML schema to use for that namespace. Can be used as an attribute of the pbcoreDescriptionDocument element.
+  definition: Español - ubicación de esquema. El atributo “schemaLocation” tiene dos valores, separados por un espacio. El primer valor es el namespace a utilizar. El segundo valor es la ubicación del esquema XML que se usará para ese namespace. Se puede utilizar como atributo del elemento pbcoreDescriptionDocument.
 segmentType:
-  definition: The segmentType attribute is used to define the type of content contained in a segment. Can be used as an attribute of the pbcoreDescription element.
+  definition: Español - tipo de segmento. El atributo “segmentType” se utiliza para definir el tipo de contenido contenido en un segmento. Se puede utilizar como atributo del elemento pbcoreDescription.
 segmentTypeAnnotation:
-  definition: The segmentTypeAnnotation attribute includes narrative information intended to clarify the nature of data used in the attribute segmentType. Can be used as an attribute of the pbcoreDescription element.
-  best-practice: This attribute can be used as a notes field to include any additional information about the element or associated attributes.
+  definition: Español - anotación de tipo de segmento. El atributo “segmentTypeAnnotation” incluye información narrativa destinada a aclarar la naturaleza de los datos utilizados en el atributo segmentType. Se puede utilizar como atributo del elemento pbcoreDescription.
+  best-practice: Este atributo se puede utilizar como un campo de notas para incluir cualquier información adicional sobre el elemento o los atributos asociados.
 segmentTypeRef:
-  definition: The segmentTypeRef attribute is used to supply a source’s URI for the value of the attribute segmentType. Can be used as an attribute of the pbcoreDescription element.
-  best-practice: Attribute segmentTypeRef can be used to point to a term in a controlled vocabulary, or a URI associated with a source.
+  definition: Español - referencia de tipo de segmento. El atributo “segmentTypeRef” se usa para proporcionar el URI de una fuente para el valor del atributo segmentType. Se puede utilizar como atributo del elemento pbcoreDescription.
+  best-practice: El atributo “segmentTypeRef” se puede usar para señalar un término en un vocabulario controlado o un URI asociado con una fuente.
 segmentTypeSource:
-  definition: The segmentTypeSource attribute provides the name of the authority used to declare data value of the attribute segmentType. Can be used as an attribute of the pbcoreDescription element.
-  best-practice: This might be the name of a controlled vocabulary, namespace or authority list, such as the official PBCore recommended vocabulary.
+  definition: Español - fuente de tipo de segmento. El atributo “segmentTypeSource” proporciona el nombre de la autoridad utilizada para declarar el valor de los datos del atributo segmentType. Se puede utilizar como atributo del elemento pbcoreDescription.
+  best-practice: Puede ser el nombre de un vocabulario controlado, un namespace o una lista de autoridades, como el vocabulario recomendado oficial de PBCore.
 segmentTypeVersion:
-  definition: The segmentTypeVersion attribute identifies any version information about the authority or convention used to express data of the attribute segmentType. Can be used as an attribute of the pbcoreDescription element.
+  definition: Español - versión de tipo de segmento. El atributo “segmentTypeVersion” identifica cualquier información de versión sobre la autoridad o convención utilizada para expresar datos del atributo segmentType. Se puede utilizar como atributo del elemento pbcoreDescription.
 source:
-  definition: The source attribute provides the name of the authority used to declare the value of the element. Required attribute for pbcoreIdentifier and instantiationIdentifier elements. Can be used as an attribute of any element.
-  best-practice: Different elements will use the source attribute slightly differently. For example, identifier source (required) should be the name of the organization, institution, system or namespace that the identifier came from, such as “PBS NOLA Code” or an institutional database identifier. For other elements, this might be the name of a controlled vocabulary, namespace or authority list, such as Library of Congress Subject Headings. We recommend a consistent and human readable use.
+  definition: Español - fuente. El atributo “source” proporciona el nombre de la autoridad utilizada para declarar el valor del elemento. Atributo obligatorio para los elementos pbcoreIdentifier e instantiationIdentifier. Se puede utilizar como atributo de cualquier elemento.
+  best-practice: Los diferentes elementos utilizarán el atributo de fuente de forma ligeramente diferente. Por ejemplo, la fuente del identificador (obligatorio) debe ser el nombre de la organización, institución, sistema o namespace del que proviene el identificador, como ‘PBS NOLA Code’ o un identificador de base de datos institucional. Para otros elementos, podría ser el nombre de un vocabulario controlado, un namespace o una lista de autoridades, como los ‘Library of Congress Subject Headings’. Recomendamos un uso consistente y legible por humanos.
 startTime:
-  definition: The startTime attribute combines with the endTime attribute to define a specific media segment within a broader timeline of an asset and/or instantiation. Can be used as an attribute of the following elements - contributor, coverage, creator, instantiationRights, pbcoreDescription, pbcoreGenre, pbcoreInstantiation, pbcoreInstantiationDocument, pbcorePart, pbcoreRightsSummary, pbcoreSubject, pbcoreTitle, publisher.
-  best-practice: This is a free text attribute and can be applied at the asset or instantiation level. When used at the asset level, it may be used to talk generally about the start/end time of a segment (e.g. “30 minutes”), or by providing a timestamp to a specific point in an instantiation. If you’re doing that for element at the asset level, we suggest referencing the instantiation ID you are referring to in timeAnnotation. One example would be if a six-hour long tape was broken into multiple programs, and each instantiation might have its start time labeled as when the instantiation began in the timeline of the broader tape. Another example for this usage might be a digital file created from a VHS tape that contains multiple segments. In the digital copy, color bars are removed from the beginning, and black from the end of the digital instantiation. Time references referring to the segments on the physical VHS are no longer relevant; therefore it’s important to tie start and end time references to a specific instantiation, e.g. use the asset ID and timestamp.
+  definition: Español - tiempo de inicio. El atributo “startTime” se combina con el atributo “endTime” para definir un segmento de medios específico dentro de una línea de tiempo más amplia de un recurso y/o instanciación. Se puede usar como atributo de los siguientes elementos - contributor, coverage, creator, instantiationRights, pbcoreDescription, pbcoreGenre, pbcoreInstantiation, pbcoreInstantiationDocument, pbcorePart, pbcoreRightsSummary, pbcoreSubject, pbcoreTitle, publisher.
+  best-practice: Este es un atributo de texto libre y se puede aplicar en el nivel de instanciación o recursos. Cuando se usa a nivel de recurso, puede usarse para hablar en general sobre la hora de inicio/finalización de un segmento (por ejemplo, "30 minutos"), o para proporcionar una marca de tiempo a un punto específico en una instanciación. Si está haciendo eso para el elemento a nivel de recurso, le sugerimos que haga referencia al ID de instanciación al que se refiere en timeAnnotation. Un ejemplo sería si una cinta de seis horas de duración se dividiera en varios programas y cada instanciación podría tener su hora de inicio etiquetada como cuando comenzó la instanciación en la línea de tiempo de la cinta más amplia. Otro ejemplo de este uso podría ser un archivo digital creado a partir de una cinta VHS que contiene varios segmentos. En la copia digital, las barras de color se eliminan desde el principio y las negras desde el final de la instanciación digital. Las referencias temporales referentes a los segmentos del VHS físico ya no son relevantes; por lo tanto, es importante vincular las referencias de tiempo de inicio y finalización a una instanciación específica, por ejemplo, use el ID de recurso y la marca de tiempo.
 subjectType:
-  definition: The subjectType attribute is used to indicate the type of subject being assigned to the element, such as ‘topic,’ ‘personal name’ or ‘keyword.’ Can be used as an attribute of the pbcoreSubject element.
+  definition: Español - tipo de tema. El atributo “subjectType” se usa para indicar el tipo de asunto que se asigna al elemento, como "tema", "nombre personal" o "palabra clave". Se puede usar como un atributo del elemento pbcoreSubject.
 subjectTypeAnnotation:
-  definition: The subjectTypeAnnotation attribute includes narrative information intended to clarify the nature of data used in the attribute subjectType. Can be used as an attribute of the pbcoreSubject element.
-  best-practice: This attribute can be used as a notes field to include any additional information about the element or associated attributes.
+  definition: Español - anotación de tipo de tema. El atributo “subjectTypeAnnotation” incluye información narrativa destinada a aclarar la naturaleza de los datos utilizados en el atributo subjectType. Se puede utilizar como un atributo del elemento pbcoreSubject.
+  best-practice: Este atributo se puede utilizar como un campo de notas para incluir cualquier información adicional sobre el elemento o los atributos asociados.
 subjectTypeRef:
-  definition: The subjectTypeRef attribute is used to supply a source’s URI for the value of the attribute subjectType. Can be used as an attribute of the pbcoreSubject element.
-  best-practice: Attribute subjectTypeRef can be used to point to a term in a controlled vocabulary, or a URI associated with a source.
+  definition: Español - referencia de tipo de tema. El atributo “subjectTypeRef” se utiliza para proporcionar el URI de una fuente para el valor del atributo subjectType. Se puede utilizar como un atributo del elemento pbcoreSubject.
+  best-practice: El atributo “subjectTypeRef” se puede usar para señalar un término en un vocabulario controlado o un URI asociado con una fuente.
 subjectTypeSource:
-  definition: The subjectTypeSource attribute provides the name of the authority used to declare the value of the attribute subjectType. Can be used as an attribute of the pbcoreSubject element.
-  best-practice: This might be the name of a controlled vocabulary, namespace or authority list, such as the official PBCore recommended vocabulary.
+  definition: Español - fuente de tipo de tema. El atributo “subjectTypeSource” proporciona el nombre de la autoridad utilizada para declarar el valor del atributo subjectType. Se puede utilizar como un atributo del elemento pbcoreSubject.
+  best-practice: Puede ser el nombre de un vocabulario controlado, un namespace o una lista de autoridades, como el vocabulario recomendado oficial de PBCore.
 subjectTypeVersion:
-  definition: The subjectTypeVersion attribute identifies any version information about the authority or convention used to express data of the attribute subjectType. Can be used as an attribute of the pbcoreSubject element.
+  definition: Español - versión de tipo de tema. El atributo “subjectTypeVersion” identifica cualquier información de versión sobre la autoridad o convención utilizada para expresar datos del atributo subjectType. Se puede utilizar como un atributo del elemento pbcoreSubject.
 timeAnnotation:
-  definition: The timeAnnotation attribute includes narrative information intended to clarify the nature of data used in the element. Can be used as an attribute of the following elements - contributor, coverage, creator, instantiationRights, pbcoreDescription, pbcoreGenre, pbcoreInstantiation, pbcoreInstantiationDocument, pbcorePart, pbcoreRightsSummary, pbcoreSubject, pbcoreTitle, publisher.
+  definition: Español - anotación de tiempo. El atributo “timeAnnotation” incluye información narrativa destinada a aclarar la naturaleza de los datos utilizados en el elemento. Se puede utilizar como un atributo de los siguientes elementos - contributor, coverage, creator, instantiationRights, pbcoreDescription, pbcoreGenre, pbcoreInstantiation, pbcoreInstantiationDocument, pbcorePart, pbcoreRightsSummary, pbcoreSubject, pbcoreTitle, publisher. 
 titleType:
-  definition: The titleType attribute is used to indicate the type of title being assigned to the asset, such as series title, episode title or project title. Has a PBCore controlled vocabulary (recommended). Can be used as an attribute of the pbcoreTitle element.
+  definition: Español - tipo de título. El atributo “titleType” se usa para indicar el tipo de título que se asigna al recurso, como el título de la serie, el título del episodio o el título del proyecto. Tiene un vocabulario controlado por PBCore (recomendado). Se puede utilizar como atributo del elemento pbcoreTitle.
 titleTypeAnnotation:
-  definition: The titleTypeAnnotation attribute includes narrative information intended to clarify the nature of data used in the element. Can be used as an attribute of the pbcoreTitle element.
-  best-practice: This attribute can be used as a notes field to include any additional information about the element or associated attributes.
+  definition: Español - anotación de tipo de título. El atributo “titleTypeAnnotation” incluye información narrativa destinada a aclarar la naturaleza de los datos utilizados en el elemento. Se puede utilizar como atributo del elemento pbcoreTitle.
+  best-practice: Este atributo se puede utilizar como un campo de notas para incluir cualquier información adicional sobre el elemento o los atributos asociados.
 titleTypeRef:
-  definition: The titleTypeRef attribute is used to supply a source’s URI for the value of the attribute titleTypeSource. Can be used as an attribute of the pbcoreTitle element.
-  best-practice: Attribute titleTypeRef can be used to point to a term in a controlled vocabulary, or a URI associated with a source.
+  definition: Español - referencia de tipo de título. El atributo “titleTypeRef” se utiliza para proporcionar el URI de una fuente para el valor del atributo titleTypeSource. Se puede utilizar como atributo del elemento pbcoreTitle.
+  best-practice: El atributo titleTypeRef se puede usar para señalar un término en un vocabulario controlado o un URI asociado con una fuente.
 titleTypeSource:
-  definition: The titleTypeSource attribute provides the name of the authority used to declare data value of the titleType attribute. Can be used as an attribute of the pbcoreTitle element.
-  best-practice: This might be the name of a controlled vocabulary, namespace or authority list, such as the official PBCore recommended vocabulary.
+  definition: Español - fuente de tipo de título. El atributo “titleTypeSource” proporciona el nombre de la autoridad utilizada para declarar el valor de los datos del atributo titleType. Se puede utilizar como atributo del elemento pbcoreTitle.
+  best-practice: Puede ser el nombre de un vocabulario controlado, un namespace o una lista de autoridades, como el vocabulario recomendado oficial de PBCore.
 titleTypeVersion:
-  definition: The titleTypeVersion attribute identifies any version information about the authority or convention used to express data of this element. Can be used as an attribute of the pbcoreTitle element.
+  definition: Español - versión de tipo de título. El atributo “titleTypeVersion” identifica cualquier información de versión sobre la autoridad o convención utilizada para expresar datos de este elemento. Se puede utilizar como atributo del elemento pbcoreTitle.
 unitsOfMeasure:
-  definition: The unitsOfMeasure attribute defines the unit used in the containing element, e.g. pixels, GB, Mb/s, ips, fps, kHz, inches, lines, dpi. Can be used as an attribute of the following elements - essenceTrackAspectRatio, essenceTrackBitDepth, essenceTrackDataRate, essenceTrackFrameRate, essenceTrackFrameSize, essenceTrackPlaybackSpeed, essenceTrackSamplingRate, instantiationDataRate, instantiationDimensions, instantiationFileSize.
-  best-practice: We recommend standardizing the notation that is most widely recognized in your institution and using with consistency.
+  definition: Español - unidades de medir. El atributo “unitsOfMeasure” define la unidad utilizada en el elemento contenedor, por píxeles, GB, Mb/s, ips, fps, kHz, pulgadas, líneas, dpi. Se puede usar como un atributo de los siguientes elementos - essenceTrackAspectRatio, essenceTrackBitDepth, essenceTrackDataRate, essenceTrackFrameRate, essenceTrackFrameSize, essenceTrackPlaybackSpeed, essenceTrackSamplingRate, instantiationDataRate, instantiationDimensions, instantiationFileSize.
+  best-practice: Recomendamos estandarizar la notación que es más ampliamente reconocida en su institución y usarla con consistencia.
 version:
-  definition: The version attribute identifies any version information about the authority or convention used to express data of this element. Can be used as an attribute of any element.
+  definition: Español - versión. El atributo “version” identifica cualquier información de versión sobre la autoridad o convención utilizada para expresar datos de este elemento. Se puede utilizar como atributo de cualquier elemento.
 xmlns:
-  definition: The xmlns attribute is used to define a so-called namespace for the prefix, which is required when using prefixes in XML. The namespace is defined by the xmlns attribute in the start tag of an element. Can be used as an attribute of the pbcoreDescriptionDocument element.
+  definition: El atributo “xmlns” se usa para definir un llamado espacio de nombres para el prefijo, que se requiere cuando se usan prefijos en XML. El espacio de nombres está definido por el atributo xmlns en la etiqueta de inicio de un elemento. Se puede utilizar como atributo del elemento pbcoreDescriptionDocument.
 xsi:
-  definition: The xsi attribute specifies the XML Schema Instance namespace, and should always be entered as the specific value “http://www.w3.org/2001/XMLSchema-instance”. Can be used as an attribute of the pbcoreDescriptionDocument element.
+  definition: El atributo “xsi” especifica el espacio de nombres de la instanciación de esquema XML y siempre debe ingresarse como el valor específico "http://www.w3.org/2001/XMLSchema-instance". Se puede utilizar como atributo del elemento pbcoreDescriptionDocument.

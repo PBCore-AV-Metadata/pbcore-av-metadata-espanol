@@ -3,82 +3,82 @@ section: Schema
 name: >
   @descriptionType Vocabulary
 usage: >
-  for @descriptionType as an attribute on <a href="/elements/pbcoredescription">pbcoreDescription</a>
+  para @descriptionType como un atributo en <a href="/elements/pbcoredescription">pbcoreDescription</a>
 omr-link: http://metadataregistry.org/concept/list/page/1/vocabulary_id/456.html
 download: /assets/downloads/pbcore_descriptiontype_vocabulary.xlsx
 terms:
   - term: Abstract
     id: Abstract
-    definition: A summary of the contents of an asset.
+    definition: Español - resumen, abstract, extracto. Un resumen de los contenidos de un recurso.
   - term: Awards
     id: Awards
-    definition: A listing of any awards (i.e. Emmy, Golden Globe, Peabody) received by a production or asset.
+    definition: Español - Premios. Un listado de cualquier premio (por ejemplo, Emmy, Golden Globe, Peabody) que fueron recibidos por una producción o recurso.
   - term: Chapter
     id: Chapter
-    definition: A main division of an asset, typically with a number or title.
+    definition: Español - Capítulo. Una división principal de un recurso, normalmente con un número o título.
   - term: Collection
     id: Collection
-    definition: A description of a group of materials with some unifying characteristic, such as materials assembled by a person, organization, or repository from a variety of sources.
+    definition: Español - Colección. Una descripción de un conjunto de materiales que poseen algunas características unificadoras, tal como materiales de una variedad de fuentes que fueron reunidos por una persona, organización, o repositorio.
   - term: Comments
     id: Comments
-    definition: More colloquial description, anecdotal comments, or reflections not typically viewable by staff outside the archives.  Could include comments about the preservation process (this asset was difficult to digitize, the two tape instantiations are damaged, etc.) or also include informal comments about the content (someone curses at minute 20, the content may upset some people, John Smith really likes this, etc.)
+    definition: Español - Comentarios. Una descripción más coloquial, comentarios anecdóticos, o reflexiones destinadas solo al equipo interno de los archivos. Puede incluir comentarios sobre el proceso de preservación (fue difícil digitalizar este recurso, las dos cintas instanciaciones están dañadas) o incluir comentarios informales sobre el contenido (alguien maldice en el minuto 20, el contenido puede incomodar a ciertas personas, a John Smith realmente le gusta esto, etc.)
   - term: Description
     id: Description
-    definition: A general term for a description of the asset.
+    definition: Español - Descripción. Un término general para una descripción de un recurso.
   - term: Episode Description
     id: EpisodeDescription
-    definition: A description of a single installment of a television or radio series.
+    definition: Español - Descripción de episodio. La descripción para una entrega individual de una serie televisiva o radial.
   - term: Event
     id: Event
-    definition: A thing that happens in the intellectual content of an asset, especially one of importance.
+    definition: Español - Evento. Una cosa que sucede en el contenido intelectual del recurso, especialmente algo importante.
   - term: Excerpt
     id: Excerpt
-    definition: A description of a short clip taken from a moving image or audio resource. An exerpt may not convey a complete intellectual concept.
+    definition: Español - Extracto, fragmento. Una descripción de un clip corto que forma parte de un recurso de audio o de imágenes en movimiento. No todos los fragmentos transmiten un concepto intelectual completo.
   - term: Item
     id: Item
-    definition: A description of a thing that can be distinguished from a group and that is complete in itself. An item may consist of several pieces, but is treated as a whole.
+    definition: Español - Ítem. Una descripción de una cosa que puede distinguirse de un grupo y que es completa en sí misma. Un ítem puede componerse de muchas partes, pero se trata como un todo.
   - term: Movement
     id: Movement
-    definition: A principal division of a longer musical work, self-sufficient in terms of key, tempo, and structure.
+    definition: Español - Movimiento. Una división principal de una obra musical más larga, autosuficiente en términos de tono, tempo y estructura.
   - term: Number
     id: Number
-    definition: A song, dance, piece of music, etc., especially one of several in a performance.
+    definition: Español - Número. Una canción, danza, pieza musical, etc., especialmente cuando es una de varias en una presentación o actuación.
   - term: Playlist
     id: Playlist
-    definition: A list of the recordings to be played on the radio during a particular program or time period, often including their sequence, duration, etc.
+    definition: Español - playlist, Lista de reproducción. Una lista de las grabaciones que se reproducirán en la radio durante un programa o período de tiempo en particular, que a menudo incluye su secuencia, duración, etc.
   - term: Program
     id: Program
-    definition: A description of an asset that has been prepared for broadcast/publication and is presented as a single work.
+    definition: Español - Programa. Una descripción de un recurso que ha sido preparado para su transmisión/publicación y se presenta como una obra individual.
   - term: Reviews
     id: Reviews
-    definition: Evaluations, opinions, or critical appraisals of a program or asset.
+    definition: Español - Reseña. Evaluaciones, opiniones o valoraciones críticas de un programa o recurso.
   - term: Rundown
     id: Rundown
-    definition: A timeline or production cue-sheet for a TV or radio program.
+    definition: Español - Hoja de referencia, Hoja de ruta. Una línea de tiempo u hoja de referencia de producción para un programa de radio o televisión.
   - term: Script
     id: Script
-    definition: A document of the dialogue and direction used in the production of a program or asset.
+    definition: Español - Guión. Un documento del diálogo y la dirección utilizados en la producción de un programa o recurso.
   - term: Segment
     id: Segment
-    definition: A description of a self-contained portion of a program/episode, which serves its own function, but operates within the larger program/episode.
+    definition: Español - Segmento. Una descripción de una parte independiente de un programa/episodio, que cumple su propia función, pero opera dentro de un programa/episodio mayor.
   - term: Series
     id: Series
-    definition: A description of a set of episodes broadcast in sequence, usually conceived without a definite end and aired on a regular schedule. Typically all episodes within a single series follow a specific theme or continuous storyline, and are all broadcast under the same series title and branding.
+    definition: Español - Serie. Una descripción de un conjunto de episodios transmitidos en secuencia, generalmente concebidos sin un final definido y emitidos en un horario regular. Por lo general, todos los episodios dentro de una sola serie siguen un tema específico o una historia argumental continua, o todos se transmiten bajo el mismo título y marca de la serie.
   - term: Shot List
     id: ShotList
-    definition: A document that lists, in chronological order, the sequences of footage used in the production of a program or asset.
+    definition: Español - Listado de tomas. Un documento que detalla en orden cronológico, las secuencias de metraje utilizado en la producción de un programa o recurso.
   - term: Song
     id: Song
-    definition: A short poem or other set of words set to music or meant to be sung.
+    definition: Español - Canción. Un poema corto u otro conjunto de palabras con música o destinado a ser cantado.
   - term: Story
     id: Story
-    definition: A report of an item of news in a newspaper, magazine, or news broadcast; may also be used to refer to a plot or story line.
+    definition: Español - Historia. Un informe de una noticia en un periódico, revista o programa de noticias. También puede usarse para referirse a una trama o argumento.
   - term: Summary
     id: Summary
-    definition: A brief statement or account of the main points of something.
+    definition: Español - Resumen. Una declaración o reseña breve de los puntos principales de algo.
   - term: Transcript
     id: Transcript
-    definition: A written document of the audio component of an audio or audiovisual asset.
+    definition: Español - Transcripción. Un documento escrito del componente de audio de un recurso de audio o audiovisual.
 uri: /pbcore-controlled-vocabularies/descriptiontype-vocabulary/
 permalink: /pbcore-controlled-vocabularies/descriptiontype-vocabulary/
 ---

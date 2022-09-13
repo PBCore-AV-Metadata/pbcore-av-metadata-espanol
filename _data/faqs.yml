@@ -1,102 +1,114 @@
-- section: Getting Started with PBCore
+- section: Primeros pasos con PBCore
   questions:
   - question: ¿Qué es PBCore?
     answer: |
-      Simply put, PBCore is a way to organize audiovisual content.
-
-      Public broadcasting communities in the United States originally developed PBCore so that producers and local stations could better share, manage and preserve their media. Since then, a growing number of moving image archives and media organizations outside of public broadcasting have also adopted PBCore to manage their audiovisual assets and collections.
-
-      Your organization can use PBCore as:
-      - A content standard for cataloging or describing audiovisual content
-      - A model for building custom databases/applications
-      - A guideline for identifying a set of vocabularies for describing audiovisual assets
-      - A data model for configurable collection management systems such as Omeka, Collective Access, etc.
-      - A guideline for creating inventory spreadsheets
-  - question: What is PBCore not?
+      En pocas palabras, PBCore es una forma de organizar contenido audiovisual. Las comunidades de televisión pública en los Estados Unidos desarrollaron originalmente PBCore para que los productores y las estaciones locales pudieran compartir, administrar y preservar mejor sus activos. Desde entonces, un número creciente de archivos de imágenes en movimiento y organizaciones de medios fuera de la televisión pública también han adoptado PBCore para administrar sus activos y colecciones audiovisuales.
+      
+      Su organización puede usar PBCore como:
+      - Un estándar de contenido para catalogar o describir contenido audiovisual
+      - Un modelo para crear bases de datos/aplicaciones personalizadas
+      - Una guía para identificar un conjunto de vocabularios para describir activos audiovisuales
+      - Un modelo de datos para sistemas de gestión de colecciones configurables como Omeka, Collective Access, etc.
+      - Una guía para crear hojas de cálculo de inventario
+  - question: ¿Qué no es PBCore?
     answer: |
-      PBCore is focused on providing a standardized way to describe audiovisual assets and related audiovisual material generally created within a broadcast environment. If you primarily need to describe manuscripts, photographs, or other materials that aren’t audiovisual or related to audiovisual content, PBCore is probably not the right choice for your project.
-      While it is generally designed to manage descriptive and technical metadata, PBCore can be used alongside other standards to capture preservation, process, and additional technical metadata.
-      To address more preservation needs, PBCore encourages the use of other standards through extensions and additions. For example, the American Archive of Public Broadcasting uses PBCore for descriptive and technical metadata , PREMIS for preservation metadata, and reVTMD for process history metadata.
-  - question: How do I get started with PBCore?
+      PBCore se centra en proporcionar una forma estandarizada de describir los activos audiovisuales y el material audiovisual relacionado que generalmente se crea dentro de un entorno de televisión. Si principalmente necesita describir manuscritos, fotografías u otros materiales que no sean audiovisuales o relacionados con contenido audiovisual, PBCore probablemente no sea la opción adecuada para su proyecto. Si bien generalmente está diseñado para administrar metadatos técnicos y descriptivos, PBCore se puede usar junto con otros estándares para capturar preservación, procesar y metadatos técnicos adicionales. Para abordar más necesidades de conservación, PBCore fomenta el uso de otros estándares a través de extensiones y adiciones. Por ejemplo, el American Archive of Public Broadcasting (Archivo Estadounidense de Televisión Pública) utiliza PBCore para metadatos descriptivos y técnicos, PREMIS para metadatos de conservación y reVTMD para metadatos de historial de procesos.
+  - question: ¿Cómo empiezo con PBCore?
     answer: |
-      Before getting started with PBCore, there are some questions you should ask yourself:
-      What kind of information do I want to capture about my content?
-      What kind of system do I want to capture it in?
-      Do I already have a system for some of the content I want to capture or is there an existing system that I'd like to use? Will I have to build one from scratch?
-      From there, familiarize yourself with the ways that PBCore structures and defines the data that you want to capture. Looking at the element definitions and the sample records is a good start. If you work with programmers or developers on ways to store your data, talk to them and figure out what their needs are and how PBCore can address them.<br>
-      In practical terms, there are several scenarios where you can use PBCore:
-        1. You can build or customize your Media Asset Management (MAM) systems to conform to the PBCore standard. Almost all existing Digital Access Management (DAM) and MAM systems have database fields like Title, Subject, and Description, and many will have fields for Creators, Producers, and Contributors. Implementing PBCore in existing systems can be as simple as using existing fields, or using them more extensively. But many systems allow you to customize their fields to conform to a preferred standard. If you are building a system from standards-based tools like MySQL, establishing a foundation based on PBCore makes a lot of sense.
-        2. You can leave your existing systems as they are, and use PBCore as a standard for aggregating and exchanging metadata between systems. This is typically done by using export and import methods between databases, either as XML or CSV. In this case you would map existing fields in your various databases to the appropriate PBCore elements. Basically, PBCore provides a common language between systems, so you can build your import/export methods around it.
-        3. You can combine these approaches by leveraging your existing media databases, and building a new “master” catalog containing metadata from all your other systems. In this case, the master catalog can serve as a metadata repository from all your media systems without modifying them or impacting their operation.
-        4. You can use PBCore to capture and structure data in Excel to catalog a backlog of unidentified assets.
-        5. If you’re already using a cataloging standard that’s mainly for books or documents but you also need to capture information about audiovisual assets, you can incorporate PBCore as a standard to capture audiovisual metadata.<br><br>
-      Ultimately, PBCore can then serve as an exchange mechanism with other systems in public broadcasting such as the American Archive for Public Broadcasting. Many other systems and tools used in online media portals and trusted digital repositories are adopting PBCore as an exchange standard. With the ongoing development of PBCore and harmonization with EBUCore, there will be more opportunities to exchange metadata and content with these systems. By establishing a PBCore-based approach to managing your media assets, you will be ready to easily integrate with other systems.<br>
-- section: The Benefits of PBCore
+      Antes de comenzar con PBCore, hay algunas preguntas que debe hacerse: ¿Qué tipo de información quiero capturar sobre mi contenido? ¿En qué tipo de sistema quiero capturarlo? ¿Ya tengo un sistema para parte del contenido que quiero capturar o hay un sistema existente que me gustaría usar? ¿Tendré que construir uno desde cero? A partir de ahí, familiaricese con las formas en que PBCore estructura y define los datos que desea capturar. Mirar las definiciones de los elementos y los registros de muestra es un buen comienzo. Si trabaja con programadores o desarrolladores sobre formas de almacenar sus datos, hable con ellos y descubra cuáles son sus necesidades y cómo PBCore puede abordarlas.
+      <br><br>
+      En términos prácticos, existen varios escenarios en los que puede utilizar PBCore:
+        1. Puede crear o personalizar sus sistemas de Gestión de Activos de Medios (MAM) para cumplir con el estándar PBCore. Casi todos los sistemas de gestión de acceso digital (DAM) y MAM existentes tienen campos de base de datos como Título, Asunto, y Descripción, y muchos tendrán campos para Creadores, Productores, y Colaboradores. Implementar PBCore en sistemas existentes puede ser tan simple como usar campos existentes o usarlos más extensamente. Pero muchos sistemas le permiten personalizar sus campos para ajustarse a un estándar preferido. Si está construyendo un sistema a partir de herramientas basadas en estándares como MySQL, tiene mucho sentido establecer una base basada en PBCore.
+        <br>
+        2. Puede dejar sus sistemas existentes como están y utilizar PBCore como estándar para agregar e intercambiar metadatos entre sistemas. Esto normalmente se hace mediante el uso de métodos de exportación e importación entre bases de datos, ya sea como XML o CSV. En este caso, asignaría campos existentes en sus diversas bases de datos a los elementos PBCore apropiados. Básicamente, PBCore proporciona un lenguaje común entre sistemas, por lo que puede crear sus métodos de importación/exportación a su alrededor.
+        <br>
+        3. Puede combinar estos enfoques aprovechando sus bases de datos de medios existentes y creando un nuevo catálogo "maestro" que contenga metadatos de todos sus otros sistemas. En este caso, el catálogo maestro puede servir como repositorio de metadatos de todos sus sistemas de medios sin modificarlos ni afectar su funcionamiento.
+        <br>
+        4. Puede usar PBCore para capturar y estructurar datos en Excel para catalogar activos acumulados no identificados.
+        <br>
+        5. Si ya está utilizando un estándar de catalogación que es principalmente para libros o documentos, pero también necesita capturar información sobre activos audiovisuales, puede incorporar PBCore como un estándar para capturar metadatos audiovisuales.
+        <br><br>
+        En última instancia, PBCore puede servir como un mecanismo de intercambio con otros sistemas de televisión pública, como el American Archive for Public Broadcasting. Muchos otros sistemas y herramientas utilizados en portales de medios en línea y repositorios digitales confiables están adoptando PBCore como estándar de intercambio. Con el desarrollo continuo de PBCore y la armonización con EBUCore, habrá más oportunidades para intercambiar metadatos y contenido con estos sistemas. Al establecer un enfoque basado en PBCore para administrar sus activos de medios, estará listo para integrarse fácilmente con otros sistemas.
+- section: Los Beneficios de PBCore
   questions:
-  - question: How can PBCore benefit my archive description and program goals?
+  - question: ¿Cómo puede PBCore beneficiar la descripción de mi archivo y los objetivos del programa?
+
     answer: |
-      PBCore was created by members of the broadcast and audiovisual archiving communities to meet the descriptive needs of audiovisual materials. If you don’t currently have a satisfactory, standardized way to store information about your content, PBCore can help ensure that you are capturing and keeping the data in a consistent and straightforward way.
-      Stations throughout the public media system use different databases and tools to manage media and metadata such as traffic systems, playout servers, asset management systems, and tape logs. PBCore provides a way to aggregate and normalize metadata from those different systems to make everything findable, shareable, and reusable across different platforms.
-      In many cases, stations also have many media assets for which little information exists. Think of tapes stored in desk drawers, or that USB hard drive full of digital media files. Many of these assets are valuable and deserve to be cataloged, and you may not know their full value until years later. A simple PBCore database can record and organize information about these assets and make them findable.
-  - question: Does it cost anything to adopt PBCore?
-    answer: As an open standard, PBCore is free to use for anyone. For more information, see the Creative Commons licensing information on the Credits and License page.
-  - question: What kind of time, staff, or training do I need?
+      PBCore fue creado por miembros de las comunidades de archivo audiovisual y de televisión para satisfacer las necesidades descriptivas de los materiales audiovisuales. Si actualmente no tiene una forma estandarizada y satisfactoria de almacenar información sobre su contenido, PBCore puede ayudar a garantizar que esté capturando y conservando los datos de una manera consistente y simple. 
+      <br>
+      Las estaciones en todo el sistema de medios públicos utilizan diferentes bases de datos y herramientas para administrar medios y metadatos, como sistemas de tráfico, servidores de reproducción, sistemas de gestión de activos y registros de cintas. PBCore proporciona una forma de agregar y normalizar metadatos de esos diferentes sistemas para hacer que todo se pueda encontrar, compartir y reutilizar en diferentes plataformas. 
+      <br>
+      En muchos casos, las estaciones también tienen muchos activos de medios para los cuales existe poca información. Piense en las cintas almacenadas en los cajones del escritorio o en ese disco duro USB lleno de archivos multimedia digitales. Muchos de estos activos son valiosos y merecen ser catalogados, y es posible que no se sepa su verdadero valor hasta años después. Una base de datos PBCore simple puede registrar y organizar información sobre estos activos y hacerlos localizables.
+  - question: ¿Cuesta algo adoptar PBCore?
+    answer: Como estándar abierto, PBCore es de uso gratuito para cualquier persona. Para obtener más información, consulte la información sobre licencias de Creative Commons en la página Créditos y licencias.
+
+  - question: ¿Qué tipo de tiempo, personal, o capacitación necesito?
     answer: |
-      Depending on your familiarity with metadata concepts and standards, adopting PBCore may require an investment of learning time. You might also need to develop tools, or customize your existing tools, to adopt PBCore into your media workflow.
-      To build a PBCore-based media catalog, you can use inexpensive software like FileMaker, Access, or MySQL. You will very likely shorten any learning curve, and discover existing PBCore tools, by reaching out to the PBCore team at pbcoreinfo@wgbh.org
-  - question: How will this pay off in the long term?
+      Dependiendo de su familiaridad con los conceptos y estándares de metadatos, la adopción de PBCore puede requerir una inversión de tiempo de aprendizaje. Es posible que también necesite desarrollar herramientas o personalizar sus herramientas existentes para adoptar PBCore en su flujo de trabajo de medios. Para crear un catálogo de medios basado en PBCore, puede usar software económico como FileMaker, Access o MySQL. Es muy probable que acorte cualquier curva de aprendizaje y descubra las herramientas de PBCore existentes comunicándose con el equipo de PBCore en pbcoreinfo@wgbh.org
+  - question: ¿Valdrá la pena a largo plazo?
     answer: |
-      - Your investment of time will pay off as you develop your PBCore–based media catalog or metadata system.
-      - You’ll save time and resources by not developing your own schema.
-      - Your media assets will be findable, reusable, and shareable to whatever extent you want them to be. Your collection will be able to interoperate with a growing number of other media software systems and archives, including the American Archive of Public Broadcasting.
-      - You’ll have a digital media catalog you can repurpose for any intended use, from internal media asset management, discovery, and reuse, to stock footage sales and eCommerce, K-12 curriculum content, public website access, offline archives, and media preservation repositories.
-- section: Implementing PBCore
+      - Su inversión de tiempo valdrá la pena a medida que desarrolle su sistema de metadatos o catálogo de medios basado en PBCore.
+      - Ahorrará tiempo y recursos al no desarrollar su propio esquema.
+      - Sus activos de medios se podrán encontrar, reutilizar y compartir en la medida en que lo desee. Su colección podrá interoperar con un número creciente de otros archivos y sistemas de software de medios, incluido el American Archive for Public Broadcasting.
+      - Tendrá un catálogo de medios digitales que puede reutilizar para cualquier uso previsto, desde la gestión, descubrimiento, y reutilización de activos de medios internos, hasta ventas de material de archivo y comercio electrónico, contenido del plan de estudios K-12 (Kindergarten hasta el doceavo grado), acceso a sitios web públicos, archivos fuera de línea y repositorios de preservación de activos de medios.
+- section: Implementando PBCore
   questions:
-  - question: What are the steps to integrating PBCore into my current workflow and systems?
+  - question: ¿Cuáles son los pasos para integrar PBCore en mi flujo de trabajo y sistemas actuales?
     answer: |
-      Experience in the user community shows there are two common approaches to adopting PBCore. Which path you follow largely depends on your existing media asset management infrastructure.<br>
-      You may have invested in various cataloging systems that already contain a great deal of metadata about your media assets, in which case you may choose to leverage those systems. This approach might save you development time, and may fit best into your existing media workflow (especially if you have skilled IT staff resources).<br>
-      If you have no such systems, or if they are too inconsistent, siloed, or fragmented to leverage, you might choose to build or acquire a new PBCore-based media catalog system. You would then use this system as the center of your metadata creation, and export to other systems as needed.<br>
+      La experiencia en la comunidad de usuarios muestra que hay dos enfoques comunes para adoptar PBCore. El camino que siga depende en gran medida de su infraestructura de gestión de activos de medios existente.
+      <br>
+      Es posible que haya invertido en varios sistemas de catalogación que ya contienen una gran cantidad de metadatos sobre sus activos de medios, en cuyo caso puede optar por aprovechar esos sistemas. Este enfoque puede ahorrarle tiempo de desarrollo y puede adaptarse mejor a su flujo de trabajo de medios existente (especialmente si tiene recursos de personal de TI capacitados).
+      <br>
+      Si no tiene tales sistemas, o si son demasiado inconsistentes, aislados o fragmentados para aprovecharlos, puede optar por crear o adquirir un nuevo sistema de catálogo de medios basado en PBCore. Luego usaría este sistema como el centro de su creación de metadatos y exportaría a otros sistemas según sea necesario.
+      <br>
       Either approach results in a central repository of metadata you can search, export, and reuse for whatever purpose, including integrating other media systems.<br>
-      The first step is to understand the PBCore elements. You should then evaluate your existing media software and asset management tools to determine how well they fit with the PBCore data model. Almost all such tools will “map” to basic PBCore elements like Title, Description, and Subject. Many systems have export features that allow you to set up a specific PBCore output format, either as XML or CSV files. This will enable you to reuse metadata from these systems instead of recreating it. As you may have many such systems, this can save you a great deal of time.<br>
+      The first step is to understand the PBCore elements. You should then evaluate your existing media software and asset management tools to determine how well they fit with the PBCore data model. Almost all such tools will “map” to basic PBCore elements like Title, Description, and Subject. Many systems have export features that allow you to set up a specific PBCore output format, either as XML or CSV files. This will enable you to reuse metadata from these systems instead of recreating it. As you may have many such systems, this can save you a great deal of time.
+      <br>
       If you determine that leveraging your existing media systems will be too difficult or “messy,” your next step is to evaluate the existing PBCore tools. If one or more meets your needs, your path to adopting PBCore is straightforward. If you have unique needs based on your workflow or environment, you may choose to build or customize your own PBCore metadata repository using software like FileMaker or Access, or common databases and scripting languages like SQL and PHP.
-  - question: What if I don't have a a current workflow or systems? What does PBCore look like at the most basic level?
+  - question: ¿Qué sucede si no tengo un flujo de trabajo o sistemas actualmente? ¿Cómo se ve PBCore en el nivel más básico?
     answer: |
-      Most media producers and organizations don’t think of themselves as catalogers or librarians. You don’t need to “adopt PBCore” or have a centralized system to begin building a media catalog. Using a simple spreadsheet, you can take the first step by recording titles, subjects, and descriptions for media assets. Here are some simple things you can do using desktop tools:
-      1. Record where to find the asset, whether it’s a tape on a shelf or a file on a hard drive or server. This is the most important piece of information that you have about each asset.
-      2. Give each media asset a unique identifier. To do this consistently, you should map out a naming convention for all types of assets.
-      3. Assign one or more of these elements to each media asset: Description, Subject, and Genre. These elements are already common to many metadata standards and software systems.
-      4. Record dates for production, broadcast, release, publication, and other relevant information for each asset.
-      5. Record the names of each person or organization who was a creator or contributor to the asset.
-      6. Record rights information about each asset. Determine who owns the copyright, any licensing of music, and any rights restrictions on access to or use of the asset.
-      7. Record technical details about the asset. This could include length, tape or digital file format, and any other important details like language, captioning, aspect ratio, etc. You can automate some of this work with MediaInfo, a program with the ability to create files for PBCore.<br><br>
-      If the above is all you have time and resources to do, you are already moving toward using PBCore. If and when you develop a more robust repository, the metadata you create in this way will fit right into it.
-  - question: I'm already using PBCore! How is PBCore 2.1 different from PBCore 2.0?
+      La mayoría de los productores y organizaciones de medios no se consideran catalogadores o bibliotecarios. No necesita "adoptar PBCore" o tener un sistema centralizado para comenzar a crear un catálogo de medios. Con una hoja de cálculo simple, puede dar el primer paso registrando títulos, temas, y descripciones para los recursos multimedia. Aquí hay algunas cosas simples que puede hacer usando las herramientas de escritorio:
+      <br>
+      1. Registre dónde encontrar el activo, ya sea una cinta en un estante o un archivo en un disco duro o servidor. Esta es la información más importante que tiene sobre cada activo.
+      <br>
+      2. Asigne a cada activo de medios un identificador único. Para hacer esto de manera consistente, debe trazar una convención de nomenclatura para todos los tipos de activos.
+      <br>
+      3. Asigne uno o más de estos elementos a cada recurso multimedia - Descripción, Tema, y Género. Estos elementos ya son comunes a muchos estándares de metadatos y sistemas de software.
+      <br>
+      4. Registre las fechas de producción, transmisión, lanzamiento, publicación y otra información relevante para cada activo.
+      <br>
+      5. Registre los nombres de cada persona u organización que haya sido creador o colaborador del activo.
+      <br>
+      6. Registre información de derechos sobre cada activo. Determine quién posee los derechos de autor, cualquier licencia de música y cualquier restricción de derechos sobre el acceso o uso del activo.
+      <br>
+      7. Registre detalles técnicos sobre el activo. Esto podría incluir la longitud, la cinta o el formato del archivo digital y cualquier otro detalle importante como el idioma, los subtítulos, la relación de aspecto, etc. Puede automatizar parte de este trabajo con MediaInfo, un programa con la capacidad de crear archivos para PBCore.
+      <br>
+      Si lo anterior es todo lo que tiene tiempo y recursos para hacer, ya se está moviendo hacia el uso de PBCore. Siempre y cuando desarrolle un repositorio más sólido, los metadatos que cree de esta manera encajarán perfectamente en él.
+  - question: ¡Ya estoy usando PBCore! ¿En qué se diferencia PBCore 2.1 de PBCore 2.0?s
     answer: |
-      PBCore 2.1 is an incremental update to the PBCore 2.0 schema that provides clearer element definitions and more options to include detailed source information for metadata, while still being backwards compatible with PBCore 2.0.
-      Changes for 2.1 include:
-      1. the option to include ‘@source, @ref, @version, @annotation’ information to all elements.
-      2. the addition of new optional attribute groups for the following elements:
-      - for pbcoreTitle:
+      PBCore 2.1 es una actualización incremental del esquema de PBCore 2.0 que proporciona definiciones de elementos más claras y más opciones para incluir información de origen detallada para los metadatos, sin dejar de ser compatible con versiones anteriores de PBCore 2.0. Los cambios para 2.1 incluyen:
+      1. La opción de incluir información de '@fuente, @ref, @versión, @anotación' en todos los elementos.
+      2. La adición de nuevos grupos de atributos opcionales para los siguientes elementos:
+      - para pbcoreTitle:
         - @titleTypeSource
         - @titleTypeRef
         - @titleTypeVersion
         - @titleTypeAnnotation
-      - for pbcoreSubject:
+      - para pbcoreSubject:
         - @subjectTypeSource
         - @subjectTypeRef
         - @subjectTypeVersion
         - @subjectTypeAnnotation
-      - for creator, contributor and publisher:
+      - para creator, contributor y publisher:
         - @affiliationSource
         - @affiliationRef
         - @affiliationVersion
         - @affiliationAnnotation
-      3. the addition of a @unitofmeasure attribute to the element essenceTrackBitDepth
-      4. the change of the element extensionAuthorityUsed from required to optional within the container extensionWrap
-      5. overall updated definitions and best practices for each element
-      For more information on the process and rationale behind the development of PBCore 2.1, see the readme on the <a href="https://github.com/PBCore-AV-Metadata/PBCore_2.1">PBCore 2.1 GitHub repository</a>.
-  - question: When is version 3.0 coming?
-    answer: Although the date for PBCore 3.0 has not yet been set, a roadmap for 3.0 is under discussion.
-  - question: I have a question you haven't answered! What do I do?
-    answer: Reach out to us on the <a href="{{site.url}}/contact">Contact</a> page, leave an issue at the <a href="https://github.com/PBCore-AV-Metadata/PBCore_2.1"> 2.1 GitHub repository</a>, or email us at pbcoreinfo@wgbh.org. We’ll get back to you within two weeks with an answer (and maybe your question will end up here!)
+      3. La adición de un atributo @unitofmeasure al elemento “essenceTrackBitDepth”
+      4. El cambio del elemento “extensionAuthorityUsed” de requerido a opcional dentro del contenedor “extensionWrap”
+      5.Definiciones generales actualizadas y mejores prácticas para cada elemento. Para obtener más información sobre el proceso y la razón detrás del desarrollo de PBCore 2.1, consulte el archivo Léame (“Read Me”) en el **<a href="https://github.com/PBCore-AV-Metadata/PBCore_2.1">repositorio de PBCore 2.1 GitHub</a>**.
+  - question: ¿Cuándo llegará la versión 3.0?
+    answer: Aunque aún no se ha establecido la fecha para la versión PBCore 3.0, se está discutiendo una hoja de ruta para la misma.
+
+  - question: ¡Tengo una pregunta que no has respondido! ¿Qué debo hacer?
+    answer: Comuníquese con nosotros en la <a href="{{site.url}}/contact">página de contacto</a>, deje un problema en el <a href="https://github.com/PBCore-AV-Metadata/PBCore_2.1">repositorio de GitHub 2.1</a> o envíenos un correo electrónico a pbcoreinfo@wgbh.org. Nos pondremos en contacto con usted dentro de dos semanas con una respuesta (¡y tal vez su pregunta termine aquí!)

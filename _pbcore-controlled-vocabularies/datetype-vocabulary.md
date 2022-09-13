@@ -3,112 +3,112 @@ section: Schema
 name: >
   @dateType Vocabulary
 usage: >
-  for @dateType as an attribute on <a href="{{site.url}}/elements/pbcoreassetdate">pbcoreAssetDate</a> or <a href="{{site.url}}/elements/instantiationdate">instantiationDate</a>
+  para @dateType como un atributo en <a href="{{site.url}}/elements/pbcoreassetdate">pbcoreAssetDate</a> o <a href="{{site.url}}/elements/instantiationdate">instantiationDate</a>
 omr-link: http://metadataregistry.org/concept/list/vocabulary_id/455.html
 download: /assets/downloads/pbcore_datetype_vocabulary.xlsx
 terms:
   - term: accepted
     id: accepted
-    definition: Date of acceptance of an asset or instantiation.
+    definition: Español - aceptado. Fecha de aceptación de un recurso o instanciación.
   - term: available
     id: available
-    definition: Date (often a range) that the asset or instantiation became or will become available.
+    definition: Español - disponible. Fecha (generalmente un rango) en la cual el recurso o instanciación está o estará disponible.
   - term: available end
     id: availableend
-    definition: Date that the asset or instantiation became or will become unavailable.
+    definition: Español - disponible fin. Fecha en la cual el recurso o instanciación deja o dejará de estar disponible.
   - term: available start
     id: availablestart
-    definition: Date that the asset or instantiation became or will become available.
+    definition: Español - disponible inicio. Fecha en la cual el recurso o instanciación está o estará disponible.
   - term: broadcast
     id: broadcast
-    definition: Date the asset or instantiation was broadcast.
+    definition: Español - transmisión, televisación, radiodifusión. Fecha de transmisión del recurso o instanciación.
   - term: captured
     id: captured
-    definition: Date that the asset or instantiation was digitized or a subsequent snapshot was taken.
+    definition: Español - capturado. Fecha en la cual se digitalizó o capturó el recurso o instanciación.
   - term: created
     id: created
-    definition: Date on which the asset or instantiation was created.
+    definition: Español - creado. Fecha de creación del recurso o instanciación.
   - term: copyright
     id: copyright
-    definition: Date associated with a claim of protection under copyright or a similar regime for the asset or instantiation.
+    definition: Español - copyright, derecho de autor. La fecha de solicitud de protección bajo el régimen de copyright u otro régimen, para el recurso o instanciación.
   - term: deletion
     id: deletion
-    definition: Date an asset or instantiation was deleted.
+    definition: Español - eliminación, borrado. Fecha de eliminación de un recurso o instanciación.
   - term: digitized
     id: digitized
-    definition: Date an asset or instantiation was digitized.
+    definition: Español - digitalizado. Fecha de digitalización de un recurso o instanciación.
   - term: distributed
     id: distributed
-    definition: Date on which the asset or instantiation was distributed or released.
+    definition: Español - distribuído. Fecha de distribución o estreno de un recurso o instanciación.
   - term: dubbed
     id: dubbed
-    definition: Date an asset or instantiation was dubbed.
+    definition: Español - doblado. Fecha de doblaje de un recurso o instanciación.
   - term: edited
     id: edited
-    definition: Date on which the asset or instantiation was edited.
+    definition: Español - editado. Fecha de edición de un recurso o instanciación.
   - term: encoded
     id: encoded
-    definition: Date an asset or instantiation was encoded.
+    definition: Español - codificado. Fecha de codificación de un recurso o instanciación.
   - term: encrypted
     id: encrypted
-    definition: Date on which the asset or instantiation was encrypted.
+    definition: Español - encriptado. Fecha de encriptación de un recurso o instanciación.
   - term: event
     id: event
-    definition: Date, time or period of an event related to an asset or instantiation.
+    definition: Español - evento. Fecha, hora o período de tiempo de un evento relacionado a un recurso o instanciación.
   - term: ingested
     id: ingested
-    definition: Date an asset or instantiation was added to a preservation repository. This is a PREMIS event suggestion.
+    definition: Español - ingestado. Fecha en la cual se agregó un recurso o instanciación a un repositorio de preservación. Esta es una sugerencia de evento de PREMIS.
   - term: issued
     id: issued
-    definition: Date of formal issuance (e.g. publication) of an asset or instantiation.
+    definition: Español - emitido. Fecha de la emisión (por ejemplo, publicación) formal de un recurso o instanciación.
   - term: licensed
     id: licensed
-    definition: Date on which the asset or instantiation was licensed.
+    definition: Español - licenciado. Fecha de licencia de un recurso o instanciación.
   - term: mastered
     id: mastered
-    definition: Date on which the asset or instantiation’s final master was created.
+    definition: Español - masterizado. Fecha de creación del máster final de un recurso o instanciación.
   - term: migrated
     id: migrated
-    definition: Date an asset or instantiation was migrated to a new format. This is a PREMIS event suggestion.
+    definition: Español - migrado. Fecha de migración hacia un nuevo formato de un recurso o instanciación. Esta es una sugerencia de evento de PREMIS.
   - term: mixed
     id: mixed
-    definition: Date on which the asset or instantiation’s final mix was created.
+    definition: Español - mezclado, mixto. Fecha de creación de la mezcla final de un recurso o instanciación.
   - term: modified
     id: modified
-    definition: Date on which the asset or instantiation was last changed.
+    definition: Español - modificado. Fecha de de la última modificación de un recurso o instanciación.
   - term: normalized
     id: normalized
-    definition: Date an asset or instantiation was normalized to a preservation standard. This is a PREMIS event suggestion.
+    definition: Español - normalizado. Fecha en la cual un recurso o instanciación se normalizó en un estándar de preservación. Esta es una sugerencia de evento de PREMIS. 
   - term: performed
     id: performed
-    definition: Date on which the intellectual content of an asset was performed live.
+    definition: Español - actuar, presentar, interpretar. Fecha de presentación en vivo del contenido intelectual de un recurso o instanciación.
   - term: podcast
     id: podcast
-    definition: Date on which the asset or instantiation was webcast.
+    definition: Español - transmitido como podcast. Fecha de transmisión vía web del recurso o instanciación.
   - term: published
     id: published
-    definition: Date on which the asset or instantiation was published.
+    definition: Español - publicado. Fecha de publicación de un recurso o instanciación.
   - term: released
     id: released
-    definition: The official release date of an asset or instantiation.
+    definition: Español - estrenado. Fecha de estreno oficial de un recurso o instanciación.
   - term: restored
     id: restored
-    definition: Date on which the asset or instantiation was restored.
+    definition: Español - restaurado. Fecha de restauración de un recurso o instanciación.
   - term: revised
     id: revised
-    definition: Date on which the asset or instantiation was revised.
+    definition: Español - revisado. Fecha de restauración de un recurso o instanciación.
   - term: transferred
     id: transferred
-    definition: Date on which the asset or instantiation was transferred from one location to another.
+    definition: Español - transferido. Fecha en que se transfirió un recurso o instanciación de una ubicación a otra.
   - term: valid
     id: valid
-    definition: A date during which the content of an asset or instantiation is valid.
+    definition: Español - válido. Una fecha durante la cual el recurso o instanciación es válida.
   - term: validated
     id: validated
-    definition: Date an asset or instantiation was confirmed to comply with documented information about the instantiation. This is a PREMIS event suggestion.
+    definition: Español - validado. Fecha en la que se confirmó que un recurso o instanciación cumple con la información documentada sobre la instanciación. Esta es una sugerencia de evento de PREMIS.
   - term: webcast
     id: webcast
-    definition: Date on which the asset or instantiation was webcast.
+    definition: Español - Transmitido como webcast. Fecha de transmisión vía web del recurso o instanciación.
 uri: /pbcore-controlled-vocabularies/datetype-vocabulary/
 permalink: /pbcore-controlled-vocabularies/datetype-vocabulary/
 ---

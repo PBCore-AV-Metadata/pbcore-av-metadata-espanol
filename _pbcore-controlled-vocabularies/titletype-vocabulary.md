@@ -3,34 +3,34 @@ section: Schema
 name: >
   @titleType Vocabulary
 usage: >
-  for @titleType as an attribute on <a href="{{site.url}}/elements/pbcoretitle">pbcoreTitle</a>
+  para @titleType como un atributo en <a href="{{site.url}}/elements/pbcoretitle">pbcoreTitle</a>
 omr-link: http://metadataregistry.org/concept/list/vocabulary_id/457.html
 download: /assets/downloads/pbcore_titletype_vocabulary.xlsx
 terms:
   - term: Album
     id: Album
-    definition: The title of a collection of recordings issued as a single item on CD, record, or another medium.
+    definition: Español- Álbum. El título de una colección de grabaciones editadas como un elemento individual en un CD, disco, o en algún otro medio.
   - term: Collection
     id: Collection
-    definition: The title naming a group of materials with some unifying characteristic, such as the materials assembled by a person, organization, or repository from a variety of sources; an artificial collection.
+    definition: Español - Colección. El título que nombra a un conjunto de materiales con algunas características unificadoras, como materiales de una variedad de fuentes que fueron reunidos por una persona, organización, o repositorio; una colección artificial.
   - term: Episode
     id: Episode
-    definition: The title of a single installment of a television or radio series.
+    definition: Español - Episodio. El título de una entrega individual de una serie televisiva o radial.
   - term: Miniseries
     id: Miniseries
-    definition: The title of a multi-episode asset of limited duration, aired daily or weekly, usually with a total running time of less than 15 hours.
+    definition: Español - Miniserie. El título de un recurso de múltiples episodios que tiene una duración limitada, se emite diaria o semanalmente y que generalmente tiene una duración de menos de 15 horas.
   - term: Program
     id: Program
-    definition: The title of a single asset that has been broadcast on a on a specific occasion.
+    definition: Español - Programa. El título de un recurso individual que fue transmitido en una ocasión específica.
   - term: Segment
     id: Segment
-    definition: The title of a self-contained portion of a program/episode, which serves its own function, but operates within the larger program/episode.
+    definition: Español - Segmento. El título de una parte independiente de un programa/episodio, que cumple su propia función, pero opera dentro de un programa/episodio mayor.
   - term: Series
     id: Series
-    definition: The title of a set of episodes broadcast in sequence, usually conceived without a definite end and aired on a regular schedule. Typically all episodes within a single series follow a specific theme or continuous storyline, and are all broadcast under the same series title and branding.
+    definition: Español - Serie. El título de un conjunto de episodios transmitidos en secuencia, generalmente concebidos sin un final definido y emitidos en un horario regular. Por lo general, todos los episodios dentro de una sola serie siguen un tema específico o una historia argumental continua, o todos se transmiten bajo el mismo título y marca de la serie.
   - term: Subseries
     id: Subseries
-    definition: The title of set of episodes that makes up its own series, which is broadcast under an umbrella series with its own branding.
+    definition: Español - Subserie. El título de un conjunto de episodios que conforman una serie propia y que se emite en el marco de una serie mayor con su propia marca.
 uri: /pbcore-controlled-vocabularies/titletype-vocabulary/
 permalink: /pbcore-controlled-vocabularies/titletype-vocabulary/
 ---

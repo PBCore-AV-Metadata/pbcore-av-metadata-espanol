@@ -9,7 +9,7 @@ keywords: ["Schema", "Attributes", "XML", "Creating Records"]
 <span class="definition-icon def-attributes"></span>
 <h2 class="green bold">Attributes Defined</h2>
 
-Attributes are a way to structure additional types of information that PBCore records can include, which specifically used to further clarify the information you provide as a value to an element.
+Los atributos son una forma de estructurar tipos adicionales de información que pueden incluir los registros de PBCore. Específicamente, se utilizan para aclarar aún más la información que proporciona valor a un elemento. La siguiente sección proporciona una definición para cada atributo; información de mejores prácticas, donde se encuentra disponible; y una lista de los elementos con los que se puede utilizar ese atributo.
 
 <div id="attributes-defined" class="attribute-list">
   <ul>
@@ -22,7 +22,7 @@ Attributes are a way to structure additional types of information that PBCore re
           <div class="separator col-md-9">
             <p class="definition">{{ item[1].definition }}</p>
             {% if item[1].best-practice %}
-              <p class="light"><span class="green bolder">Best Practice:</span> {{ item[1].best-practice}}</p>
+              <p class="light"><span class="green bolder">Práctica recomendada:</span> {{ item[1].best-practice}}</p>
             {% endif %}
           </div>
         </div>

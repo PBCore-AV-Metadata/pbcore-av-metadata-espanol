@@ -2,121 +2,124 @@
 section: Schema
 name: instantiationGenerations Vocabulary
 usage: >
-  for <a href="/elements/instantiationgenerations">instantiationGenerations</a>
+  para <a href="/elements/instantiationgenerations">instantiationGenerations</a>
 omr-link: http://metadataregistry.org/concept/list/page/1/vocabulary_id/466.html
 download: /assets/downloads/pbcore_instantiationgenerations_vocabulary.xlsx
 terms:
   - term: A-B rolls
     id: ABRolls
-    definition: Reels of film used as an intermediate step in the production process to create transitions, fades and dissolves in the final production. Each roll contains distinct shots, with black leader in between to account for shots which will be dissolved in from other reels of film for the final production. Some film productions may utilize several such reels, labeled as A, B, C, D, etc. ‘A-B rolls’ should be used as a broad term for any such reels.
+    definition: Español - Montaje en rollos A y B, Edición A/B. Rollos de película que se utilizan como paso intermedio en el proceso de producción,  para crear transiciones, fundidos y fundidos encadenados en la producción final. Cada rollo contiene distintas tomas y entre ellas hay cola negra que indica el lugar de otras que se disolverán desde otros rollos en versión final. Algunas producciones cinematográficas utilizan varios rollos de este tipo, etiquetados como A, B, C, D, etc. El término "A-B rolls" debe usarse como un término amplio para dichas bobinas.
   - term: Answer print
     id: AnswerPrint
-    definition: The version of a film that is printed to film after color correction and with the sound properly synced to the picture, generally used as the last production element before final approval for release.
+    definition: Español - Copia final, copia cero. La versión de un filme que se imprime sobre película, luego de la corrección de color y con el sonido correctamente sincronizado con la imagen. Generalmente es el último elemento de producción antes de la aprobación final para su estreno.
   - term: Composite
     id: Composite
-    definition: Refers to the combination of several original rolls or elements in one print or negative — for example, a reel with the combined sound and image or a composite track that includes music, effects and dialog.
+    definition: Español - Copia compuesta. Se refiere a la combinación de varios rollos o elementos originales en una copia o negativo. Por ejemplo, un rollo con sonido e imagen combinados, o una pista compuesta que incluye música, efectos y diálogo.
   - term: Copy
     id: Copy
-    definition: A general term for an item that has been reproduced or duplicated from an original instantiation.
+    definition: Español - Copia. A general term for an item that has been reproduced or duplicated from an original instantiation.
   - id: CopyAccess
-    definition: An instantiation of an asset, typically of low quality, that is designated by an archive or library for use by patrons, researchers, etc.
+    definition: >
+      Español - Copia: Acceso. Instanciación de un recurso, típicamente de baja calidad, que designa un archivo o biblioteca para uso de usuarios, investigadores, etc.
     term: >
       Copy: Access
   - term: Dub
     id: Dub
-    definition: An analog copy from a film, videotape or audiotape master instantiation or earlier generation, typically involving some generation loss.
+    definition: Español - Copia. Una copia analógica de una instanciación máster o generación anterior de una película, cinta de video o cinta de audio, que generalmente tiene pérdida generacional de calidad.
   - term: Duplicate
     id: Duplicate
-    definition: An exact copy of another instantiation of an asset, generally digital, and involving no generation loss.
+    definition: Español - Duplicado. Una copia exacta de otra instanciación de un recurso, generalmente digital y que no tiene pérdida generacional de calidad. 
   - term: Fine cut
     id: FineCut
-    definition: A working edit of a film or program which contains the correct sequences in the correct order, but may still undergo revisions in scene and sequence order to refine the final visuals.
+    definition: Español - Montaje final. Una edición de trabajo de una película o programa que contiene las secuencias correctas en el orden correcto, pero que aún puede sufrir revisiones del orden de las escenas y secuencias para refinar las imágenes finales.
   - term: Intermediate
     id: Intermediate
-    definition: A broad term for a reel of motion picture film, such as an intermediate positive or intermediate negative, that exists as a generational step between the original negative and a release print. This term should be used in conjunction with a generation element reading ‘positive’ or ‘negative’. More specific terms may also be used, such as interpositive, IP or master positive for intermediate positive; internegative for intermediate negative; or CRI for color reversal intermediate.
+    definition: Español - Intermedio/a. Término amplio para un rollo de película cinematográfica, como un positivo intermedio o un negativo intermedio, que existe como un paso generacional entre el negativo original y una copia. Este término debe usarse junto con un elemento de generación que diga "positive" o "negative". También se pueden utilizar términos más específicos, como interpositive, IP o master positive para intermedio positivo; internegative para intermedio negativo; o CRI para película intermedia reversible.
   - term: Kinescope
     id: Kinescope
-    definition: A recording of a live television program on motion picture film, used for the purpose of recording programs before the wide adoption of videotape.
+    definition: Español - Kinescopio. Una grabación de un programa de televisión en vivo en película cinematográfica, que se utilizaba para grabar programas antes de la adopción generalizada de cintas de video.
   - term: Line cut
     id: LineCut
-    definition: A working edit of a program which is created by the use of a video-switcher to make an in-the-moment edited version of the live show.
+    definition: Español - Montaje multicámara. Una edición de trabajo de un programa que se crea mediante el uso de una mesa de mezclas de video para hacer una versión editada en el momento del programa en vivo.
   - term: Magnetic track
     id: MagneticTrack
-    definition: An analog sound recording stored on a reel of film with a magnetic coating.
+    definition: Español - Pista magnética. Una grabación analógica de sonido almacenada en un carrete de película con un revestimiento magnético.
   - term: Master
     id: Master
-    definition: A final product or item which is considered the highest quality version. A production master is intended for distribution; a preservation master is the designated highest-quality version of an item maintained in a library or archive for the purposes of long-term preservation.
+    definition: Español - Máster. Un producto o elemento final que se considera la versión de mayor calidad. Un máster de producción está destinado a la distribución, mientras que un máster de preservación es la versión de un elemento con la más alta calidad que se guarda en una biblioteca o archivo para su preservación a largo plazo.
   - id: MasterDistribution
-    definition: A version of an asset which is packaged for a specific form of distribution, and may include packaging elements such as trailers, teasers, logos, credits, opens, closes, etc.
+    definition: >
+       Español - Máster: distribución. Una versión de un recurso que se prepara para una forma específica de distribución y que puede incluir elementos como trailers, teasers, logotipos, créditos, aperturas, cierres, etc.
     term: >
-        Master: distribution
+       Master: distribution
   - id: MasterProduction
-    definition: The final edit of a given asset in its highest-quality format, which can be re-packaged for broadcast and distribution.
+    definition: >
+       Español - Máster: producción. La edición final de un determinado recurso en su formato de más alta calidad, el cual se puede volver a empaquetar para su transmisión y distribución.
     term: >
-        Master: production
+       Master: production
   - term: Mezzanine
     id: Mezzanine
-    definition: A version of an asset which is not the master, but is of high enough quality to be used for editing and to generate access copies.
+    definition: Español - Mezzanine. Una versión de un recurso que sin ser el máster tiene la calidad suficiente para usarse para editar y generar copias de acceso.
   - term: Negative
     id: Negative
-    definition: A version of a film asset recorded with colors inverted. Most motion picture film is originally shot in negative.
+    definition: Español - Negativo. Una versión de una película grabada con los colores invertidos. Casi siempre la película cinematográfica se filma en negativo.
   - term: Optical track
     id: OpticalTrack
-    definition: An analog sound recording stored on film by printing a waveform on a film strip.
+    definition: Español - Pista óptica. Una grabación analógica de sonido almacenada en película mediante la impresión de una forma de onda sobre una tira de película.
   - term: Original
     id: Original
-    definition: The first generation of an instantiation — either the material that came directly from the camera, in the case of raw footage, or, in the case of an edited master, the first master version created.
+    definition: Español - Original. La primera generación de una instanciación ya sea el material que vino directamente de la cámara, en el caso de metraje crudo, o, en el caso de un máster editado, la primera versión máster.
   - term: Original footage
     id: OriginalFootage
-    definition: Raw footage that was shot directly on camera, before dubbing, editing, or reformatting.
+    definition: Español - Metraje original. Metraje crudo de cámara, sin doblaje, edición o reformatación.
   - term: Original recording
     id: OriginalRecording
-    definition: Raw audio that was captured directly, before dubbing, editing or reformatting.
+    definition: Español - Grabación original. Audio crudo capturado directamente, sin doblaje, edición o reformatación.
   - term: Outs and trims
     id: OutsandTrims
-    definition: Negative or positive prints of materials used for the production of a motion picture film but not included in the final version, such as outtakes, second takes, tests, sound and dialogue tracks, etc.
+    definition: Español - Descarte, recorte. Negativos o copias positivas de materiales utilizados en la producción de una película cinematográfica pero no incluidos en la versión final, como tomas descartadas, segundas tomas, pruebas, pistas de sonido y diálogo, etc.
   - term: Picture lock
     id: PictureLock
-    definition: A near-final edit of a film or program which contains the correct scenes and sequences in the correct order for the final version, but has not yet undergone post-production work.
+    definition: Español - Picture lock, corte final. Una edición casi definitiva de una película o programa que contiene las escenas y secuencias correctas en el orden correcto para la versión final, pero que aún no ha pasado por el trabajo de posproducción.
   - term: Positive
     id: Positive
-    definition: Film printed on stock that matches the colors and/or tonal values of those in the original subject matter.
+    definition: Español - Positivo. Un filme impreso sobre película virgen cuyos colores y valores tonales coinciden con los del sujeto original.
   - term: Preservation
     id: Preservation
-    definition: Typically the highest-quality version of an asset in the possession of a library or archive, which is not accessed, but instead kept for the purposes of long-term preservation. A preservation instantiation may be a preservation master, which is considered the original or most important version to preserve, or a preservation copy, which exists as an exact or near-exact duplicate of the preservation master in case of destruction or damage, and which is often used to make mezzanine or access copies.
+    definition: Español - Preservación. Por lo general, la versión de mayor calidad de un recurso que está en posesión de una biblioteca o archivo, a la que no se accede, sino que se conserva con fines de preservación a largo plazo. Una instanciación de preservación puede ser un máster de preservación, que se considera el original o la versión más importante para preservar, o una copia de preservación, que existe como un duplicado exacto o casi exacto del máster de preservación en caso de destrucción o daño y que es a menudo se utiliza para hacer copias mezzanine o copias de acceso.
   - term: Print
     id: Print
-    definition: A film that contains a positive image printed from a duplicate negative or a reversal film, intended for projection.
+    definition: Español - Copia. Una película que contiene una imagen positiva impresa a partir de un negativo duplicado o una película reversible, destinada a la proyección.
   - term: Proxy file
     id: ProxyFile
-    definition: A lower-quality instantiation of an asset, such as a preview, that is provided to allow users to review files before accessing the original. May be the same as an access copy.
+    definition: Español - Archivo proxy. Una instanciación de menor calidad de un recurso, como por ejemplo una vista previa, que se proporciona a los usuarios para permitirles revisar los archivos antes de acceder al original. Puede ser lo mismo que una copia de acceso.
   - term: Reversal
     id: Reversal
-    definition: A type of moving image film that directly produces a positive image on the camera original, rather than a negative.
+    definition: Español - Reversible. Un tipo de película de imágenes en movimiento que produce directamente una imagen positiva en el original de la cámara, en lugar de un negativo.
   - term: Rough cut
     id: RoughCut
-    definition: An early edit of a film or program which contains the approximate shot selection and timing that will be used for the final version, but may still require significant editing for sound, color, titles, etc.
+    definition: Español - Premontaje, primer montaje. Una edición inicial de una película o programa que contiene la selección de tomas y el tiempo aproximados que se utilizarán para la versión final, pero que aún puede requerir una edición importante de sonido, color, títulos, etc.
   - term: Separation master
     id: SeparationMaster
-    definition: A preservation instantiation for motion picture film which consists of three black-and-white copies, each filtered for one of the RGB spectrums.
+    definition: Español - Positivos maestros de separación, másteres de separación. Una instanciación de preservación para películas cinematográficas que consiste en tres copias en blanco y negro, cada una filtrada para uno de los espectros de RGB.
   - term: Stock footage
     id: StockFootage
-    definition: Film or video footage that was not created specifically for a program, but repurposed by the filmmakers from a pre-existing source. Generally licensed from a stock footage library or archive.
+    definition: Español - Metraje de stock. Metraje de película o video que no se creó específicamente para un programa, pero que los realizadores reutilizaron a partir de una fuente preexistente. Generalmente se licencia a una biblioteca de imágenes de stock o a un archivo.
   - term: Submaster
     id: Submaster
-    definition: A full master version of a program that was copied from an existing video master, and may be used to create specialized master versions, such as a foreign language master or syndication master.
+    definition: Español - Submáster. Una versión máster completa de un programa que se copió de un máster en video existente y que se puede usar para crear versiones maestras especializadas, como un máster en un idioma extranjero o un máster de sindicación.
   - term: Transcription disc
     id: TranscriptionDisc
-    definition: A phonograph record intended for, or recorded from, a radio broadcast; used within the radio industry to distribute syndicated programs and preserve live broadcasts.
+    definition: Español - Disco de transcripción. Un disco fonográfico destinado a, o grabado a partir de, una transmisión de radio. Se utiliza dentro de la industria de la radio para distribuir programas sindicados y preservar transmisiones en vivo.
   - term: Work print
     id: WorkPrint
-    definition: A rough edit of a motion picture film used during the editing process, which contains the approximate shot selection and timing that will be used for the final version, but may still include placeholder clips and require significant editing for sound, animation, special effects, etc.
+    definition: Español - Copia de trabajo, copión. Una edición preliminar de una película cinematográfica que se utiliza durante el proceso de edición y que contiene la selección de tomas y el tiempo aproximado que se utilizarán para la versión final, pero aún puede incluir clips a reemplazar y requiere mucha edición para el sonido, la animación, los efectos especiales, etc.
   - term: Work tapes
     id: WorkTapes
-    definition: Unedited or partly edited pre-release or pre-broadcast audio or video recordings generated as part of the production process. Work tapes generally correspond to master material of original footage or stock footage. Recommended usage should be in conjunction with Original Footage or Original Recording.
+    definition: Español - Cintas de trabajo. Grabaciones de audio o video previas a la transmisión o estreno, que están sin editar o parcialmente editadas y se generan como parte del proceso de producción. Las work tapes generalmente corresponden a material máster de metraje original o material de archivo. Se recomienda usar junto con Original Footage u Original Recording.
   - term: Work track
     id: WorkTrack
-    definition: A rough edit of a soundtrack which the editor uses to develop the final soundtrack.
+    definition: Español - Pista de trabajo, banda sonora de trabajo. Una edición preliminar de una banda sonora que el editor utiliza para desarrollar la banda sonora final.
 uri: /pbcore-controlled-vocabularies/instantiationgenerations-vocabulary/
 permalink: /pbcore-controlled-vocabularies/instantiationgenerations-vocabulary/
 ---

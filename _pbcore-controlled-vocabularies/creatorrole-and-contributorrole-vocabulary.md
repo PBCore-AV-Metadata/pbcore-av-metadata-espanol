@@ -2,169 +2,169 @@
 section: Schema
 name: creatorRole and contributorRole Vocabulary
 usage: >
-  for <a href="/elements/creatorrole">creatorRole</a> and <a href="/elements/contributorrole">contributorRole</a>
+  para <a href="/elements/creatorrole">creatorRole</a> y <a href="/elements/contributorrole">contributorRole</a>
 omr-link: http://metadataregistry.org/concept/list/vocabulary_id/460.html
 download: /assets/downloads/pbcore_creatorandcontributorrole_vocabulary.xlsx
 terms:
   - term: Actor
     id: Actor
-    definition: Person playing a character role in the production.
+    definition: Español - Actor. Persona que interpreta un personaje en la producción.
   - term: Artist
     id: Artist
-    definition: Person primarily responsible for the artistic content of the production, or the visual content contained in the media work, and who may hold copyright to it – for example, a video artist like Andy Warhol, or a painter commissioned to provide a visual work for the production.
+    definition: Español - Artista. Persona con la responsabilidad principal por el contenido artístico de la producción, o el contenido visual en una obra y que puede ser titular de los derechos de autor de la misma; por ejemplo, un videoartista como Andy Warhol, o un pintor encargado de proporcionar una obra visual para la producción.
   - term: Artistic Director
     id: ArtisticDirector
-    definition: Person responsible for unifying the feel and vision of a television production, film production, theatrical company, etc.
+    definition: Español - Director artístico; directora artística. Persona responsable de unificar la visión de una producción de televisión, una producción cinematográfica, una compañía teatral, etc.
   - term: Associate Producer
     id: AssociateProducer
-    definition: Person who takes on responsibilities delegated to them by the Producer. They work on the development and pre-production stages, and on the production. Duties can range from supervising the production design team or post production, or co-ordinating the work of visual effects companies. This is an industry term, and specific roles and responsibilities may vary between jobs and productions.
+    definition: Español - Productor asociado. Persona que tiene responsabilidades delegadas por el Productor. Trabaja en las etapas de desarrollo y preproducción y durante la producción. Sus tareas pueden ir desde la supervisión del equipo de diseño de producción o la postproducción, hasta la coordinación del trabajo de los estudios de efectos visuales. Este término pertenece a la industria y por ello los roles y responsabilidades específicos pueden variar entre trabajos y producciones.
   - term: Author
     id: Author
-    definition: Person primarily responsible for the intellectual content of the production and who may hold copyright to it – for example, a novelist whose work is adapted into a film.
+    definition: Español - Autor. Person primarily responsible for the intellectual content of the production and who may hold copyright to it – for example, a novelist whose work is adapted into a film.
   - term: Broadcast Engineer
     id: BroadcastEngineer
-    definition: Person who works with hardware and broadcast systems that are used across television, radio and new media to broadcast and distribute programs.
+    definition: Español - Ingeniero de radiodifusión. Persona que trabaja con los hardware y sistemas de transmisión que se utilizan en la televisión, la radio y los nuevos medios para transmitir y distribuir programas.
   - term: Camera Operator
     id: CameraOperator
-    definition: Person responsible for manning the camera. Several people may fill this role on one production.
+    definition: Español - Operador de cámara. Persona responsable del manejo de la cámara. En una producción, varias personas suelen desempeñar este rol.
   - term: Caption Writer
     id: CaptionWriter
-    definition: Person or organization responsible for editing/adding closed captioning.
+    definition: Español - Redactor de closed captions. Persona u organización responsable de editar/agregar una transcripción en la misma lengua del audio.
   - term: Casting Director
     id: CastingDirector
-    definition: Person responsible for initially finding the cast members chosen for a production.
+    definition: Español - Director de casting. Persona responsable de encontrar y elegir a los miembros del elenco al inicio de la producción.
   - term: Choreographer
     id: Choreographer
-    definition: Person responsible for selection or creation of dance compositions and plans and arranges dance movements and patterns for dances and especially for ballets.
+    definition: Español - Coreógrafo. Persona responsable por la selección o creación de composiciones de danza y que planea y arregla movimientos de danza y patrones para danzas, especialmente para ballets.
   - term: Cinematographer
     id: Cinematographer
-    definition: See Director of Photography, the recommended term for this position.
+    definition: Español - Director de fotografía. Ver Director of Photography, el término recomendado para este puesto.
   - term: Co-Producer
     id: CoProducer
-    definition: Person who performs a substantial portion of a creative producing function, or who is primarily responsible for one or more managerial producing functions. A co-producer has less responsibility than a producer for the completion of a project. This is an industry term, and specific roles and responsibilities may vary between jobs and productions.
+    definition: Español - Coproductor. Persona responsable por una parte importante de la producción creativa, o por una o más funciones de coordinación de producción. Tiene menos responsabilidad que un productor en la finalización de un proyecto. Este término pertenece a la industria y por ello los roles y responsabilidades específicos pueden variar entre trabajos y producciones.
   - term: Commentator
     id: Commentator
-    definition: Person who discusses news, sports events, weather, or the like, as on television or radio.
+    definition: Español - Comentador, comentarista. Persona que analiza noticias, eventos deportivos, clima, o similar, en la televisión o la radio.
   - term: Composer
     id: Composer
-    definition: Person who writes music for a specific production, or who is responsible for the artistic content of a piece of music used within a specific production and who may own copyright to that content. Composers of specific elements (for example, theme music) may be identified in an annotation.
+    definition: Español - Compositor. Persona que escribe música para una producción específica, o que es responsable por el contenido artístico de una pieza musical utilizada en una producción específica y que puede poseer los derechos de autor de ese contenido. Los compositores de elementos específicos (por ejemplo, temas musicales) pueden identificarse en una anotación.
   - term: Concept Artist
     id: ConceptArtist
     definition: Person who produces an artistic rendering of an element or elements in a film, TV show, or video game, created as part of the development and visualization of characters, costumes, environments, etc.
   - term: Conductor
     id: Conductor
-    definition: Person who directs the performance of an orchestra or choir.
+    definition: Español - Director de orquesta. Persona que dirige la actuación de una orquesta o coro.
   - term: Costume Designer
     id: CostumeDesigner
-    definition: Person responsible for designing and creating costumes and wardrobe for a production.
+    definition: Español - Diseñador de vestuario. Persona responsable por el diseño y la creación del vestuario para una producción.
   - term: Describer
     id: Describer
-    definition: Person or organization responsible for describing key visual elements in a production for visually-impaired viewers.
+    definition: Español - Encargado de audiodescripción. Persona u organización responsable de describir elementos visuales importantes en una producción para espectadores con discapacidad visual.
   - term: Director
     id: Director
-    definition: Person who supervises the actors, camera crew, and other staff for a movie, play, television program, or similar production.
+    definition: Español - Director. Persona que supervisa a los actores, camarógrafos y demás personal de una película, obra de teatro, programa de televisión o producción similar.
   - term: Director of Photography
     id: DirectorofPhotography
-    definition: Cinematographer or director of photography (sometimes shortened to DP or DOP) is the chief over the camera crews working on a film, television production or other live action piece and is responsible for achieving artistic and technical decisions related to the image.
+    definition: Español - Director de fotografía. (a veces se abrevia DP o DOP) es el jefe de los equipos de cámara que trabajan en una película, producción de televisión o transmisión en vivo. Es responsable de decisiones artísticas y técnicas relacionadas con la imagen.
   - term: Editor
     id: Editor
-    definition: Person who assembles the footage for a production into the final end product.
+    definition: Español - Editor. Persona que monta el metraje para crear el producto final en una producción.
   - term: Executive Producer
     id: ExecutiveProducer
-    definition: Person who secures funding for a production and oversees financial and organizational aspects of the production’s development.
+    definition: Español - Productor/Productora; ejecutivo/ejecutiva; productora ejecutiva/productor ejecutivo. Persona que consigue la financiación para una producción y supervisa los aspectos financieros y organizativos del desarrollo de la misma.
   - term: Filmmaker
     id: Filmmaker
-    definition: The person most prominently responsible for the making of a film, especially if they are involved in all phases of production – for example, an independent or experimental filmmaker.
+    definition: Español - Realizador(a). La persona cuya responsabilidad más se destaca en la realización de una película, especialmente si está involucrada en todas las fases de la producción, por ejemplo, un cineasta independiente o experimental.
   - term: Foley Artist
     id: FoleyArtist
-    definition: Person that uses objects to create (or recreate) sound on a foley sound stage to be added to the final audio mix, such as footsteps, the opening and closing doors, or mechanical sounds.
+    definition: Español - Artista de foley. Persona que utiliza objetos para crear (o recrear) sonido . Lo hace en un escenario de sonido foley o sonido de sala. Estos sonidos, que pueden ser pasos, puertas que se abren y se cierran, o sonidos mecánicos, se suman a la mezcla de sonido final.
   - term: Graphic Designer
     id: GraphicDesigner
-    definition: Person who creates and designs visual elements for a production, such as logos, posters or brochures.
+    definition: Español - Diseñador gráfico. Persona que crea y diseña elementos visuales para una producción, tales como logotipos, carteles o folletos.
   - term: Graphic Editor
     id: GraphicEditor
-    definition: Person who assembles graphics and animation for a production.
+    definition: Español - Editor gráfico. Persona que monta gráficos y animaciones en una producción.
   - term: Guest
     id: Guest
-    definition: Person who is invited to appear on one or several episodes of a television show, but is not a regular part of the cast or crew.
+    definition: Español - Invitado. Persona invitada para aparecer en uno o varios episodios de un programa de televisión, pero que no forma parte del elenco o equipo regular.
   - term: Host
     id: Host
-    definition: Person who introduces a television or radio program, presents the various program elements, and interviews any guests.
+    definition: Español - Presentador. Persona que en un programa de radio o televisión, presenta los diversos elementos del programa y entrevista a los invitados.
   - term: Interviewee
     id: Interviewee
-    definition: Person being interviewed.
+    definition: Español - Entrevistado. Persona entrevistada.
   - term: Interviewer
     id: Interviewer
-    definition: Person who asks the questions during an interview.
+    definition: Español - Entrevistador. Persona que realiza las preguntas durante una entrevista.
   - term: Lighting Technician
     id: LightingTechnician
-    definition: Person responsible for the creation of the lighting design for a given production.
+    definition: Español - Técnico de iluminación. Persona responsable por el diseño de iluminación en una producción.
   - term: Make-Up Artist
     id: MakeUpArtist
-    definition: Person responsible for designing and creating make-up and prosthetic effects for a production.
+    definition: Español - Maquillador, artista de maquillaje. Persona responsable de diseñar y crear efectos con maquillaje y prótesis para una producción.
   - term: Moderator
     id: Moderator
-    definition: Person who moderates a discussion.
+    definition: Español - Moderador. Persona que modera una discusión.
   - term: Music Supervisor
     id: MusicSupervisor
-    definition: Person responsible for working with the director and composer of a production to manage, select, and/or edit music for the production; this may also be identified as music director or music editor.
+    definition: Español - Supervisor musical, editor musical. Persona que trabaja con el director y el compositor de una producción en la gestión, selección y/o edición de la música para la producción. Este rol también puede identificarse como ‘music director’ o ‘music editor’
   - term: Musician
     id: Musician
-    definition: Player of a musical instrument.
+    definition: Español - Músico. Intérprete de un instrumento musical.
   - term: Narrator
     id: Narrator
-    definition: Person whose voice explains what is happening in a television program or movie, but who generally is not seen.
+    definition: Español - Narrador. Persona cuya voz explica lo que sucede en un programa de televisión o película, pero a la que generalmente no se ve.
   - term: Panelist
     id: Panelist
-    definition: Member of a small group of persons gathered for formal public discussion, judging, or playing a radio or television game.
+    definition: Español - Panelista. Miembro de un grupo reducido de personas reunidas para una discusión pública formal, un juicio, o para jugar un juego de radio o televisión.
   - term: Performer
     id: Performer
-    definition: Broader term for Actor, Musician, Vocalist or Comedian. A ​person who ​entertains ​people by ​acting, ​singing, ​dancing, ​playing ​music, or providing some other form of entertainment.
+    definition: Español - performer, intérprete. Término más amplio para actor, músico, vocalista o comediante. Una persona que entretiene a la gente actuando, cantando, bailando, tocando música o proporcionando alguna otra forma de entretenimiento.
   - term: Performing Group
     id: PerformingGroup
-    definition: Company, band, or group of performers who work together to ​entertain ​people by ​dancing, ​singing, ​acting, ​playing ​music, or providing some other form of entertainment.
+    definition: Español - Grupo de artistas. Compañía, banda o grupo de artistas que trabajan juntos para entretener al público bailando, cantando, actuando, tocando música o brindando alguna otra forma de entretenimiento.
   - term: Photographer
     id: Photographer
-    definition: Person who ​takes ​photographs. In film and television this person may be called a unit still photographer or simply, still photographer, who creates still photographic images intended for use in promotion, continuity and documentation of films and television productions.
+    definition: Español - Fotógrafo. Persona que toma fotografías. En cine y televisión, a esta persona también se la denomina unit still photographer (foto fija de una unidad) o simplemente still photographer (foto fija). Crea imágenes fotográficas fijas destinadas para la promoción, continuidad y documentación de producciones cinematográficas y televisivas.
   - term: Producer
     id: Producer
-    definition: Person who initiates, coordinates, supervises and controls all aspects of the production process, including creative, financial, technological and administrative. A Producer is involved throughout all phases of production from inception to completion. A production may have more than one producer.
+    definition: Español - Productor. Persona que inicia, coordina, supervisa y controla todos los aspectos del proceso de producción, incluidos los creativos, financieros, tecnológicos y administrativos. Un productor está involucrado en todas las fases de la producción desde el inicio hasta su finalización. Una producción puede tener más de un productor.
   - term: Production Unit
     id: ProductionUnit
-    definition: Corporate sub-entity or department that initiates, coordinates, supervises and controls all aspects of the production process, including creative, financial, technological and administrative.
+    definition: Español - Unidad de producción. Área o departamento corporativo que inicia, coordina, supervisa y controla todos los aspectos del proceso de la producción, incluidos los creativos, financieros, tecnológicos y administrativos.
   - term: Recording Engineer
     id: RecordingEngineer
-    definition: Person who operates consoles and other equipment to record, control, replay, and mix sound from various live performances and in the production of radio, television, music, and film. Recording Engineers may also be called Sound Recordists, Sound Mixers, or Audio Engineers. There are also specialized engineers such as Sound Engineers (for film sets), ADR Recordists, and Foley Recordists.
+    definition: Español - Ingeniero de grabación. Persona que opera consolas y otros equipos para grabar, controlar, reproducir y mezclar sonido en espectáculos en vivo y en la producción de radio, televisión, música y cine. Los Recording Engineer (ingenieros de grabación) también pueden llamarse Sound Recordists, Sound Mixers, o Audio Engineers (ingenieros de sonido, mezcladores de sonido o ingenieros de audio respectivamente). También hay ingenieros especializados como ingenieros de sonido (para escenarios de películas), grabadores de ADR y grabadores de Foley.
   - term: Reporter
     id: Reporter
-    definition: Person who conducts interviews, reports events, or presents news information for a broadcast.
+    definition: Español - Reportero, corresponsal. Persona que realiza entrevistas, informa sobre eventos o presenta noticias para una transmisión.
   - term: Set Designer
     id: SetDesigner
-    definition: Person who designs and creates the set for a production.
+    definition: Español - Escenógrafo. Persona que diseña y crea el decorado para una producción.
   - term: Sound Designer
     id: SoundDesigner
-    definition: Person who works closely with the production team to design any required sounds to include in a production.
+    definition: Español - Diseñador de sonido. Persona que trabaja en estrecha colaboración con el equipo de producción para diseñar los sonidos que precisan incluirse en una producción.
   - term: Sound Editor
     id: SoundEditor
-    definition: Person who creates the soundtrack by cutting and synchronizing all sound elements. There may be specialized editors for specific sound element types as well, such as a Sound Effects Editor.
+    definition: Español - Editor de sonido. Persona que crea la banda sonora mediante el corte y la sincronización de todos los elementos sonoros. También hay editores especializados para tipos de elementos de sonido específicos, como un Sound Effects Editor (Editor de efectos de sonido).
   - term: Speaker
     id: Speaker
-    definition: Broad term for a person whose speech or lecture is included in a production.
+    definition: Español - Orador, disertante, conferencista. Término amplio para una persona cuyo discurso o conferencia forma parte de una producción.
   - term: Technical Director
     id: TechnicalDirector
-    definition: Most senior technical person on a production team, who oversees the technical quality of the production and/or supervises the technical crew. This is an industry term, and specific roles and responsibilities may vary between jobs and productions.
+    definition: Español - Director técnico. La persona con más experiencia en el área técnica dentro de un equipo de producción, que supervisa la calidad técnica de la producción y/o supervisa al equipo técnico. Este término pertenece a la industria y por ello los roles y responsabilidades específicos pueden variar entre trabajos y producciones.
   - term: Video Engineer
     id: VideoEngineer
-    definition: Person who is responsible for technical aspects of video recording and production systems. This is an industry term, and specific roles and responsibilities may vary between jobs and productions.
+    definition: Español - Ingeniero de video. Persona que se encarga de los aspectos técnicos de la grabación y los sistemas de producción de video. Este término pertenece a la industria y por ello los roles y responsabilidades específicos pueden variar entre trabajos y producciones.
   - term: Vocalist
     id: Vocalist
-    definition: Person who sings or otherwise vocally contributes a production or a composition used in a production.
+    definition: Español - Vocalista. Persona que canta o contribuye vocalmente de otra manera a una producción o una composición utilizada en una producción.
   - term: Voiceover Artist
     id: VoiceoverArtist
-    definition: Unseen performer who adds their voice to the production in various ways, such as for animated characters or when dubbing into another language. For musical performances use Vocalist.
+    definition: Español - Locutor, artista de doblaje. Intérprete que no se ve en la pantalla y cuya voz se agrega a la producción de varias maneras, como para personajes animados o cuando se doblan a otro idioma. Para actuaciones musicales, utilice 
   - term: Writer
     id: Writer
-    definition: Person who created or contributed to the script of a production; usually involved with the production as a work-for-hire.
+    definition: Español - Escritor. Persona que creó o contribuyó al guión de una producción; generalmente involucrado con la producción como un trabajador por contrato (work-for-hire).
 uri: /pbcore-controlled-vocabularies/creatorrole-and-contributorrole-vocabulary/
 permalink: /pbcore-controlled-vocabularies/creatorrole-and-contributorrole-vocabulary/
 ---

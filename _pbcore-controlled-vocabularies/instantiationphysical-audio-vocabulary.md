@@ -2,100 +2,100 @@
 section: Schema
 name: instantiationPhysical Audio Vocabulary
 usage: >
-  for <a href="elements/instantiationphysical">instantiationPhysical</a>
+  para <a href="elements/instantiationphysical">instantiationPhysical</a>
 omr-link: http://metadataregistry.org/concept/list/page/1/vocabulary_id/462.html
 download: /assets/downloads/pbcore_instantiationphysicalaudio_vocabulary.xlsx
 terms:
   - term: Open reel audiotape
     id: OpenReelAudiotape
-    definition: A general term for unknown open reel audio formats. If more specific format information is known, please use the appropriate term from the list.
+    definition: Español - Cinta de audio de bobina abierta, cinta de audio de carrete abierto. Término general para cintas de audio de bobina abierta de formatos desconocidos. Si conoce información de formato más específica, utilice el término apropiado de la lista.
   - term: Grooved analog disc
     id: GroovedAnalogDisc
-    definition: A general term for unknown grooved audio formats. If more specific format information is known, please use the appropriate term from the list.
+    definition: Español - Disco analógico de surco. Término general para formatos desconocidos de audio de surco. Si conoce información de formato más específica, utilice el término apropiado de la lista.
   - term: 1 inch audio tape
     id: 1InchAudioTape
-    definition: An open reel analog audiotape format.
+    definition: Español - cinta de audio de 1 pulgada. Un formato de audio analógico de cinta de 1 pulgada en carrete abierto.
   - term: 1/2 inch audio tape
     id: HalfInchAudioTape
-    definition: An open reel analog audiotape format.
+    definition: Español - cinta de audio de 1/2 pulgada. Un formato de audio analógico de cinta de 1/2 pulgada en carrete abierto.
   - term: 1/4 inch audio cassette
     id: QuarterInchAudioCassette
     definition: A cassette-based analog audiotape format.
   - term: 1/4 inch audio tape
     id: QuarterInchAudioTape
-    definition: An open reel analog audiotape format.
+    definition: Español - cinta de audio de 1/4 pulgada. Un formato de audio analógico de cinta de 1/4 pulgada en carrete abierto.
   - term: 2 inch audio tape
     id: 2InchAudioTape
-    definition: An open reel analog audiotape format.
+    definition: Español - cinta de audio de 2 pulgadas. Un formato de audio analógico de cinta de 2 pulgadas en carrete abierto.
   - term: 8-track
     id: 8Track
-    definition: A cartridge-based 1/4-inch analog audiotape format. May also be known as Stereo 8.
+    definition: Español - Cartucho de 8 pistas, magazine, ocho track. Un formato de audio analógico de cinta de 1/4 pulgada en cartuchos. También se lo conoce como Stereo 8.
   - term: Aluminum disc
     id: AluminumDisc
-    definition: A grooved aluminum analog disc format.
+    definition: Español - Disco de aluminio. Un formato de audio analógico de disco aluminio con surco.
   - term: Audio cassette
     id: AudioCassette
     definition: >
-      A cassette-based 1/8-inch analog audiotape format. If desired, format information can be included after a colon, for example "Audio cassette: Type I." Types of audio cassette include Type I, Type II, Type III and Type IV.
+      Español - Casete de audio. Un formato de audio analógico de cinta de 1/8 de pulgada en casete. Si se desea, la información de formato se puede incluir después de dos puntos, por ejemplo, "Cinta de audio: Tipo I". Los tipos de cinta de audio incluyen Tipo I, Tipo II, Tipo III y Tipo IV.
   - term: Audio CD
     id: AudioCD
-    definition: An optical disc-based digital audio format.
+    definition: Español - CD de audio. Un formato de audio digital en disco óptico.
   - term: DAT
     id: DAT
-    definition: A cassette-based 4mm digital audiotape format.
+    definition: Español - Cinta de audio digital. Un formato de audio digital de cinta de 4 mm en casete.
   - term: DDS
     id: DDS
-    definition: A cassette-based digital data format that can also be used to record audio data.
+    definition: Español - Almacenamiento de datos digitales. Un formato de datos digitales en casete que también se puede utilizar para grabar datos de audio.
   - term: DTRS
     id: DTRS
     definition: >
-      A cassette-based 8mm digital audiotape format. May also be known as DARS. Types of DTRS include DA-88. This information can be included after a colon, as “DTRS: DA-88.”
+      Español - DTRS (del inglés Digital Tape Recording System, sistema de grabación de cinta digital). Un formato de audio digital de cinta de 8 mm en casete. También se lo conoce como DARS. Los tipos de DTRS incluyen DA-88. Esta información se puede incluir después de dos puntos, como "DTRS: DA-88".
   - term: Flexi Disc
     id: FlexiDisc
-    definition: A grooved vinyl analog disc format.
+    definition: Español - Flexi, flexi disc o flexi disco. Un formato de audio analógico en disco vinilo con surco.
   - term: Grooved Dictabelt
     id: GroovedDictabelt
-    definition: A grooved plastic analog format.
+    definition: Español - Dictabelt con surco. Un formato de audio analógico en cilindro de plástico flexible con surco.
   - term: Lacquer disc
     id: LacquerDisc
-    definition: A grooved lacquer analog disc format. Types of lacquer discs may include those with aluminum base, glass base, cardboard base, and steel base. More specific format information can be included in an annotation.
+    definition: Español - Disco de laca. Un formato de audio analógico en disco lacado con surco. Dentro de los tipos de discos de laca se incluyen aquellos con base de aluminio, base de vidrio, base de cartón y base de acero. Se puede agregar información de formato más específica en una anotación.
   - term: Magnetic Dictabelt
     id: MagneticDictabelt
-    definition: A magnetic plastic analog format.
+    definition: Español - Dictabelt magnético. Un formato de audio analógico plástico magnético.
   - term: Mini-cassette
     id: MiniCassette
-    definition: A cassette-based 1/8-inch analog audiotape format.
+    definition: Español - Mini casete. Un formato de audio analógico de cinta de audio de 1/8 de pulgada en casete.
   - term: PCM Betamax
     id: PCMBetamax
-    definition: A cassette-based digital audiotape format recorded onto Betamax videotape.
+    definition: Español - PCM Betamax. Un formato de audio digital en casete grabado en una cinta de video Betamax.
   - term: PCM U-matic
     id: PCMUmatic
-    definition: A cassette-based digital audiotape format recorded onto U-matic videotape.
+    definition: Español - PCM U-matic. Un formato de audio digital en casete grabado en una cinta de video U-matic.
   - term: PCM VHS
     id: PCMVHS
-    definition: A cassette-based digital audiotape format recorded onto VHS videotape.
+    definition: Español - PCM VHS. Un formato de audio digital en casete grabado en una cinta de video VHS.
   - term: Piano roll
     id: PianoRoll
-    definition: A paper-based musical storage format used to operate a player piano.
+    definition: Español - Rollo de pianola. Un formato de almacenamiento musical en papel que se utiliza para operar una pianola.
   - term: Plastic cylinder
     id: PlasticCylinder
-    definition: A grooved plastic analog phonograph cylinder format.
+    definition: Español - Cilindro de plástico. Un formato de fonógrafo analógico de un cilindro plástico con surco.
   - term: Shellac disc
     id: ShellacDisc
-    definition: A grooved shellac analog disc format.
+    definition: Español - Disco de goma laca. Un formato de audio analógico de un disco de goma laca con surco.
   - term: Super Audio CD
     id: SuperAudioCD
-    definition: An optical disc-based digital audio format.
+    definition: Español - Super Audio CD. Un formato de audio digital en disco óptico.
   - term: Vinyl recording
     id: VinylRecording
     definition: >
-      A grooved vinyl analog disc format. If desired, format information can be included after a colon, for example: “Vinyl recording: EP.” Types of records may include EP, LP, 45, 78. LP may also be known as 33 1/3.
+      Español - Disco de vinilo. Un formato de audio analógico de vinilo con surco. Si se desea, la información de formato se puede incluir después de dos puntos, por ejemplo: "Disco de vinilo: EP". Los tipos de discos pueden incluir EP, LP, 45, 78. LP se conoce también como 33 1/3.
   - term: Wax cylinder
     id: WaxCylinder
-    definition: A grooved wax analog phonograph cylinder format.
+    definition: Español - Cilindro de cera. Un formato de fonógrafo analógico de un cilindro de cera con surco.
   - term: Wire recording
     id: WireRecording
-    definition: A wire-based magnetic analog audio format.
+    definition: Español - Magnetófono de alambre. Un formato de audio magnético analógico que utiliza alambre.
 uri: /pbcore-controlled-vocabularies/instantiationphysical-audio-vocabulary/
 permalink: /pbcore-controlled-vocabularies/instantiationphysical-audio-vocabulary/
 ---
