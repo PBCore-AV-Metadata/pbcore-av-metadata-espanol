@@ -4,60 +4,60 @@ toc:
     subfolderitems:
       - page: ¿Qué es PBCore?
         url: /what-is-pbcore
-      - page: FAQs
+      - page: Preguntas Frecuentes
         url: /faqs
-      - page: Glossary
+      - page: Glosario
         url: /glossary
-      - page: Credits
+      - page: Créditos
         url: /credits
   - title: Schema
     color: green
     subfolderitems:
-      - page: Elements
+      - page: Elementos
         url: /elements
-      - page: Attributes
+      - page: Atributos
         url: /attributes
-      - page: Controlled Vocabularies
+      - page: Vocabularios controlados
         url: /pbcore-controlled-vocabularies
-      - page: XML Schema
+      - page: Esquema de XML 
         url: /xsd
-      - page: Data Model Visualization
+      - page: Gráfico de Modelo de Datos
         url: /data-model
   - title: Resources
     color: red
     subfolderitems:
-      - page: Cataloging Tool
+      - page: Herramienta de Catalogación 
         url: /cataloging-tool
-      - page: Spreadsheet Templates
+      - page: Plantillas de Hojas de Cálculo
         url: /spreadsheet-templates
-      - page: PBCore XML Validator
+      - page: Validador de PBCore
         url: /validator
-      - page: External Tools/Integrations
+      - page: Herramientas Externas e Integraciones
         url: /external-tools-and-integrations
-      - page: Mappings
+      - page: Mapeos
         url: /mappings
-      - page: Sample Records
+      - page: Documentos de muestra 
         url: /sample-records
-      - page: Teaching PBCore
+      - page: Enseñando PBCore
         url: /teaching-pbcore
-      - page: Tutorials
+      - page: Tutoriales
         url: /tutorials
-      - page: PBCore Handbook
+      - page: Manual de PBCore
         url: /handbook
-      - page: Presentations
+      - page: Presentaciones
         url: /presentations
   - title: Community
     color: grey
     subfolderitems:
-      - page: PBCore Users
+      - page: Usuarios de PBCore
         url: /pbcore-users
-      - page: Contribute
+      - page: Cómo Contribuir
         url: /contribute
-      - page: User Groups
+      - page: Grupos de Usuarios
         url: /user-groups
-      - page: Annual Meeting Notes
+      - page: Notas de la Reunión Anual
         url: /annual-meeting-notes
-      - page: News and Updates
+      - page: Noticias y Actualizaciones
         url: /news
-      - page: Contact Us
+      - page: Contáctanos
         url: /contact

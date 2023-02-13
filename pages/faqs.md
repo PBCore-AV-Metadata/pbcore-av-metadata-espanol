@@ -1,5 +1,5 @@
 ---
-title: Frequently Asked Questions
+title: Preguntas Frecuentes
 layout: default
 section: About
 permalink: /faqs

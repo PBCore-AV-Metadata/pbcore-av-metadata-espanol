@@ -1,6 +1,6 @@
 ---
 section: Schema
-name: creatorRole and contributorRole Vocabulary
+name: creatorRole y contributorRole Vocabulary
 usage: >
   para <a href="/elements/creatorrole">creatorRole</a> y <a href="/elements/contributorrole">contributorRole</a>
 omr-link: http://metadataregistry.org/concept/list/vocabulary_id/460.html

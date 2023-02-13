@@ -1,40 +1,34 @@
 - title: Manual de PBCore (Versión completa)
-  filepath: /assets/downloads/handbook/PBCore_Handbook_Full.pdf
+  filepath: /assets/downloads/handbook/PBCore_Handbook_Full-es.pdf
   description: La versión completa del Manual de PBCore, para que pueda descargar todas las secciones en un único archivo.
 - title: Manual de PBCore Sección 1 - ¿Qué es PBCore?
-  filepath: /assets/downloads/handbook/PBCore_Handbook_Section_1.pdf
+  filepath: /assets/downloads/handbook/PBCore_Handbook-01.pdf
   description: La primera sección del Manual de PBCore se centra en una explicación general de los usos previstos para PBCore.
 - title: PBCore Handboook Section 2 - Manual de PBCore Sección 2 - Historia y Desarrollo
-  filepath: /assets/downloads/handbook/PBCore_Handbook_Section_2.pdf
+  filepath: /assets/downloads/handbook/PBCore_Handbook-02.pdf
   description: La segunda sección del Manual de PBCore relata la historia del desarrollo y la comunidad de PBCore desde la versión 1.0 a la 2.1
 - title: Manual de PBCore Sección 3 - Glosario
-  filepath: /assets/downloads/handbook/PBCore_Handbook_Section_3.pdf
+  filepath: /assets/downloads/handbook/PBCore_Handbook-03.pdf
   description: La tercera sección del Manual de PBCore provee un glosario de términos específicos de PBCore y otros términos que se utilizan en toda la documentación.
 - title: Manual de PBCore Sección 4 - Estructura de PBCore
-  filepath: /assets/downloads/handbook/PBCore_Handbook_Section_4.pdf
+  filepath: /assets/downloads/handbook/PBCore_Handbook-04.pdf
   description: La cuarta sección del Manual de PBCore provee una lista de Elementos Raíz de PBCore, Subelementos de PBCore en el orden correspondiente, y ejemplos de registro en texto sin formato y en formato XML para cada una de las principales categorías de registros de PBCore.
 - title: Manual de PBCore Sección 5 - Elementos
-  filepath: /assets/downloads/handbook/PBCore_Handbook_Section_5.pdf
+  filepath: /assets/downloads/handbook/PBCore_Handbook-05.pdf
   description: La quinta sección del Manual de PBCore provee definiciones, notas de uso y ejemplos para los 15 contenedores y 82 elementos de PBCore.
 - title: Manual de PBCore Sección 6 - Atributos
-  filepath: /assets/downloads/handbook/PBCore_Handbook_Section_6.pdf
+  filepath: /assets/downloads/handbook/PBCore_Handbook-06.pdf
   description: La sexta sección del Manual de PBCore provee definiciones y notas de uso para todos los atributos que pueden usarse para clarificar en mayor medida la información que se incluye en el valor de un elemento de PBCore.
 - title: Manual de PBCore Sección 7 - Vocabularios Controlados
-  filepath: /assets/downloads/handbook/PBCore_Handbook_Section_7.pdf
+  filepath: /assets/downloads/handbook/PBCore_Handbook-07.pdf
   description: La séptima sección del Manual de PBCore provee los términos, las definiciones y URIs para todos vocabularios controlados que mantiene la comunidad de PBCore.
 - title: Manual de PBCore Sección 8 - Ejemplos de Registros
-  filepath: /assets/downloads/handbook/PBCore_Handbook_Section_8.pdf
+  filepath: /assets/downloads/handbook/PBCore_Handbook-08.pdf
   description: La octava sección del Manual de PBCore provee ejemplos reales de registros de organizaciones que utilizan PBCore y describe las diferencias en los modos en los que las organizaciones usan PBCore para sus necesidades específicas.
 - title: Manual de PBCore Sección 9 - Agradecimientos
-  filepath: /assets/downloads/handbook/PBCore_Handbook_Section_9.pdf
+  filepath: /assets/downloads/handbook/PBCore_Handbook-09.pdf
   description: La novena sección del Manual de PBCore le agradece a las agencias de financiación, las organizaciones y los individuos que ayudaron a poner a disposición esta documentación.
 - title: |
     Manual de PBCore Sección 10 - Apéndice A: Historia del Proceso y Esquema XML de PBCore 2.1
-  filepath: /assets/downloads/handbook/PBCore_Handbook_Section_10.pdf
+  filepath: /assets/downloads/handbook/PBCore_Handbook-10.pdf
   description: La décima sección del Manual de PBCore se suma a la documentación con el XSD de PBCore 2.1 e historia del proceso de las actualizaciones desde PBCore 2.0 a PBCore 2.1.
-- title: Índice del Manual de PBCore
-  filepath: /assets/downloads/handbook/PBCore_Handbook_Table_of_Contents.pdf
-  description: El índice del Manual de PBCore
-- title: Portada del Manual de PBCore
-  filepath: /assets/downloads/handbook/PBCore_Handbook_Title_Page.pdf
-  description: La portada del Manual de PBCore

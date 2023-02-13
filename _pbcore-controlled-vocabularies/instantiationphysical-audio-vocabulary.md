@@ -20,7 +20,7 @@ terms:
     definition: Español - cinta de audio de 1/2 pulgada. Un formato de audio analógico de cinta de 1/2 pulgada en carrete abierto.
   - term: 1/4 inch audio cassette
     id: QuarterInchAudioCassette
-    definition: A cassette-based analog audiotape format.
+    definition: Español - casete de audio de 1/4 pulgada. Un formato de audio analógico de cinta de 1/4 de pulgada en casete.
   - term: 1/4 inch audio tape
     id: QuarterInchAudioTape
     definition: Español - cinta de audio de 1/4 pulgada. Un formato de audio analógico de cinta de 1/4 pulgada en carrete abierto.
