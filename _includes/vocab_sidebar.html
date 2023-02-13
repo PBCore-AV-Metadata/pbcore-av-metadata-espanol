@@ -6,7 +6,7 @@
 
   {% for item in site.data.vocabs %}
     <h5>
-      <a href="{{item.url}}">{{item.name}}</a>
+      <a href="{{site.url}}{{item.url}}">{{item.name}}</a>
     </h5>
   {% endfor %}
 </nav>
