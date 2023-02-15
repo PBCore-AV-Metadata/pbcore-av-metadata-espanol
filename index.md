@@ -121,5 +121,5 @@ keywords: ["Introduction", "Getting Started"]
 </section>
 
 <section>
-  <a href="{{ site.url }}/contact"><button class="pb-button pb-button-learn">CONTACT US</button></a>
+  <a href="{{ site.url }}/contact"><button class="pb-button pb-button-learn">CONTACTENOS</button></a>
 </section>
