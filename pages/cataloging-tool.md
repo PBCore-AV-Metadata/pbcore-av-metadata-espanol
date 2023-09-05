@@ -15,7 +15,7 @@ keywords: ["Resources", "Tools", "Creating Records", "Cataloging", "Cataloging T
 <div class="row">
   <div class="col-md-6 index-text" style="margin-bottom: 4%;">
     <p class="">
-      La Herramienta de Catalogación de PBCore está diseñada para asistir en la creación, edición y exportación de metadatos de inventario relacionados a imágenes en movimiento como archivos XML de PBCore. La herramienta tiene una interfaz para carga de datos fácil de usar y admite todos los elementos y atributos de PBCore, lo cual torna la creación de documentos XML válidos de PBCore en algo tan fácil como completar una hoja de cálculo.
+      La Herramienta de Catalogación de PBCore está diseñada para asistir en la creación, edición y exportación de metadatos de inventario relacionados a imágenes en movimiento como archivos XML de PBCore. La herramienta tiene una interfaz para carga de datos fácil de usar y admite todos los elementos y atributos de PBCore, lo cual torna la creación de documentos XML válidos de PBCore en algo tan fácil como completar una hoja de cálculo. La Herramienta de Catalogación de PBCore se puede utilizar en inglés o español. 
     </p>
     <p>
       La Herramienta de Catalogación de PBCore se diseñó para usarse en conjunto con las Plantillas de Hojas de Cálculo de PBCore, y puede importar y exportar metadatos en el <a href="/spreadsheet-templates">formato de la Plantilla de Hoja de Cálculo completa de PBCore.</a>*
@@ -50,14 +50,14 @@ keywords: ["Resources", "Tools", "Creating Records", "Cataloging", "Cataloging T
     </ul>
 
     <span class="med-text">
-      <a href="/assets/downloads/PBCore-2.1-3.pkg" download>
+      <a href="/assets/downloads/PBCore Cataloging Tool-3.0_x86.dmg" download>
       <button style="margin:3px;" type="button" name="button" class="pb-button pb-button-tools">
         <img src="/assets/images/icons/download.png" alt="" style="max-width: 4%;">
         Descargue la Herramienta de Catalogación para Mac
       </button>
       </a>
 
-      <a href="/assets/downloads/PBCore-2.1-5.exe" download>
+      <a href="/assets/downloads/PBCore Cataloging Tool-3.0.exe" download>
       <button style="margin:3px;" type="button" name="button" class="pb-button pb-button-tools">
         <img src="/assets/images/icons/download.png" alt="" style="max-width: 4%;">
         Descargue la Herramienta de Catalogación para PC
