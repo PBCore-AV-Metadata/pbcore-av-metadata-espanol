@@ -22,8 +22,8 @@ keywords: ["Resources", "Tools", "Creating Records", "Cataloging", "Cataloging T
     </p>
 
     <p>
-      <a href="/assets/downloads/PBCore_Cataloging_Tool_Documentation.pdf" download>
-        Descarge la documentación para el usuario completa.
+      <a href="/assets/downloads/pbcore_cvs_espanol.json" download>
+        Descarge los vocabularios controlados en español.
       </a>
     </p>
 
