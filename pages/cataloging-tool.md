@@ -20,11 +20,8 @@ keywords: ["Resources", "Tools", "Creating Records", "Cataloging", "Cataloging T
     <p>
       La Herramienta de Catalogación de PBCore se diseñó para usarse en conjunto con las Plantillas de Hojas de Cálculo de PBCore, y puede importar y exportar metadatos en el <a href="/spreadsheet-templates">formato de la Plantilla de Hoja de Cálculo completa de PBCore.</a>*
     </p>
-
     <p>
-      <a href="/assets/downloads/pbcore_cvs_espanol.json" download>
-        Descarge los vocabularios controlados en español.
-      </a>
+      Descarge <a href="/pbcore-av-metadata-espanol/assets/downloads/pbcore_cvs_espanol.json" download> los vocabularios controlados en español.</a>
     </p>
 
     <a href="{{site.url}}/tutorials"><button class="pb-button pb-button-who">Tutorial</button></a>
