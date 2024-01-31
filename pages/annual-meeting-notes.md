@@ -12,6 +12,10 @@ keywords: ["Community", "Association of Moving Image Archivists (AMIA)", "PBCore
 
 <h3>Agendas pasadas/Minutas</h3>
 
+<p><a href="/assets/downloads/PBCore_Annual_Meeting_2023.pdf" download>2021</a></p>
+
+<p><a href="/assets/downloads/PBCore_Annual_Meeting_2022.pdf" download>2021</a></p>
+
 <p><a href="/assets/downloads/PBCore_Annual_Meeting_2021.pdf" download>2021</a></p>
 
 <p><a href="/assets/downloads/PBCore_Annual_Meeting_2019.pdf" download>2019</a></p>

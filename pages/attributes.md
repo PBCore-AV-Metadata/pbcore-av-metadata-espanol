@@ -7,7 +7,7 @@ keywords: ["Schema", "Attributes", "XML", "Creating Records"]
 ---
 
 <span class="definition-icon def-attributes"></span>
-<h2 class="green bold">Attributes Defined</h2>
+<h2 class="green bold">Atributos definidos</h2>
 
 Los atributos son una forma de estructurar tipos adicionales de información que pueden incluir los registros de PBCore. Específicamente, se utilizan para aclarar aún más la información que proporciona valor a un elemento. La siguiente sección proporciona una definición para cada atributo; información de mejores prácticas, donde se encuentra disponible; y una lista de los elementos con los que se puede utilizar ese atributo.
 

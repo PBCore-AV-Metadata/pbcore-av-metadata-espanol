@@ -55,7 +55,7 @@ keywords: ["Resources", "Tools", "Creating Records", "Cataloging", "Cataloging T
         <a class="pb-download-small" href="https://s3.amazonaws.com/pbcore.org/cataloging-tool/PBCore-2.1.pkg" download="">
           <button type="button" name="button" class="pb-button pb-button-download">
             <img src="/assets/images/icons/download.png" alt="" style="max-width: 12%;" />
-            Legacy
+            Legado
           </button>
         </a>
         <a class="pb-download-small" href="https://s3.amazonaws.com/pbcore.org/cataloging-tool/PBCore+Cataloging+Tool-3.0_x86.dmg" download="">      
@@ -79,7 +79,7 @@ keywords: ["Resources", "Tools", "Creating Records", "Cataloging", "Cataloging T
         <a class="pb-download" href="https://s3.amazonaws.com/pbcore.org/cataloging-tool/PBCore+Cataloging+Tool-3.0.exe" download="">
           <button type="button" name="button" class="pb-button pb-button-download">
             <img src="/assets/images/icons/download.png" alt="" style="max-width: 4%;" />
-            Download
+            Descargue
           </button>
         </a>
       </div>
@@ -92,7 +92,7 @@ keywords: ["Resources", "Tools", "Creating Records", "Cataloging", "Cataloging T
         <a class="pb-download" href="https://s3.amazonaws.com/pbcore.org/cataloging-tool/pbcore_3.0_amd64.deb" download="">
           <button type="button" name="button" class="pb-button pb-button-download">
             <img src="/assets/images/icons/download.png" alt="" style="max-width: 4%;" />
-            Download
+            Descargue
           </button>
         </a>
       </div>

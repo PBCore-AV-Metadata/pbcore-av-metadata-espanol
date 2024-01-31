@@ -5,7 +5,7 @@ section: Resources
 permalink: /presentations
 keywords: ["Resources", "Learning Tools", "Presentations", "Extensions", "Association of Moving Image Archivists (AMIA)", "Code4Lib", "Webinars"]
 ---
-<h2 class="red title bold">Presentations</h2>
+<h2 class="red title bold">Presentaciones</h2>
 {% assign i = 0 %}
 <div class="row">
   <div class="col-10 mx-auto">

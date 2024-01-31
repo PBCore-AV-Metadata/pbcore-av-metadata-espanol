@@ -1,12 +1,12 @@
 ---
-title: News and Updates
+title: Noticias y Actualizationes
 layout: default
 section: Community
 permalink: /news
 keywords: ["Community", "Blog"]
 ---
 
-<h2 class="dark-grey title bold">PBCore News and Updates</h2>
+<h2 class="dark-grey title bold">Noticias y Actualizationes</h2>
 
 <ul class="pb-list">
   {% for post in site.posts %}

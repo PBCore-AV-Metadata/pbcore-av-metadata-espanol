@@ -7,7 +7,7 @@ keywords: ["About", "Introduction", "Getting Started", "FAQs", "Implementation"]
 ---
 
 <div class="container-fluid faq" id="faq">
-  <h2 class="title bold">Frequently Asked Questions</h2>
+  <h2 class="title bold">Preguntas Frecuentes</h2>
   	<div class="container">
   		<section>
       {% assign i = 0 %}

@@ -1,12 +1,12 @@
 ---
-title: Glossary
+title: Glosario
 layout: default
 section: About
 permalink: /glossary
 keywords: ["About", "Getting Started", "Glossary"]
 ---
 <div class="container-fluid bg-gray" id="glossary">
-  <h2 class="title bold">Glossary</h2>
+  <h2 class="title bold">Glosario</h2>
   	<div class="container">
   		<section>
         <div class="row">
