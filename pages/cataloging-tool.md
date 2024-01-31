@@ -47,20 +47,57 @@ keywords: ["Resources", "Tools", "Creating Records", "Cataloging", "Cataloging T
     </ul>
 
     <span class="med-text">
-      <a href="/assets/downloads/PBCore Cataloging Tool-3.0_arm64.dmg" download>
-      <button style="margin:3px;" type="button" name="button" class="pb-button pb-button-tools">
-        <img src="/assets/images/icons/download.png" alt="" style="max-width: 4%;">
-        Descargue la Herramienta de Catalogación para Mac
-      </button>
-      </a>
 
-      <a href="/assets/downloads/PBCore Cataloging Tool-3.0.exe" download>
-      <button style="margin:3px;" type="button" name="button" class="pb-button pb-button-tools">
-        <img src="/assets/images/icons/download.png" alt="" style="max-width: 4%;">
-        Descargue la Herramienta de Catalogación para PC
-      </button>
-      </a>
+      <div class="row">
+        <a class="pb-download-label">
+          Mac
+        </a>
+        <a class="pb-download-small" href="https://s3.amazonaws.com/pbcore.org/cataloging-tool/PBCore-2.1.pkg" download="">
+          <button type="button" name="button" class="pb-button pb-button-download">
+            <img src="/assets/images/icons/download.png" alt="" style="max-width: 12%;" />
+            Legacy
+          </button>
+        </a>
+        <a class="pb-download-small" href="https://s3.amazonaws.com/pbcore.org/cataloging-tool/PBCore+Cataloging+Tool-3.0_x86.dmg" download="">      
+          <button type="button" name="button" class="pb-button pb-button-download">
+            <img src="/assets/images/icons/download.png" alt="" style="max-width: 12%;" />
+            x86/64
+          </button>
+        </a>
+        <a class="pb-download-small" href="https://s3.amazonaws.com/pbcore.org/cataloging-tool/PBCore+Cataloging+Tool-3.0_arm.dmg" download="">      
+          <button type="button" name="button" class="pb-button pb-button-download">
+            <img src="/assets/images/icons/download.png" alt="" style="max-width: 12%;" />
+            ARM
+          </button>        
+        </a>
+      </div>
+
+      <div class="row">
+        <a class="pb-download-label">
+          PC
+        </a>
+        <a class="pb-download" href="https://s3.amazonaws.com/pbcore.org/cataloging-tool/PBCore+Cataloging+Tool-3.0.exe" download="">
+          <button type="button" name="button" class="pb-button pb-button-download">
+            <img src="/assets/images/icons/download.png" alt="" style="max-width: 4%;" />
+            Download
+          </button>
+        </a>
+      </div>
+
+      <div class="row">
+
+        <a class="pb-download-label">
+          Linux
+        </a>
+        <a class="pb-download" href="https://s3.amazonaws.com/pbcore.org/cataloging-tool/pbcore_3.0_amd64.deb" download="">
+          <button type="button" name="button" class="pb-button pb-button-download">
+            <img src="/assets/images/icons/download.png" alt="" style="max-width: 4%;" />
+            Download
+          </button>
+        </a>
+      </div>
     </span>
+    
     <p style="margin-top:4%; margin-left:4%;">
       * Tenga en cuenta que actualmente la Herramienta de Catalogación solamente funciona con la <a href="/spreadsheet-templates">Plantilla de Hoja de Cálculo de PBCore completa</a> y no con su versión abreviada ni con la versión para instanciación.
     </p>
